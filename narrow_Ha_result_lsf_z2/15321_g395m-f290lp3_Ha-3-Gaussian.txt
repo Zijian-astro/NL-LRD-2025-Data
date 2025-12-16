@@ -1,0 +1,58 @@
+Results for Source ID: 15321_g395m-f290lp3_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 3.307e+05 ± 2.913e+04 erg/cm^2/s
+  peak           = 4.807e+02 ± 4.235e+01 erg/cm^2/s
+  Mean (Velocity) = 151.393 ± 35.982 km/s
+  Stddev (Width)  = 274.415 ± 24.937 km/s
+  Intrinsic Stddev (Width)  = 260.518 ± 85.208 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 8.574e+04 ± 2.350e+04 erg/cm^2/s
+  peak           = 1.247e+02 ± 3.416e+01 erg/cm^2/s
+  Mean (Velocity) = -534.607 ± 35.982 km/s
+  Stddev (Width)  = 274.415 ± 24.937 km/s
+  Intrinsic Stddev (Width)  = 260.518 ± 85.208 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 1.048e+05 ± 2.078e+04 erg/cm^2/s
+  peak           = 1.524e+02 ± 3.021e+01 erg/cm^2/s
+  Mean (Velocity) = 1065.393 ± 35.982 km/s
+  Stddev (Width)  = 274.415 ± 24.937 km/s
+  Intrinsic Stddev (Width)  = 260.518 ± 85.208 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 7.241e-17 ± 1.128e-17 erg/cm^2/s
+  Luminosity= 2.003e+43 ± 3.121e+42 erg/s
+  EW        = 113.35 ± 1.37 Å
+  FWHM      = 646.20 ± 58.72 km/s
+  intrinsic FWHM      = 613.47 ± 200.65 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 1.878e-17 ± 5.683e-18 erg/cm^2/s
+  Luminosity= 5.194e+42 ± 1.572e+42 erg/s
+  EW        = 29.39 ± 0.35 Å
+  FWHM      = 646.20 ± 58.72 km/s
+  intrinsic FWHM      = 613.47 ± 200.65 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 2.296e-17 ± 5.424e-18 erg/cm^2/s
+  Luminosity= 6.350e+42 ± 1.500e+42 erg/s
+  EW        = 35.94 ± 0.43 Å
+  FWHM      = 646.20 ± 58.72 km/s
+  intrinsic FWHM      = 613.47 ± 200.65 km/s
+----------------------------------------
+
+Chi-squared (χ²): 7692.255
+Reduced Chi-squared (χ²/dof): 160.255
+BIC: 291.719
+AIC: 279.785
+========================================

@@ -1,0 +1,11 @@
+# parameter file for dmimgcalc
+infile,f,a,"",,,"Input file #1"
+infile2,f,a,"",,,"Input file #2"
+outfile,f,a,"",,,"output file "
+operation,s,a,"",,,"arithmetic operation"
+weight,r,h,1,,,"weight for first image"
+weight2,r,h,1,,,"weight for second image"
+lookupTab,f,h,"none",,,"lookup table"
+clobber,b,h,yes,,,"delete old output"
+verbose,i,h,0,0,5,"output verbosity"
+mode,s,h,"ql",,,

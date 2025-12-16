@@ -1,0 +1,100 @@
+
+Start: Sat Mar 16 17:20:50 PDT 2024
+
+CIAO configuration is complete... 
+CIAO 4.16.0 Tuesday, December 05, 2023
+  bindir      : /opt/Ciao4.16/ciao-4.16/bin
+  CALDB       : 4.11.0
+Bandset = 500_2000 2000_8000
+Parameters passed to stackanalysis:
+job=M23_53757_2_fF888Cf mailnotice=Y bkg_rad=7.0 wkdir=Users/M23_53757_2_fF888Cf ra_col=RA_DEG exc_sig=1 email=minghaoyue.work@gmail.com bands=std2 exc_ct=0.0 dataset=cdfn name_col=NAME dec_col=DEC_DEG img_size=30.0 z_col=Z src_file=M23_53757_2_cstack.fits wkurl=https://lambic.astrosen.unam.mx/cstack_v4.5/Users/M23_53757_2_fF888Cf rturl=https://lambic.astrosen.unam.mx/cstack_v4.5 exc_band=any src_rad=-9 fits_ext=1 maxoff=8.0 exc_cr=0.0 exc_bg_cr=0.0 exc_bg_ct=0.0 exc_bg_sig=1 wgt_col=1
+
+Entering: ./stackanalysis_v4.pl
+Reading Pointing Centers: CDFN/CDFN_img_dec08nrm_s/pointings_dec08nrm_s.dat
+
+Dataset Version dec08nrm_s: 2 Observations read.
+Use of uninitialized value in subroutine entry at ./stackanalysis_v4.pl line 570.
+M23_53757_2_cstack.fits is a FITS file. Using Extension 1
+  ffopen status  = 0 
+Number of rows in M23_53757_2_cstack.fits ext 1 is 1
+RA column name=RA_DEG number=2
+DEC column name=DEC_DEG number=3
+All weights are 1
+NAME column name=NAME number=1
+Z column name=Z number=4
+Source list ./Users/M23_53757_2_fF888Cf/M23_53757_2_cstack.fits 
+  1 objects read.
+Band=500_2000
+# dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000     62.21781721  WCS =    189.26606230     62.21760352
+
+...Reading X-ray Sources from:CDFN/CDFN_img_dec08nrm_s/cdfn_dec08nrm_s_xsrcs.dat
+...Read 503 X-ray sources from CDFN/CDFN_img_dec08nrm_s/cdfn_dec08nrm_s_xsrcs.dat
+Invalid entry '12:37:01.62' - try again!
+ra[ deg ] : Invalid entry '12:37:01.99' - try again!
+ra[ deg ] : Invalid entry '12:37:03.94' - try again!
+ra[ deg ] : Invalid entry '12:37:05.87' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =    189.14443544     62.24079674
+
+Invalid entry '12:37:01.62' - try again!
+ra[ deg ] : Invalid entry '12:37:01.99' - try again!
+ra[ deg ] : Invalid entry '12:37:03.94' - try again!
+ra[ deg ] : Invalid entry '12:37:05.87' - try again!
+ra[ deg ] : Created Users/M23_53757_2_fF888Cf/stat_cts_500_2000.out
+Bootstrapping for band=500_2000 Using 1 obj
+Band=2000_8000
+# dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000     62.21781721  WCS =    189.26606230     62.21760352
+
+Invalid entry '12:37:01.62' - try again!
+ra[ deg ] : Invalid entry '12:37:01.99' - try again!
+ra[ deg ] : Invalid entry '12:37:03.94' - try again!
+ra[ deg ] : Invalid entry '12:37:05.87' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =    189.14443544     62.24079674
+
+Invalid entry '12:37:01.62' - try again!
+ra[ deg ] : Invalid entry '12:37:01.99' - try again!
+ra[ deg ] : Invalid entry '12:37:03.94' - try again!
+ra[ deg ] : Invalid entry '12:37:05.87' - try again!
+ra[ deg ] : Created Users/M23_53757_2_fF888Cf/stat_cts_2000_8000.out
+Bootstrapping for band=2000_8000 Using 1 obj
+# Plotting Histogram 
+!       **** Bootstrap Histogram for 500_2000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/M23_53757_2_fF888Cf
+Read lines 1 to 29 from boot_histo_500_2000.out
+!       **** Bootstrap Histogram for 500_2000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/M23_53757_2_fF888Cf
+Read lines 1 to 29 from boot_histo_500_2000.out
+!Sorted Bootstrap Resuls for 500_2000
+!No     rate_boot
+!Created by ./stackanalysis_v4.pl in Users/M23_53757_2_fF888Cf
+Read lines 1 to 503 from boot_sorteddump_500_2000.out
+%%BoundingBox: 18 144 592 718
+%%BoundingBox: 31 170 279 330
+# Plotting Histogram 
+!       **** Bootstrap Histogram for 2000_8000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/M23_53757_2_fF888Cf
+Read lines 1 to 29 from boot_histo_2000_8000.out
+!       **** Bootstrap Histogram for 2000_8000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/M23_53757_2_fF888Cf
+Read lines 1 to 29 from boot_histo_2000_8000.out
+!Sorted Bootstrap Resuls for 2000_8000
+!No     rate_boot
+!Created by ./stackanalysis_v4.pl in Users/M23_53757_2_fF888Cf
+Read lines 1 to 503 from boot_sorteddump_2000_8000.out
+%%BoundingBox: 18 144 592 718
+%%BoundingBox: 31 170 279 330
+End: Sat Mar 16 17:20:53 PDT 2024
+Datanotefil=CDFN/CDFN_img_dec08nrm_s/Datanote.txt
+M23_53757_2_fF888Cf/
+M23_53757_2_fF888Cf/M23_53757_2_cstack.fits

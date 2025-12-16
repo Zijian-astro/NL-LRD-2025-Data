@@ -1,0 +1,7 @@
+infile,f,a,"AEGIS_XD/aegisxd_img_oct15grp/aegis1b_4.0keV_oct15grp.texp[1110:1170,2056:2116]",,,"Input dataset/block specification"
+outfile,f,a,"./Users/CEERS_01665_Zm663yD/Tmp_CEERS_01665_Zm663yD/0_aegis1b_4.0keV_tmp2.texp",,,"Output dataset name"
+kernel,s,h,"default",,,"Output file format type"
+option,s,h,"",,,"Option - force output type"
+verbose,i,h,0,0,5,"Debug Level"
+clobber,b,h,no,,,"Clobber existing file"
+mode,s,h,"ql",,,

@@ -1,0 +1,11 @@
+# parameter file for dmimgcalc
+infile,f,a,"./Users/GOODS_N_13733_hA724PA/Tmp_GOODS_N_13733_hA724PA/tmp_obj.exp",,,"Input file #1"
+infile2,f,a,"./Users/GOODS_N_13733_hA724PA/Tmp_GOODS_N_13733_hA724PA/0_cdfn_r140_hrd_tmp2.texp",,,"Input file #2"
+outfile,f,a,"./Users/GOODS_N_13733_hA724PA/Tmp_GOODS_N_13733_hA724PA/tmp_obj_s.exp",,,"output file "
+operation,s,a,"add",,,"arithmetic operation"
+weight,r,h,1,,,"weight for first image"
+weight2,r,h,1,,,"weight for second image"
+lookupTab,f,h,"none",,,"lookup table"
+clobber,b,h,yes,,,"delete old output"
+verbose,i,h,0,0,5,"output verbosity"
+mode,s,h,"ql",,,

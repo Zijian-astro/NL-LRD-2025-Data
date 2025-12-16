@@ -1,0 +1,7 @@
+infile,f,a,"./Users/AEGISmaster_is090wC/Tmp_AEGISmaster_is090wC/7_aegis2b_4.0keV_tmp2.texp[(#1,#2)=field()-circle(80.7,-7.7,4.1)-circle(30.3,109.8,4.1)+circle(30,30,2.9244844907333)]",,,"Input dataset/block specification"
+outfile,f,a,"./Users/AEGISmaster_is090wC/Tmp_AEGISmaster_is090wC/7_aegis2b_4.0keV_tmp2.texp",,,"Output dataset name"
+kernel,s,h,"default",,,"Output file format type"
+option,s,h,"",,,"Option - force output type"
+verbose,i,h,0,0,5,"Debug Level"
+clobber,b,h,no,,,"Clobber existing file"
+mode,s,h,"ql",,,

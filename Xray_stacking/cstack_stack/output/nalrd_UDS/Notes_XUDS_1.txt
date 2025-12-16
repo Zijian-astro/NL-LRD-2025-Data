@@ -1,0 +1,25 @@
+
+X-UDS datasets in CSTACK:
+
+The OBSIDs with common optical axes (close to each other within <0.5 arcmin) are combined 
+into one group and the stacking analyses are made by a group by group basis. The offaxis
+angle of a group is calculated from the exposure-weighted mean of the optical axes of the
+member OBSIDs. 
+
+ The 25 OBSIDs of the USD project  are divided into 15 groups (xuds01-xuds15), five of which 
+consist of one OBSID each, the rest consist of two each. The groups and member OBSID's are
+listed below.
+
+xuds01: 17287 17292  xuds02: 17288 17293  xuds03: 17289 17294  xuds04: 17290 17295 
+xuds05: 17291 17296  xuds06: 17297        xuds07: 17298        xuds08: 17299    
+xuds09: 17300        xuds10: 17301        xuds11: 17302 17307  xuds12: 17303 17308
+xuds13: 17304 17309  xuds14: 17305 17310  xuds15: 17306 17311  
+
+Normalization of the exposure map::::
+
+The exposure map *.texp is the effective exposure in seconds, rather than the Chandra standard 
+convention of [s cm^2]. Detector sensitivity change over time, thus the effective exposure maps 
+are calculated for the response matrix at the time of a reference observation. The reference observation 
+for this dataset is OBSID 17300 (observed on 2015-09-13). 
+If you want to use PIMMS for approximate countrate to flux conversion, use ACIS-I for Chandra Cycle 16. 
+

@@ -1,0 +1,134 @@
+
+Start: Sun Mar 17 13:29:29 PDT 2024
+
+CIAO configuration is complete... 
+CIAO 4.16.0 Tuesday, December 05, 2023
+  bindir      : /opt/Ciao4.16/ciao-4.16/bin
+  CALDB       : 4.11.0
+Bandset = 500_2000 2000_8000
+Parameters passed to stackanalysis:
+bkg_rad=7.0 name_col=NAME bands=std2 fits_ext=1 src_file=all_lrds_cstack_good_coord.fits wkdir=Users/CDFSmaster_Hg964ts exc_ct=0.0 exc_sig=1 email=minghaoyue.work@gmail.com src_rad=-9 exc_bg_cr=0.0 mailnotice=Y wkurl=https://lambic.astrosen.unam.mx/cstack_v4.5/Users/CDFSmaster_Hg964ts exc_band=any img_size=30.0 dataset=cdfs4 maxoff=8.0 dec_col=DEC_DEG rturl=https://lambic.astrosen.unam.mx/cstack_v4.5 exc_bg_sig=1 exc_bg_ct=0.0 z_col=Z wgt_col=1 exc_cr=0.0 ra_col=RA_DEG job=CDFSmaster_Hg964ts
+
+Entering: ./stackanalysis_v4.pl
+Reading Pointing Centers: CDFS/CDFS_img_aug10nrm_s/pointings_aug10nrm_s.dat
+
+Dataset Version aug10nrm_s: 1 Observations read.
+Use of uninitialized value in subroutine entry at ./stackanalysis_v4.pl line 570.
+all_lrds_cstack_good_coord.fits is a FITS file. Using Extension 1
+  ffopen status  = 0 
+Number of rows in all_lrds_cstack_good_coord.fits ext 1 is 19
+RA column name=RA_DEG number=2
+DEC column name=DEC_DEG number=3
+All weights are 1
+NAME column name=NAME number=1
+Z column name=Z number=4
+Source list ./Users/CDFSmaster_Hg964ts/all_lrds_cstack_good_coord.fits 
+  19 objects read.
+Band=500_2000
+# dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =     53.12341393    -27.80383862
+
+...Reading X-ray Sources from:CDFS/CDFS_img_aug10nrm_s/cdfs_aug10nrm_s_xsrcs.dat
+...Read 740 X-ray sources from CDFS/CDFS_img_aug10nrm_s/cdfs_aug10nrm_s_xsrcs.dat
+Invalid entry '3:32:31.32' - try again!
+ra[ deg ] : Invalid entry '3:32:31.36' - try again!
+ra[ deg ] : Invalid entry '3:32:32.17' - try again!
+ra[ deg ] : Invalid entry '3:32:33.06' - try again!
+ra[ deg ] : Invalid entry '3:32:33.67' - try again!
+ra[ deg ] : Invalid entry '3:32:35.80' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =     53.12341393    -27.80383862
+
+Invalid entry '3:32:29.00' - try again!
+ra[ deg ] : Invalid entry '3:32:29.02' - try again!
+ra[ deg ] : Invalid entry '3:32:31.11' - try again!
+ra[ deg ] : Invalid entry '3:32:31.44' - try again!
+ra[ deg ] : Invalid entry '3:32:31.55' - try again!
+ra[ deg ] : Invalid entry '3:32:32.23' - try again!
+ra[ deg ] : Invalid entry '3:32:32.73' - try again!
+ra[ deg ] : Invalid entry '3:32:33.22' - try again!
+ra[ deg ] : Invalid entry '3:32:33.25' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =     53.12341393    -27.80383862
+
+Invalid entry '3:32:28.85' - try again!
+ra[ deg ] : Invalid entry '3:32:31.32' - try again!
+ra[ deg ] : Invalid entry '3:32:31.36' - try again!
+ra[ deg ] : Invalid entry '3:32:32.23' - try again!
+ra[ deg ] : Invalid entry '3:32:33.06' - try again!
+ra[ deg ] : Invalid entry '3:32:33.67' - try again!
+ra[ deg ] : Created Users/CDFSmaster_Hg964ts/stat_cts_500_2000.out
+Bootstrapping for band=500_2000 Using 3 obj
+Band=2000_8000
+# dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =     53.12341393    -27.80383862
+
+Invalid entry '3:32:31.32' - try again!
+ra[ deg ] : Invalid entry '3:32:31.36' - try again!
+ra[ deg ] : Invalid entry '3:32:32.17' - try again!
+ra[ deg ] : Invalid entry '3:32:33.06' - try again!
+ra[ deg ] : Invalid entry '3:32:33.67' - try again!
+ra[ deg ] : Invalid entry '3:32:35.80' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =     53.12341393    -27.80383862
+
+Invalid entry '3:32:29.00' - try again!
+ra[ deg ] : Invalid entry '3:32:29.02' - try again!
+ra[ deg ] : Invalid entry '3:32:31.11' - try again!
+ra[ deg ] : Invalid entry '3:32:31.44' - try again!
+ra[ deg ] : Invalid entry '3:32:31.55' - try again!
+ra[ deg ] : Invalid entry '3:32:32.23' - try again!
+ra[ deg ] : Invalid entry '3:32:32.73' - try again!
+ra[ deg ] : Invalid entry '3:32:33.22' - try again!
+ra[ deg ] : Invalid entry '3:32:33.25' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =     53.12341393    -27.80383862
+
+Invalid entry '3:32:28.85' - try again!
+ra[ deg ] : Invalid entry '3:32:31.32' - try again!
+ra[ deg ] : Invalid entry '3:32:31.36' - try again!
+ra[ deg ] : Invalid entry '3:32:32.23' - try again!
+ra[ deg ] : Invalid entry '3:32:33.06' - try again!
+ra[ deg ] : Invalid entry '3:32:33.67' - try again!
+ra[ deg ] : Created Users/CDFSmaster_Hg964ts/stat_cts_2000_8000.out
+Bootstrapping for band=2000_8000 Using 3 obj
+# Plotting Histogram 
+!       **** Bootstrap Histogram for 500_2000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/CDFSmaster_Hg964ts
+Read lines 1 to 29 from boot_histo_500_2000.out
+!       **** Bootstrap Histogram for 500_2000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/CDFSmaster_Hg964ts
+Read lines 1 to 29 from boot_histo_500_2000.out
+!Sorted Bootstrap Resuls for 500_2000
+!No     rate_boot
+!Created by ./stackanalysis_v4.pl in Users/CDFSmaster_Hg964ts
+Read lines 1 to 503 from boot_sorteddump_500_2000.out
+%%BoundingBox: 18 144 592 718
+%%BoundingBox: 31 170 279 330
+# Plotting Histogram 
+!       **** Bootstrap Histogram for 2000_8000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/CDFSmaster_Hg964ts
+Read lines 1 to 29 from boot_histo_2000_8000.out
+!       **** Bootstrap Histogram for 2000_8000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/CDFSmaster_Hg964ts
+Read lines 1 to 29 from boot_histo_2000_8000.out
+!Sorted Bootstrap Resuls for 2000_8000
+!No     rate_boot
+!Created by ./stackanalysis_v4.pl in Users/CDFSmaster_Hg964ts
+Read lines 1 to 503 from boot_sorteddump_2000_8000.out
+%%BoundingBox: 18 144 592 718
+%%BoundingBox: 31 170 279 330
+End: Sun Mar 17 13:29:35 PDT 2024
+Datanotefil=CDFS/CDFS_img_aug10nrm_s/Datanote.txt
+CDFSmaster_Hg964ts/
+CDFSmaster_Hg964ts/all_lrds_cstack_good_coord.fits

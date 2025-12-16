@@ -1,0 +1,47 @@
+infile,f,a,"./Users/M23_77652_Pd671vf/Tmp_M23_77652_Pd671vf/0_cdfn_r140_2000_8000_tmp2.img",,,"Input dataset/block specification"
+asolfile,f,h,"none",,,"Input aspect solution file"
+option,s,h,"cel",,,"Conversion option"
+#
+# Position of photon in different coord systems
+#
+chip_id,i,l,0,0,9,"Chip ID number"
+chipx,r,l,1026.605034875063,,,"Chip X [pixel]"
+chipy,r,l,568.1153294036927,,,"Chip Y [pixel]"
+tdetx,r,l,0,,,"TDETX [pixel]"
+tdety,r,l,0,,,"TDETY [pixel]"
+detx,r,l,3588.709156884886,,,"FPC X [pixel]"
+dety,r,l,3791.253405594619,,,"FPC Y [pixel]"
+x,r,l,3588.709156884899,,,"Sky X [pixel]"
+y,r,l,3791.253405594627,,,"Sky Y [pixel]"
+logicalx,r,l,1143.209156884899,,,"X coordinate in binned image [pixel]"
+logicaly,r,l,1345.753405594627,,,"Y coordinate in binned image [pixel]"
+ra,s,l,"12:37:15.94",,,"RA [deg or hh:mm:ss]"
+dec,s,l,"62:12:13.1",,,"Dec [deg or dd:mm:ss]"
+theta,r,l,4.858294520781866,0,10800,"Off axis angle [arcmin]"
+phi,r,l,211.0111967172258,0,360,"Azimuthal angle [deg]"
+order,i,l,0,,,"Grating order"
+energy,r,l,1,,,"Energy [keV]"
+wavelength,r,l,0,,,"Wavelength [A]"
+ra_zo,s,l,"189.29323",,,"RA of zero order"
+dec_zo,s,l,"62.199",,,"Dec of zero order"
+#
+# Override setup for observation
+# All parameters here are strings so that they can
+# be set blank, in which case the data file value is used
+#
+celfmt,s,h,"deg",,,"RA and Dec format [deg or hms] (xx.xx or xx:xx:xx.x)"
+detector,s,h,"",,,"Detector (ACIS or HRC-I or HRC-S)"
+grating,s,h,"",,,"Grating"
+fpsys,s,h,"",,,"FP convention"
+sim,s,h,"",,,"SIM position (eg 0.0 0.0 -190.6)"
+displace,s,h,"",,,"STF displacement (X,Y,Z,AX,AY,AZ)"
+ra_nom,s,h,"",,,"Nominal pointing RA [deg or hh:mm:ss]"
+dec_nom,s,h,"",,,"Nominal dec [deg or dd:mm:ss]"
+roll_nom,s,h,"",,,"Nominal roll [deg]"
+ra_asp,s,h,"",,,"Instantaneous pointing RA [deg]"
+dec_asp,s,h,"",,,"Instantaneous pointing Dec [deg]"
+roll_asp,s,h,"",,,"Instantaneous Aspect roll [deg]"
+#
+geompar,f,h,"geom",,,"Parameter file for Pixlib Geometry files"
+verbose,i,h,0,0,5,"Debug Level"
+mode,s,h,"ql",,,

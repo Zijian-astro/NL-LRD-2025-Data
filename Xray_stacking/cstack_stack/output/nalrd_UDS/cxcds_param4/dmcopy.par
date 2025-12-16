@@ -1,0 +1,7 @@
+infile,f,a,"./Users/nalrd_wb072Ff/Tmp_nalrd_wb072Ff/4_xuds08_4.0keV_tmp2.texp[(#1,#2)=field()-circle(-31.4,-13.5,37.0)-circle(-69.5,114.6,50.8)-circle(98.7,-66.0,38.9)+circle(30,30,12.9230852197671)]",,,"Input dataset/block specification"
+outfile,f,a,"./Users/nalrd_wb072Ff/Tmp_nalrd_wb072Ff/4_xuds08_4.0keV_tmp2.texp",,,"Output dataset name"
+kernel,s,h,"default",,,"Output file format type"
+option,s,h,"",,,"Option - force output type"
+verbose,i,h,0,0,5,"Debug Level"
+clobber,b,h,no,,,"Clobber existing file"
+mode,s,h,"ql",,,

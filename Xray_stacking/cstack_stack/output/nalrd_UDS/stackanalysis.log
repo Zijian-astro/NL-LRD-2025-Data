@@ -1,0 +1,68 @@
+
+Start: Wed May 7 00:44:50 PDT 2025
+
+CIAO configuration is complete... 
+CIAO 4.16.0 Tuesday, December 05, 2023
+  bindir      : /opt/Ciao4.16/ciao-4.16/bin
+  CALDB       : 4.11.0
+Bandset = 500_2000 2000_8000
+Parameters passed to stackanalysis:
+exc_ct=0.0 dataset=xuds bands=std2 exc_cr=0.0 img_size=30.0 mailnotice=Y exc_bg_cr=0.0 job=nalrd_wb072Ff wkurl=https://lambic.astrosen.unam.mx/cstack_v4.5/Users/nalrd_wb072Ff wgt_col=1 exc_bg_ct=0.0 z_col=z src_rad=-9 exc_band=any dec_col=dec src_file=narrowlineLRD_cat.fits maxoff=8.0 fits_ext=1 name_col=uid ra_col=ra wkdir=Users/nalrd_wb072Ff rturl=https://lambic.astrosen.unam.mx/cstack_v4.5 exc_bg_sig=1 email=zjz.kiaa@stu.pku.edu.cn exc_sig=1 bkg_rad=7.0
+
+Entering: ./stackanalysis_v4.pl
+Reading Pointing Centers: X-UDS/xuds_img_oct15grp/pointings_oct15grp.dat
+
+Dataset Version oct15grp: 15 Observations read.
+Use of uninitialized value in subroutine entry at ./stackanalysis_v4.pl line 570.
+narrowlineLRD_cat.fits is a FITS file. Using Extension 1
+  ffopen status  = 0 
+Number of rows in narrowlineLRD_cat.fits ext 1 is 5
+RA column name=ra number=4
+DEC column name=dec number=5
+All weights are 1
+NAME column name=uid number=3
+Z column name=z number=13
+Source list ./Users/nalrd_wb072Ff/narrowlineLRD_cat.fits 
+  5 objects read.
+Band=500_2000
+...Reading X-ray Sources from:X-UDS/xuds_img_oct15grp/xuds_oct15grp_xsrcs.dat
+...Read 676 X-ray sources from X-UDS/xuds_img_oct15grp/xuds_oct15grp_xsrcs.dat
+Created Users/nalrd_wb072Ff/stat_cts_500_2000.out
+Bootstrapping for band=500_2000 Using 3 obj
+Band=2000_8000
+Created Users/nalrd_wb072Ff/stat_cts_2000_8000.out
+Bootstrapping for band=2000_8000 Using 3 obj
+# Plotting Histogram 
+!       **** Bootstrap Histogram for 500_2000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/nalrd_wb072Ff
+Read lines 1 to 29 from boot_histo_500_2000.out
+!       **** Bootstrap Histogram for 500_2000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/nalrd_wb072Ff
+Read lines 1 to 29 from boot_histo_500_2000.out
+!Sorted Bootstrap Resuls for 500_2000
+!No     rate_boot
+!Created by ./stackanalysis_v4.pl in Users/nalrd_wb072Ff
+Read lines 1 to 503 from boot_sorteddump_500_2000.out
+%%BoundingBox: 18 144 592 718
+%%BoundingBox: 31 170 279 330
+# Plotting Histogram 
+!       **** Bootstrap Histogram for 2000_8000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/nalrd_wb072Ff
+Read lines 1 to 29 from boot_histo_2000_8000.out
+!       **** Bootstrap Histogram for 2000_8000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/nalrd_wb072Ff
+Read lines 1 to 29 from boot_histo_2000_8000.out
+!Sorted Bootstrap Resuls for 2000_8000
+!No     rate_boot
+!Created by ./stackanalysis_v4.pl in Users/nalrd_wb072Ff
+Read lines 1 to 503 from boot_sorteddump_2000_8000.out
+%%BoundingBox: 18 144 592 718
+%%BoundingBox: 31 170 279 330
+End: Wed May 7 00:45:05 PDT 2025
+Datanotefil=X-UDS/xuds_img_oct15grp/Notes_XUDS.txt
+nalrd_wb072Ff/
+nalrd_wb072Ff/narrowlineLRD_cat.fits

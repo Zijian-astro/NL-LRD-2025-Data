@@ -1,0 +1,47 @@
+infile,f,a,"AEGIS_XD/aegisxd_img_oct15grp/aegis2b_4.0keV_oct15grp.texp",,,"Input dataset/block specification"
+asolfile,f,h,"none",,,"Input aspect solution file"
+option,s,h,"cel",,,"Conversion option"
+#
+# Position of photon in different coord systems
+#
+chip_id,i,l,2,0,9,"Chip ID number"
+chipx,r,l,635.5624215356002,,,"Chip X [pixel]"
+chipy,r,l,923.8657817626876,,,"Chip Y [pixel]"
+tdetx,r,l,3984.865781632434,,,"TDETX [pixel]"
+tdety,r,l,3450.437578275014,,,"TDETY [pixel]"
+detx,r,l,3969.928695098508,,,"FPC X [pixel]"
+dety,r,l,4657.770298163287,,,"FPC Y [pixel]"
+x,r,l,3969.928695098507,,,"Sky X [pixel]"
+y,r,l,4657.770298163368,,,"Sky Y [pixel]"
+logicalx,r,l,1530.928695098507,,,"X coordinate in binned image [pixel]"
+logicaly,r,l,2218.770298163368,,,"Y coordinate in binned image [pixel]"
+ra,s,l,"214.836208333333",,,"RA [deg or hh:mm:ss]"
+dec,s,l,"52.8826944444444",,,"Dec [deg or dd:mm:ss]"
+theta,r,l,4.717988324837288,0,10800,"Off axis angle [arcmin]"
+phi,r,l,102.7081194304814,0,360,"Azimuthal angle [deg]"
+order,i,l,0,,,"Grating order"
+energy,r,l,1,,,"Energy [keV]"
+wavelength,r,l,0,,,"Wavelength [A]"
+ra_zo,s,l,"214.836208333333",,,"RA of zero order"
+dec_zo,s,l,"52.8826944444444",,,"Dec of zero order"
+#
+# Override setup for observation
+# All parameters here are strings so that they can
+# be set blank, in which case the data file value is used
+#
+celfmt,s,h,"deg",,,"RA and Dec format [deg or hms] (xx.xx or xx:xx:xx.x)"
+detector,s,h,"",,,"Detector (ACIS or HRC-I or HRC-S)"
+grating,s,h,"",,,"Grating"
+fpsys,s,h,"",,,"FP convention"
+sim,s,h,"",,,"SIM position (eg 0.0 0.0 -190.6)"
+displace,s,h,"",,,"STF displacement (X,Y,Z,AX,AY,AZ)"
+ra_nom,s,h,"",,,"Nominal pointing RA [deg or hh:mm:ss]"
+dec_nom,s,h,"",,,"Nominal dec [deg or dd:mm:ss]"
+roll_nom,s,h,"",,,"Nominal roll [deg]"
+ra_asp,s,h,"",,,"Instantaneous pointing RA [deg]"
+dec_asp,s,h,"",,,"Instantaneous pointing Dec [deg]"
+roll_asp,s,h,"",,,"Instantaneous Aspect roll [deg]"
+#
+geompar,f,h,"geom",,,"Parameter file for Pixlib Geometry files"
+verbose,i,h,0,0,5,"Debug Level"
+mode,s,h,"ql",,,

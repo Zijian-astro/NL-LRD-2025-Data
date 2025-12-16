@@ -1,0 +1,61 @@
+ 
+               ftverify 4.20 (CFITSIO V4.030)               
+               ------------------------------               
+ 
+HEASARC conventions are being checked.
+ 
+File: ./Users/nalrd_wb072Ff/narrowlineLRD_cat.fits
+
+2 Header-Data Units in this file.
+ 
+=================== HDU 1: Primary Array ===================
+ 
+ 5 header keywords
+ 
+ Null data array; NAXIS = 0 
+ 
+=================== HDU 2: BINARY Table ====================
+ 
+ 74 header keywords
+ 
+   (30 columns x 5 rows)
+ 
+ Col# Name (Units)       Format
+   1 jname                20A       
+   2 ndup                 K         
+   3 uid                  K         
+   4 ra                   D         
+   5 dec                  D         
+   6 file                 57A       
+   7 root                 24A       
+   8 srcid                K         
+   9 nGr                  K         
+  10 Grating              29A       
+  11 grade                K         
+  12 zfit                 D         
+  13 z                    D         
+  14 comment              138A      
+  15 References           86A       
+  16 nRef                 K         
+  17 sn50                 D         
+  18 wmin                 D         
+  19 wmax                 D         
+  20 Lya                  D         
+  21 Ha                   D         
+  22 OIII                 D         
+  23 L_Ha                 D         
+  24 L_OIII               D         
+  25 HST                  K         
+  26 NIRCam               K         
+  27 slit                 K         
+  28 FITS                 17A       
+  29 Fnu                  K         
+  30 Flam                 K         
+ 
+++++++++++++++++++++++ Error Summary  ++++++++++++++++++++++
+ 
+ HDU#  Name (version)       Type             Warnings  Errors
+ 1                          Primary Array    0         0     
+ 2                          Binary Table     0         0     
+ 
+**** Verification found 0 warning(s) and 0 error(s). ****

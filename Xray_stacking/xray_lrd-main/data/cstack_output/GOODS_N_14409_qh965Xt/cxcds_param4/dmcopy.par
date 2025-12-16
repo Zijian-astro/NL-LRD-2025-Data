@@ -1,0 +1,7 @@
+infile,f,a,"./Users/GOODS_N_14409_qh965Xt/Tmp_GOODS_N_14409_qh965Xt/0_cdfn_r140_hrd_tmp2.texp[(#1,#2)=field()-circle(1897.3,1889.9,11.9)-circle(1897.3,1889.9,4.1)-circle(1897.3,1889.9,4.1)+circle(30,30,3.90817304135242)]",,,"Input dataset/block specification"
+outfile,f,a,"./Users/GOODS_N_14409_qh965Xt/Tmp_GOODS_N_14409_qh965Xt/0_cdfn_r140_hrd_tmp2.texp",,,"Output dataset name"
+kernel,s,h,"default",,,"Output file format type"
+option,s,h,"",,,"Option - force output type"
+verbose,i,h,0,0,5,"Debug Level"
+clobber,b,h,no,,,"Clobber existing file"
+mode,s,h,"ql",,,

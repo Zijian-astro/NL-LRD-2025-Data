@@ -1,0 +1,301 @@
+<HTML>
+<HEAD>
+<TITLE>Chandra Stacking Analysis Interface Manual</TITLE>
+</HEAD>
+
+<H1 ALIGN="CENTER">Stacking Analysis of Chandra Images</H1>
+<FONT color="#00C0C0">
+<H1 ALIGN="CENTER"> On the Web</H1>
+</FONT>
+
+<FONT color="#CF7F3F">
+<H2 ALIGN="CENTER">V4.5  Explanatory Manual</H2>
+</FONT>
+<HR>
+<BODY>
+<H2 ALIGN="LEFT">1. Introduction</H2>
+
+The cstack web-site is designed to perform a stacking analysis of
+the images from deep/wide survey data. This project started as a
+C-COSMOS consortium effort to prvide a tool for COSMOS members who 
+have catalogs of objects to obtain stacked X-ray fluxes of these 
+objects.  In addition to C-COSMOS and Chandra COSMOS Legacy, we include 
+a number of other extragalactic survey fields observed by Chandra. See the
+"Dataset" pulldown menu of the entry form. The manual 
+<a href="./exclusion.html">supplement</a> shows the source
+of the data stored in this site.
+
+<H2 ALIGN="LEFT">2. Input Fields</H2>
+The input field of the form is self-explanatory (I hope) and the fields 
+that require numerical inputs are given reasonable defaults. If any of the 
+inputs has an invalid value, the form page will be re-loaded with most 
+valid inputs intact. Here are the detailed explanations of each field.
+<UL TYPE=DISC>
+<LI><b>Root name of this job:</b> A name should be given to the job. The 
+  users should give a name consisting of only alphanumerics. A 
+  string consisting of an underscore followed by 7 random characters 
+  will be attached to give a unique name to your job and to protect 
+  your data.  
+<LI><b>Energy Bands</b> <i>bands</i>: 
+  The tool has three options on the selection of energy bands, as indicated
+  on the form. Since stacking is done on each band independently, the 6-band
+  option takes approximately 3 times longer than the 2-band option. The rest frame
+  option takes still longer.
+<LI><b>Maximum off-axis angle</b> <i>maxoff</i> (arcminutes): 
+  The stacking will be made over multiple observations. Only the data within 
+  this off-axis angle (at the position of the input object) of this value 
+  for each observation will be used.   
+<LI><b>Size of the stacked image</b> <i>img_size</i> (arcseconds): 
+ The size of a side of the square field around each object, in which 
+ a stamped image and an exposure map are created. 
+<LI><b>Source region radius</b> <i>rad_src</i> (arcseconds): The size 
+  of the circular region around these position where the image counts are 
+  extracted. If the number is followed by an "R", the  ECF is calculated
+  by the Ciao (4.16) task 'src_psffrac' directly. Otherwise, it uses values
+  extracted from Chandra::Tools::ECF (already obsolete) with interpolations.  
+  If this field is -9 (-5), the source region radius varies with the 
+  off axis angle corresponding to 90 (50)% ECF (encircled energy fraction from the
+  Proposer's Observatory Guide), with a minimum and maximum radii of 1.0 asec and  
+  <i>rad_bkg</i> (see below) respectively. In V4.5, a new option is added.
+  If this field is 'nC', where n is a real number between 0 and 0.99 (e.g. '0.9C'),
+  the ECF_fraction=n radius is calculated directly by the Ciao (4.16) task
+  'psfsize_srcs'.
+<LI><b>Inner radius for background</b> <i>rad_bkg</i> 
+  (arcseconds): Background counts are accumulated from the region of 
+   the stamped image that lies outside of the circular region of this 
+  radius.   
+<LI><b>Source Exclusion -</b> Objects affected by resolved sources (either
+  the object itself is a resolved X-ray source or the source count is heavily
+  affected by the X-ray source) should be excluded for obtaining better sensitivity
+  in the stacking analysis. The sources used for the exclusion
+  can be controlled by three parameters. Source that meet all the three
+  criteria are used for the exclusion. See the explanation on source exclusion 
+  in the manual <a href="./exclusion.html">supplement</a>
+  for details. The source list is internal to the system.
+<UL COMPACT TYPE=CIRCLE>
+  <LI><b> Min CR:</b> Source count rate, above which the source is excluded. 
+  <LI><b> Min Cts:</b> Net source count, above which the source is excluded.
+  <LI><b> Max sig/Min ML:</b> (<1) The source significance 
+         (in false probability P, as 
+         many Chandra source detection software gives), below which the 
+         source is excluded. (>1) Source ML = -ln P, like XMM-SAS
+         source detection gives. 
+</UL>  
+ These thresholds can be set independently for the source region and 
+ background region.
+<LI><b>Input file containing stacking positions:</b> The file can either be
+   a FITS file or an ASCII file and the program automatically checks 
+   which format. A reasonable maximum number of objects is about 10000.  
+   The ASCII file must conform
+   to the following standard: 1) Rows starting with an exclamation (!) 
+   are for comments and are ignored by the program. 2) The first four 
+   columns of each non-comment row must be <b> Src_name RA DEC [Weight [z]]</b>, 
+   separated by space characters. If the weight is omitted, the default value
+   of 1.0 is used. For the rest-frame stacking option, the fourth and fifth columns 
+  (Weight and z) are mandatory.
+   3) Additional columns will be ignored. 4) Source names may have no more 
+   than 13 characters and may contain only alphanumerics and underscores.
+   5) RA and DEC may be in decimal degrees or in the sexagesimal format 
+   (HH:MM:SS.SS DD:MM:SS.SS) for ASCII only.  
+<LI><b>Entries for FITS input files ---</b>
+<UL COMPACT TYPE=CIRCLE>
+  <LI><b> Extension nr.:</b> FITS Table Extension (count as primary array=0), 
+      which must contain the following columns.
+  <LI><b> Column names:</b> FITS Table column names for the Source name, RA,
+    DEC, and Weight. Source name must follow the same rule as the ASCII case.
+    RA and DEC must be decimal degrees (unlike the ASCII case). 
+    Weight=1 means that the weight=1 for all objects.
+</UL>  
+<b> Note:</b> If the input file is an ASCII file, it is safer to keep 
+ FITS input fields to given defaults, because the input fields for the 
+ FITS file are still subject to form input format checks.
+<LI><b>E-mail address:</b> An e-mail message will be sent after
+ the submitted analysis has been made. The message points to the 
+ web page that point to the appropriate output products. 
+</UL>
+
+<H2 ALIGN="LEFT">3. Analysis Details</H2>
+
+Details of the data and analysis procedures are explained. See above 
+input field explanations for variable names, which are displayed in 
+<i>italics</i>).
+<OL>
+<LI> <b>Stored data:</b> A full resolution ASCIS I0-I3 image 
+ (0.492x0.492 asec<sup>2</sup> pixels) for each of the 0.5-2 
+  and 2-8 keV band for each observation and a corresponding exposure map, 
+  generated assuming a monochromatic 1 or 4 keV incident photons.
+  Additionally images in the narrower bands (0.5-0.75,0.75-1.25,1.25-2,2-3,3-5 & 5-8 keV) as well 
+  as an event list (for the rest-frame stack) are also stored.
+<LI> <b>Data extraction:</b> For each position from the input 
+   file, for each observation, the program checks if this position is 
+   within the <i>offax</i> from the optical axis and if it is  
+   unaffected by resolved sources. In this case, for each 
+   band, a <i>img_size</i> x <i>img_size</i> square post-stamp
+   image centered at the input position and an exposure map covering 
+   the same area are extracted from the database.
+<LI> <b>Image counts:</b> For each band, the followings are made:
+  <UL>
+   <LI> For each object, fields (i.e. Chandra observation),
+      the pointing centers (optical axes) of which are within 
+      <i>maxoff</i> of the object, are selected.
+   <LI> For each selected field, check if the source extraction 
+      region is contaminated by the X-ray sources (see the
+      explanation for the <b>Source exclusion</b> above). If 
+      the sexcluding radius (See <a href="./exclusion.html">supplement</a>) 
+      of the sources meeting the given criteria overlap with the source extraction 
+      circle, this will be flagged as "X-src".
+   <LI> Count the event in the source extraction circle
+      <i>rad_src</i> (see above for varying source extraction scheme).
+       Also ectract the mean exposure of this field.
+   <LI> Define the background region as the entire post-stamp image
+      excluding 1) the circle centered at the source and the radius 
+      <i>rad_bkg</i>, and 2) the source excluding region (See <a href="./exclusion.html">supplement</a>)  
+      around the resolved X-ray sources meeting the exclusion from background criteria.
+      If sufficient background area has not remained after these
+      exclsions (>50% of the source area), it is flagged as "bad_bkg".
+      Get event counts and mean exposure in the background region.
+   <LI> The count rate of the source for this field is: <br>
+     <i>src_rate = (cts_src/exp_src-cts_bkg/exp_bkg/px_bkg*px_src)/ecf</i><br>
+   <LI> The statistics are recorded in each row of <b>stat_cts_[band].out</b>.
+     The statistics on each field is designated by lbl=n, where n=1,2,3...
+     If the neither source/background is contaminated by the X-ray sources,
+     it is flagged as "OK". 
+ </UL>         
+<LI> <b>Stacking for one object:</b> For each object, calculate 
+   exposure*weight - weighted
+   (and normalized) mean of the rates for the "OK" fields. The statistics 
+   on each object is also added to <b>stat_cts_[band].out</b>, designated 
+   as lbl="sum". The Field/Comm column shows the number of the "OK" fields,
+   or "Obj_rejected" flag if no "OK" field exist.    
+<LI> <b>Stacking for all objects:</b> Similarly, calculate 
+   exposure*weight - weighted (and normalized) mean of the rates for the 
+   accepted objects. The final stacked statistics are also added to 
+   <b>stat_cts_[band].out</b>, designated as lbl="All".   
+<LI> <b>Bootstrapping:</b> A simple photon-counting statistics is not
+   a good way of determining the significance of the stacking,
+   especially in case a small fraction of the objects dominate the 
+   signal. As one of the good measures, we provide the results 
+   of a bootstrap re-sampling analysis. Suppose there are <i>N</i>
+   objects accepted for our stacking. Out of these, <i>N</i> objects are 
+   selected at random, allowing duplications and the net count rate for these 
+   are averaged as the (exposure*weight)-weighted mean value.
+   This defines a re-sampled stacked count rate. The program provides 
+   the distribution of 500 such re-sampled stacked count rates, a 
+   sorted list of these, and a histogram (for each band).  
+</OL> 
+
+<H2 ALIGN="LEFT">4. Output Products</H2>
+
+<FONT color="#FF0000">
+<b>User's output directory may be deleted after one month of
+the completion of the job.</b> 
+</FONT>
+
+A sample output webpage is shown 
+<a href="https://lambic.astrosen.unam.mx/cstack_v4.5/Users/Sample/results.html"> 
+here</a>. Output result files include the followings, where  [band] is 
+either "500_2000" for the 0.5-2 keV band, "2000_8000" for the 2-8 keV band
+etc. respectively. For the rest frame option, "6000_6800z" corresponds to 
+the rest-frame 6.0-6.8 keV band etc.
+<UL>
+<LI> <b>results.html:</b> An output web page showing key products of the 
+  analysis results and product retrieval information.
+<LI> <b>stack_[band].img</b> A stacked image in raw count units (or weighted,
+ but unnormalized, raw counts if all weights are not unity). The JPG version 
+ and resized JPG version are provided for the display in the webpage. 
+<LI> <b>stack_[band].exp</b> A stacked effective exposure map in units of
+ seconds. If all weights are not unity, it is a weighted, but un-normalized,
+ exposure map.)
+<LI> <b>stat_cts_[band].out:</b> A plain ASCII file showing map statistics 
+  at each stacked position.  The meaning of the columns are self explanatory 
+  (I think). See headers/footers of the table.    
+<LI> <b>boot_sorteddump_[band].out:</b> A plain ASCII file showing the stacked
+  net count rates for 500 bootstrap runs (see above), incrementally sorted.
+<LI> <b>boot_histo_[band].out</b> A plain ASCII file showing the resulting 
+  bootstrap histogram.
+<LI> <b>rand_sorteddump_[band].out </b> A plain ASCII file showing the stacked
+  net count rates for 500 random stack (see above), incrementally sorted.
+<LI> <b>rand_histo_[band].out </b> A plain ASCII file showing the resulting 
+  random stack histogram.
+<LI> <b>plot_histo_[band].sm</b> 
+   An <href="http://www.astro.princeton.edu/~rhl/sm/">
+  SM</b> script which produces the bootstrap/random stack histogram plots.  
+<LI> <b>stackanalysis.log:</b> A detailed log of the stacking analysis 
+  which has been made at the server. For bug reports etc, the user can
+  also send this file to the webmaster.
+<LI> <b>finished.txt:</b> This file is created when the job is finished. 
+  Useful for the users who use their own automated script to run this 
+  tool at the client side.  
+</UL>
+
+<H2 ID="conversion" ALIGN="LEFT">6. Count rate to flux conversion</H2>
+
+We do not provide the count rate to flux conversion. Users
+can refer to the original papers of each dataset or can
+use (recommended) the <a href="http://cxc.harvard.edu/toolkit/pimms.jsp">
+PIMMS </a> utility at the Chandra X-ray Center to utilize the latest
+calibration at the time of the previous proposal cycle. For many dataset,
+a brief explanation on the dataset is shown in the results.html page. 
+
+<H2 ALIGN="LEFT">7. How long does it take ?</H2>
+
+ Time to complete the job varies from situation to situation and sometimes take very long
+if you want to stack thousands of galaxies.  Using Ciao internally, the system has to access
+data from a hard disk for each object/each Chandra ObsId/each operation. Since each Chandra 
+ObsId. is accessed separately, it takes still more with data with heavily overlapping Chandra 
+field configurations like C-COSMOS. <br>
+
+ As a guideline, for approximately stacking about 200 objects on C-COSMOS over two bands, it takes
+about 20 minutes on lambic.astrosen.unam.mx. The execution speed on  cstack.ucsd.edu is similar.  
+
+<H2 ALIGN="LEFT">8. Caveats, Future Developments?</H2>
+<UL>
+<LI> If the number of stacked objects is more than several thousands, 
+  a Ciao task crashes and the stacked image is not created. Still it gives proper numbers in the 
+  stacking analysis results. Sometimes shuffling the order of the input list solves the problem.
+  If this happens, consider dividing your input sample such that there are less than about 5000 objects
+  in each cstack run. The cause of this problem is still unknown. 
+</UL>
+
+I will add whenever I think of anything. If you have suggestions, please 
+let me know.
+
+<H2 ID="acknowledge",ALIGN="LEFT">9. How to Acknowledge</H2>
+
+If the results from this tool have contributed significantly to your 
+research leading to a publication, please mention the use 
+of this tool, with a statement containing 
+"CSTACK (http://cstack.ucsd.edu/ or http://lambic.astrosen.unam.mx/cstack/) developed by 
+Takamitsu Miyaji", either in the main text, as a footnote or in acknowledgements. Depending
+on the scientific topics and degree of importance of using this tool, 
+I would appreciate if the users consider including T. Miyaji in the 
+authorship (especially if the pulication has made use of cstack on team-only datasets).  
+Please check the manual <a href="./exclusion.html">supplement</a> for references 
+and/or instructions for acknowledgments. The link to this information is also found 
+in your result pages.
+
+<H2 ID="acknowledge2",ALIGN="LEFT">10. Publications</H2>
+
+ A list of publications that used CSTACK can be found
+<a href="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?library&libname=use_cstack&libid=497e87ebe4">here</a>.
+Please notify T. Miyaji (see below) if your published research has made use of this tool.
+
+<H2 ID="acknowledge2",ALIGN="LEFT">Acknowledgement</H2>
+
+The developemnt of CSTACK has been supported by CONACyT Grants No. 83564/179662/252531,
+UNAM-DGAPA Grant PAPIIT IN110209/IN104113/IN104216/IN114423 and Chandra Guest Observer Support
+Grant GO1-12178X.
+
+<H2 ID="acknowledge2",ALIGN="LEFT">Disclaimer</H2>
+
+This service is provided "as is" without any warrenty. The author/maintainer of this site does not take
+responsibility for possible errors derived from using this service. 
+
+<hr>
+
+Go to the <a href="https://lambic.astrosen.unam.mx/cstack_v4.5/index.html">entry form</a>. Use browser's back
+button if you came from a partially filled entry form..
+<br>
+by Takamitsu Miyaji (IA-UNAM-E) (_NOSPAM_miyaji@astro.unam.mx/)
+</BODY>
+</HTML>

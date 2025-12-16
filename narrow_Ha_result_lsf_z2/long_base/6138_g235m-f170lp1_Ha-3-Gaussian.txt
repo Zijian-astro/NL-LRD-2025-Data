@@ -1,0 +1,58 @@
+Results for Source ID: 6138_g235m-f170lp1_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 1.176e+06 ± 9.316e+04 erg/cm^2/s
+  peak           = 1.872e+03 ± 1.482e+02 erg/cm^2/s
+  Mean (Velocity) = -288.914 ± 24.801 km/s
+  Stddev (Width)  = 250.702 ± 18.719 km/s
+  Intrinsic Stddev (Width)  = 227.271 ± 97.425 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 1.298e+05 ± 5.681e+04 erg/cm^2/s
+  peak           = 2.065e+02 ± 9.040e+01 erg/cm^2/s
+  Mean (Velocity) = -974.914 ± 24.801 km/s
+  Stddev (Width)  = 250.702 ± 18.719 km/s
+  Intrinsic Stddev (Width)  = 227.271 ± 97.425 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 3.593e+05 ± 5.374e+04 erg/cm^2/s
+  peak           = 5.717e+02 ± 8.551e+01 erg/cm^2/s
+  Mean (Velocity) = 625.086 ± 24.801 km/s
+  Stddev (Width)  = 250.702 ± 18.719 km/s
+  Intrinsic Stddev (Width)  = 227.271 ± 97.425 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 2.576e-16 ± 3.400e-17 erg/cm^2/s
+  Luminosity= 1.045e+43 ± 1.380e+42 erg/s
+  EW        = 246.28 ± 3.10 Å
+  FWHM      = 590.36 ± 44.08 km/s
+  intrinsic FWHM      = 535.18 ± 229.42 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 2.841e-17 ± 1.280e-17 erg/cm^2/s
+  Luminosity= 1.153e+42 ± 5.192e+41 erg/s
+  EW        = 27.17 ± 0.34 Å
+  FWHM      = 590.36 ± 44.08 km/s
+  intrinsic FWHM      = 535.18 ± 229.42 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 7.867e-17 ± 1.440e-17 erg/cm^2/s
+  Luminosity= 3.192e+42 ± 5.845e+41 erg/s
+  EW        = 75.22 ± 0.95 Å
+  FWHM      = 590.36 ± 44.08 km/s
+  intrinsic FWHM      = 535.18 ± 229.42 km/s
+----------------------------------------
+
+Chi-squared (χ²): 54476.123
+Reduced Chi-squared (χ²/dof): 585.765
+BIC: 652.300
+AIC: 636.729
+========================================

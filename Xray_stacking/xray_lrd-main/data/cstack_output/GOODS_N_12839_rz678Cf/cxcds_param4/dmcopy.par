@@ -1,0 +1,7 @@
+infile,f,a,"CDFN/CDFN_img_dec08nrm_s/cdfn_r140_hrd_dec08nrm_s.texp[940:1000,1787:1847]",,,"Input dataset/block specification"
+outfile,f,a,"./Users/GOODS_N_12839_rz678Cf/Tmp_GOODS_N_12839_rz678Cf/0_cdfn_r140_hrd_tmp2.texp",,,"Output dataset name"
+kernel,s,h,"default",,,"Output file format type"
+option,s,h,"",,,"Option - force output type"
+verbose,i,h,0,0,5,"Debug Level"
+clobber,b,h,no,,,"Clobber existing file"
+mode,s,h,"ql",,,

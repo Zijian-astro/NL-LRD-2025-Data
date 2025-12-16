@@ -1,0 +1,68 @@
+
+Start: Sun Mar 17 13:30:16 PDT 2024
+
+CIAO configuration is complete... 
+CIAO 4.16.0 Tuesday, December 05, 2023
+  bindir      : /opt/Ciao4.16/ciao-4.16/bin
+  CALDB       : 4.11.0
+Bandset = 500_2000 2000_8000
+Parameters passed to stackanalysis:
+mailnotice=Y exc_bg_ct=0.0 dataset=aegisxd exc_bg_cr=0.0 exc_bg_sig=1 z_col=Z exc_cr=0.0 exc_sig=1 wkdir=Users/AEGISmaster_is090wC rturl=https://lambic.astrosen.unam.mx/cstack_v4.5 src_rad=-9 exc_band=any wgt_col=1 job=AEGISmaster_is090wC bkg_rad=7.0 src_file=all_lrds_cstack_good_coord.fits wkurl=https://lambic.astrosen.unam.mx/cstack_v4.5/Users/AEGISmaster_is090wC fits_ext=1 img_size=30.0 name_col=NAME maxoff=8.0 dec_col=DEC_DEG ra_col=RA_DEG email=minghaoyue.work@gmail.com bands=std2 exc_ct=0.0
+
+Entering: ./stackanalysis_v4.pl
+Reading Pointing Centers: AEGIS_XD/aegisxd_img_oct15grp/pointings_oct15grp.dat
+
+Dataset Version oct15grp: 7 Observations read.
+Use of uninitialized value in subroutine entry at ./stackanalysis_v4.pl line 570.
+all_lrds_cstack_good_coord.fits is a FITS file. Using Extension 1
+  ffopen status  = 0 
+Number of rows in all_lrds_cstack_good_coord.fits ext 1 is 19
+RA column name=RA_DEG number=2
+DEC column name=DEC_DEG number=3
+All weights are 1
+NAME column name=NAME number=1
+Z column name=Z number=4
+Source list ./Users/AEGISmaster_is090wC/all_lrds_cstack_good_coord.fits 
+  19 objects read.
+Band=500_2000
+...Reading X-ray Sources from:AEGIS_XD/aegisxd_img_oct15grp/aegisxd_oct15grp_xsrcs.dat
+...Read 937 X-ray sources from AEGIS_XD/aegisxd_img_oct15grp/aegisxd_oct15grp_xsrcs.dat
+Created Users/AEGISmaster_is090wC/stat_cts_500_2000.out
+Bootstrapping for band=500_2000 Using 8 obj
+Band=2000_8000
+Created Users/AEGISmaster_is090wC/stat_cts_2000_8000.out
+Bootstrapping for band=2000_8000 Using 8 obj
+# Plotting Histogram 
+!       **** Bootstrap Histogram for 500_2000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/AEGISmaster_is090wC
+Read lines 1 to 29 from boot_histo_500_2000.out
+!       **** Bootstrap Histogram for 500_2000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/AEGISmaster_is090wC
+Read lines 1 to 29 from boot_histo_500_2000.out
+!Sorted Bootstrap Resuls for 500_2000
+!No     rate_boot
+!Created by ./stackanalysis_v4.pl in Users/AEGISmaster_is090wC
+Read lines 1 to 503 from boot_sorteddump_500_2000.out
+%%BoundingBox: 18 144 592 718
+%%BoundingBox: 38 170 279 330
+# Plotting Histogram 
+!       **** Bootstrap Histogram for 2000_8000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/AEGISmaster_is090wC
+Read lines 1 to 29 from boot_histo_2000_8000.out
+!       **** Bootstrap Histogram for 2000_8000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/AEGISmaster_is090wC
+Read lines 1 to 29 from boot_histo_2000_8000.out
+!Sorted Bootstrap Resuls for 2000_8000
+!No     rate_boot
+!Created by ./stackanalysis_v4.pl in Users/AEGISmaster_is090wC
+Read lines 1 to 503 from boot_sorteddump_2000_8000.out
+%%BoundingBox: 18 144 592 718
+%%BoundingBox: 38 170 279 330
+End: Sun Mar 17 13:30:32 PDT 2024
+Datanotefil=AEGIS_XD/aegisxd_img_oct15grp/Notes_AEGISXD.txt
+AEGISmaster_is090wC/
+AEGISmaster_is090wC/all_lrds_cstack_good_coord.fits

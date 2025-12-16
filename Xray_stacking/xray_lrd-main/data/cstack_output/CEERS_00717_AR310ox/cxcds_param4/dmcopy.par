@@ -1,0 +1,7 @@
+infile,f,a,"./Users/CEERS_00717_AR310ox/Tmp_CEERS_00717_AR310ox/0_aegis1b_4.0keV_tmp2.texp[(#1,#2)=field()-circle(-3.1,-11.6,4.1)-circle(-6.4,21.6,4.1)-circle(-3.7,72.8,4.1)-circle(9.7,76.5,4.1)+circle(30,30,3.0406964989181)]",,,"Input dataset/block specification"
+outfile,f,a,"./Users/CEERS_00717_AR310ox/Tmp_CEERS_00717_AR310ox/0_aegis1b_4.0keV_tmp2.texp",,,"Output dataset name"
+kernel,s,h,"default",,,"Output file format type"
+option,s,h,"",,,"Option - force output type"
+verbose,i,h,0,0,5,"Debug Level"
+clobber,b,h,no,,,"Clobber existing file"
+mode,s,h,"ql",,,

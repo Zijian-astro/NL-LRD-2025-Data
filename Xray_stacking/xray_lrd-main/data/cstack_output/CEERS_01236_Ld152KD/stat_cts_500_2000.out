@@ -1,0 +1,25 @@
+! Summary of image counts for Job= CEERS_01236_Ld152KD
+! Source File: CEERS_01236_cstack.fits      X-ray Band: 500_2000
+! Source from <-9 asec  Background from >= 7.0 arcsec
+! Pixel_size= 0.492000000000012 arcsec
+! Poststamp_img_size=60x60 (pix) 30.0x30.0 (arcsec)
+! src_rate= (cts_src/exp_src-cts_bkg/exp_bkg/px_bkg*px_src)/ecf (for each field,lbl=n)
+!         = (wgt*exp_src)-weighted mean of used fields (lbl=sum) or objects (lbl=All).
+! UL90: 90 percent Bayasian upper limit in c/s
+! *** Note: cts_src,exp_src,px_src,cts_bkg,exp_bkg px_bkg and ul90b not weighted.            
+!Obj_name     lbl  rad cts_src  exp_src  px_src cts_bkg  exp_bkg  px_bkg  src_rate    wgt    ecf offax     ul90b  Field/Comm 
+!                (asec)  (cts)   (sec)    (pix)   (cts)   (sec)    (pix)    (c/s)               (amin)     (c/s)
+ CEERS_01236    1  2.5       0 1.84e+05       81      25 1.83e+05     2966 -4.15e-06 1.0e+00 0.900  4.12 -9.99e+00 aegis1a/OK
+ CEERS_01236    2  2.1       3 5.17e+05       61      95 4.92e+05     3008  2.09e-06 1.0e+00 0.900  3.67 -9.99e+00 aegis1b/OK
+ CEERS_01236  sum  2.2       3 7.02e+05      142     120 6.75e+05     5974  4.53e-07 1.0e+00 0.900 -9.90  7.13e-06 used_flds:2
+!          ================= Final Summed Result =====================
+ sum_all      All  2.2       3 7.02e+05      142     120 6.75e+05     5974  4.53e-07 1.0e+00 0.900 -9.90  6.97e-06 used_objs:1
+!          =============================================================
+!Accepted: 1  Near_src: 0  Out: 0   Total: 1
+!Final Stacked Rate:  4.53e-07 +/-  2.77e-06 (Counting Statistics Error)
+!Total Exposure:  7.02e+05 [sec]
+!Please refer to bootstrap results for  better error analysis.
+! Notes from Dataset (if any):
+! 
+! See <a href="./Notes_AEGISXD_1.txt"> this note </a> for details of the dataset used here for AEGIS-XD. Many thanks to Antonis Georgakakis for providing us with reprocessed data.
+!Created by ./stackanalysis_v4.pl in https://lambic.astrosen.unam.mx/cstack_v4.5/Users/CEERS_01236_Ld152KD

@@ -1,0 +1,7 @@
+infile,f,a,"./Users/M23_20621_sJ985CO/Tmp_M23_20621_sJ985CO/0_cdfn_r140_hrd_tmp2.texp[(#1,#2)=field()-circle(1725.6,2031.9,4.1)-circle(1725.6,2031.9,8.1)-circle(1725.6,2031.9,5.4)+circle(30,30,4.26557342133295)]",,,"Input dataset/block specification"
+outfile,f,a,"./Users/M23_20621_sJ985CO/Tmp_M23_20621_sJ985CO/0_cdfn_r140_hrd_tmp2.texp",,,"Output dataset name"
+kernel,s,h,"default",,,"Output file format type"
+option,s,h,"",,,"Option - force output type"
+verbose,i,h,0,0,5,"Debug Level"
+clobber,b,h,no,,,"Clobber existing file"
+mode,s,h,"ql",,,

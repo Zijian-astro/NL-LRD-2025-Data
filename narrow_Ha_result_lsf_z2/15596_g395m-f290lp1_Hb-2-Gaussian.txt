@@ -1,0 +1,43 @@
+Results for Source ID: 15596_g395m-f290lp1_Hb
+========================================
+
+Number of Gaussian Components: 2
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 7.394e+03 ± 3.087e+03 erg/cm^2/s
+  peak           = 6.946e+00 ± 2.900e+00 erg/cm^2/s
+  Mean (Velocity) = -92.865 ± 115.826 km/s
+  Stddev (Width)  = 424.661 ± 4.905 km/s
+  Intrinsic Stddev (Width)  = 411.433 ± 102.000 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 8.721e+03 ± 3.012e+03 erg/cm^2/s
+  peak           = 2.713e+01 ± 9.369e+00 erg/cm^2/s
+  Mean (Velocity) = -37.247 ± 19.266 km/s
+  Stddev (Width)  = 128.236 ± 31.602 km/s
+  Intrinsic Stddev (Width)  = 73.381 ± 62.838 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 1.199e-18 ± 5.010e-19 erg/cm^2/s
+  Luminosity= 4.383e+41 ± 1.831e+41 erg/s
+  EW        = 80.01 ± 0.92 Å
+  FWHM      = 1000.00 ± 11.55 km/s
+  intrinsic FWHM      = 968.85 ± 240.19 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 1.415e-18 ± 6.940e-19 erg/cm^2/s
+  Luminosity= 5.169e+41 ± 2.536e+41 erg/s
+  EW        = 94.37 ± 1.19 Å
+  FWHM      = 301.97 ± 74.42 km/s
+  intrinsic FWHM      = 172.80 ± 147.97 km/s
+----------------------------------------
+
+Chi-squared (χ²): 57.281
+Reduced Chi-squared (χ²/dof): 1.548
+BIC: 38.096
+AIC: 25.606
+========================================

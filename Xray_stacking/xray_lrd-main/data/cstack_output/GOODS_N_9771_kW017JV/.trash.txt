@@ -1,0 +1,35 @@
+ 
+               ftverify 4.20 (CFITSIO V4.030)               
+               ------------------------------               
+ 
+HEASARC conventions are being checked.
+ 
+File: ./Users/GOODS_N_9771_kW017JV/GOODS_N_9771_cstack.fits
+
+2 Header-Data Units in this file.
+ 
+=================== HDU 1: Primary Array ===================
+ 
+ 5 header keywords
+ 
+ Null data array; NAXIS = 0 
+ 
+=================== HDU 2: BINARY Table ====================
+ 
+ 17 header keywords
+ 
+   (4 columns x 1 rows)
+ 
+ Col# Name (Units)       Format
+   1 NAME                 12A       
+   2 RA_DEG               D         
+   3 DEC_DEG              D         
+   4 Z                    D         
+ 
+++++++++++++++++++++++ Error Summary  ++++++++++++++++++++++
+ 
+ HDU#  Name (version)       Type             Warnings  Errors
+ 1                          Primary Array    0         0     
+ 2                          Binary Table     0         0     
+ 
+**** Verification found 0 warning(s) and 0 error(s). ****

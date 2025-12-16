@@ -1,0 +1,142 @@
+<HTML>
+<HEAD>
+<TITLE>Chandra Stacking Analysis Interface Manual</TITLE>
+</HEAD>
+
+<H1 ALIGN="CENTER">Stacking Analysis of Chandra Images</H1>
+<FONT color="#00C0C0">
+<H1 ALIGN="CENTER"> On the Web</H1>
+</FONT>
+
+<FONT color="#CF7F3F">
+<H2 ALIGN="CENTER">V4.5  Explanatory Supplment - Source Exclusion and
+Data Source</H2>
+</FONT>
+<HR>
+<BODY>
+<H2 ALIGN="LEFT">1. Source Exclusion Details</H2>
+
+ It is essential for the stacking analysis to exclude the parts of 
+the data affected by resolved sources. 
+ 
+ From V3.1, the source exclusion scheme has been changed. For each source position in the input 
+list, the program looks for the nearest resolved source that meets the selection criteria.
+For each of the overlapped observations (fields) that have exposure at that position, it calculates the 
+exclusion radius <i>r</i><sub>exc</sub>. For a given source position, each field has a different off-axis 
+angle, and therefore a different point spread function. CSTACK version V3.0 (and before)
+used the 90% ECF, <i>r</i><sub>90</sub> for <i>r</i><sub>exc</sub>. 
+  
+From V3.1, we also use the total photon count of the contaminating source in computing 
+<i>r</i><sub>exc</sub> as:<br>
+<center> 
+<i>r</i><sub>exc</sub>=min(max(<i>r</i><sub>90</sub>, <i>r</i><sub>90</sub> sqrt(<i>c</i>/<i>c</i>
+<sub>0</sub>)),<i>r</i><sub>max</sub>),
+</center>
+
+where <i>c</i> is the total photon count in the resolved source, and we set <i>c</i><sub>0</sub>=50, and 
+<i>r</i><sub>max</sub>=25 arcsec. <br>
+ 
+If the distance to the nearest resolved source is smaller than (<i>r</i><sub>exc</sub>+<b>src_rad</b>), 
+the source/field is not included in the stacking analysis and
+the source/field is flagged as "X-src" in the file "stat_cts_XXXX_XXXX.dat". 
+Also the <i>r</i><sub>exc</sub>-radius regions around the resolved sources that meet the 
+background criteria are excluded from the calculation of the background level 
+in the stacking procedure. <br>
+
+There are three options in resolved source selection: the option "Any" takes the union of 
+full, soft, and hard sources and "Full band sources for all" takes the 
+sources detected in the full band (0.5-8 keV) for the exclusions for the stacking analysis 
+in any energy band. These options are to assure that the same sources are 
+excluded in all-bands and to investigate the hardness of the 
+stacked sources. The other option "Soft and hard sources separately"
+excludes soft (0.5-2keV) and hard (2-8keV) band detected sources
+respectively for the stacks in the soft and hard bands respectively.
+For the 6-band stack option, 0.5-2 keV band detected sources 
+are used for the 0.5-0.75,0.75-1.25  & 1.25-2 keV bands and 2-8 keV
+detected sources are used in the  2-3,3-5 & 5-8 keV bands respectively.
+
+ You see how much region is excluded in each source/field in 
+"stat_cts_XXXX_XXXX.dat" by looking at the column "px_bkg". If the background 
+area has been reduced to less than 50% of the source area in a source/field, it 
+is flagged as "bad_bkg" and excluded from the analysis.   
+ 
+
+<H2 ALIGN="LEFT">2. Data Source (images and catalogs)</H2>
+
+All data included in CSTACK are
+taken with ACIS-I. CSTACK gives the results in counts per second in the corresponding band. 
+The count rate to flux conversions depends on the source spectrum and the obsid 
+of the observation, since detector sensitivity changes over 
+time. The effective exposure maps are calculated for the response matrix at the time of a 
+reference observation for each dataset.  Use the 
+<a href="http://cxc.harvard.edu/toolkit/pimms.jsp"> PIMMS utility </a>
+for approximate conversions. For the conversion factor with the best calibration, 
+use an on-axis ACIS-I respose matrix generated using the latest <a href="http://cxc.harvard.edu/ciao/"> Ciao </a> 
+packge on the reference observation of the corresponding dataset (or the corresponding cycle, if the reference
+OBSID is not given).
+
+<UL TYPE=DISC>
+<LI><b>C-COSMOS:</b> The sources are from  
+   <a href="http://adsabs.harvard.edu/abs/2005ApJS..161...21L">
+   Elvis et al. (2009)</a>. The images have been locally generated from
+   the Version 2 baseline processed event files at  the 
+  <a href="http://chandracosmos.cfa.harvard.edu/">ChandraCosmos</a>
+   website.  Use the ACIS-I Cycle 8 response for the count rate to flux 
+   conversion factors.   
+<LI><b>E-CDF-S:</b> The sources are from 
+   <a href="http://adsabs.harvard.edu/abs/2005ApJS..161...21L">
+   Lehmer et al. (2005) </a> Table 2 (main source catalog). Since this
+   paper does not have source significance <i>P</i> (or <i>ML</i>)
+   for each source/each band, the values of  <i>ML</i>=-99 is assigned
+   for upper limits and  <i>ML</i>=99 is assigned for detections.
+   The image images and exposre maps are from the  
+  <a href="http://www.astro.psu.edu/users/niel/ecdfs/ecdfs-chandra.html">
+  Penn State E-CDF-S</a> web page.
+<LI><b>CDF-N 2Ms:</b> The sources are from 
+   <a href="http://adsabs.harvard.edu/abs/2003AJ....126..539A">
+   Alexander et al. (2003) </a> Tables 3 and 4 (main source catalog and
+   additional properties respectively). The same as above about the
+   source significance. The images and exposure maps have been locally
+   generated from the processed event files from  
+   the <a href="http://cxc.harvard.edu/cda/Contrib/CDFN.html">
+   CXC CDF-N </a> web page. We have generated images for Roll-angle 40
+   observations and Roll-angle 140 observations. The exposure maps have been 
+   normalized such that count-rate to flux conversion can be made using the on-axis
+   response matrix for OBSID=3391 (ACIS-I, Chandra Cycle 3).
+<LI><b>CDF-S 4Ms:</b> The sources are from 
+   <a href="http://adsabs.harvard.edu/abs/2011ApJS..195...10X">
+   Xue et al. (2011) </a> Tables 3 (main source catalog). The same as above about the
+   source significance. The images and exposure maps have been locally
+   generated from the processed event files at the  
+  <a href="http://cxc.cfa.harvard.edu/cda/Announcements/news039.html">
+   CXC CDF-S</a> web page.  The exposure maps have been normalized such that count-rate to 
+  flux conversion can be made using the on-axis response matrix for OBSID=12049.   
+  (ACIS-I, Chandra Cycle 10).
+<LI><b>AkariNEPD:</b> The Chandra data of Akari NEP Deep
+   field have been processed by the developer of this site. All the observations 
+  have been made during Cycle 12. The exposure maps have been normalized such that count-rate to 
+  flux conversion can be made using the on-axis response matrix for OBSID=12925.   
+  (ACIS-I, Chandra Cycle 12). See  
+  <a href="http://adsabs.harvard.edu/abs/2015MNRAS.446..911K"> Krumpe et al. (2015)</a>.
+<LI><b>CosmosLegacy:</b> This is a combination of C-COSMOS (Cycle 8) and COSMOS Legacy
+  (Cycle 14) datasets. 
+  The source exclusion is based on the source list by Civano et al. 2015.
+  The exposure maps have been normalized such that count-rate to flux conversion can be made using 
+  the on-axis response matrix for OBSID 15207 (ACIS-I, Cycle 14). 
+<LI><b>AEGIS-XD:</b> See <a href="./AEGIS_XD/aegisxd_img_oct15grp/Notes_AEGISXD_1.txt"> a detailed note
+  </a> for the AEGIS-XD implementation. Currently the CSTACK access to the AEGIS-XD is limited 
+  to certain individuals.
+<LI><b>X-UDS:</b> See <a href="./X-UDS/xuds_img_oct15grp/Notes_XUDS_1.txt"> a detailed note
+   </a> for the X-UDS implementation. Please ask miyaji@astro.unam.mx for the password.
+<LI><b>CDFS-7:</b> See <a href="./CDFS/cdfs7_img_oct16/Notes_CDFS7.txt"> a detailed note
+   </a> for the CDF-S 7 Ms implementation. Please ask miyaji@astro.unam.mx for the password.
+</UL>
+
+<hr>
+Back to the <a href="./manual.html">main explanatory manual</a>.<br>
+Use browser's back button to go back to a partially-filled entry form,
+or a <a href="./index.html">new form</a>.<br>
+
+By Takamitsu Miyaji (IA-UNAM-Ensenada)
+</BODY>
+</HTML>

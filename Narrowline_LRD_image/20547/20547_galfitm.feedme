@@ -1,0 +1,42 @@
+A) 20547_f277w_data.fits,20547_f356w_data.fits,20547_f410m_data.fits,20547_f444w_data.fits
+A1) F277W,F356W,F410M,F444W
+A2) 0,27700.0,35600.0,41000.0,44400.00000000001
+B) 20547_result.fits
+C) 20547_f277w_err_scale.fits,20547_f356w_err_scale.fits,20547_f410m_err_scale.fits,20547_f444w_err_scale.fits
+D) /Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F277W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F356W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F410M_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F444W_psf.fits
+E) 1
+F) 20547.mask.fits,20547.mask.fits,20547.mask.fits,20547.mask.fits
+G) ../galfitm_SS.CONSTRAINTS
+H) 25    75    25    75
+I) 96    96 
+J) 28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399
+K) 0.03  0.03 
+O) regular
+P) 0
+W) input,model,residual,component
+
+#estimated mag: 29.795904563411025,29.795904563411025,29.795904563411025,29.795904563411025,29.795904563411025,29.795904563411025,29.795904563411025
+
+# -----------------------------------------------------------------------------
+#   par)    par value(s)    fit toggle(s)    # parameter description
+# -----------------------------------------------------------------------------
+
+# Object number: 1
+ 0) psf              #  object type
+ 1) 50.0      2       # position x [pixel]
+ 2) 50.0      2       # position y [pixel]
+ 3) 29.795904563411025,29.795904563411025,29.795904563411025,29.795904563411025      4       # total magnitude
+ Z) 0                #  output option (0 = resid., 1 = Don't subtract)
+# Object number: 2
+ 0) sersic             #  object type
+ 1) 50.0      2       # position x [pixel]
+ 2) 50.0      2       # position y [pixel]
+ 3) 30.095904563411025,30.095904563411025,30.095904563411025,30.095904563411025      4       # total magnitude
+ 4) 5.22932311278579      2          #  R_e (half-light radius)   [pix]
+ 5) 3      3          #  Sersic index n (de Vaucouleurs n=4)
+ 6) 0.0000      0          #     -----
+ 7) 0.0000      0          #     -----
+ 8) 0.0000      0          #     -----
+ 9) 0.26064322454092215      1          #  axis ratio (b/a)
+10) -1694.035618006125    0          #  position angle (PA) [deg: Up=0, Left=90]
+ Z) 0                      #  output option (0 = resid., 1 = Don't subtract)

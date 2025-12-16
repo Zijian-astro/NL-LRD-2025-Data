@@ -1,0 +1,28 @@
+Results for Source ID: 7329_g395m-f290lp2_Ha
+========================================
+
+Number of Gaussian Components: 1
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 2.141e+04 ± 5.400e+02 erg/cm^2/s
+  peak           = 7.081e+01 ± 1.786e+00 erg/cm^2/s
+  Mean (Velocity) = -35.777 ± 3.408 km/s
+  Stddev (Width)  = 120.614 ± 3.052 km/s
+  Intrinsic Stddev (Width)  = 54.194 ± 6.792 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 4.688e-18 ± 2.052e-19 erg/cm^2/s
+  Luminosity= 8.193e+41 ± 3.587e+40 erg/s
+  EW        = 314.76 ± 3.97 Å
+  FWHM      = 284.02 ± 7.19 km/s
+  intrinsic FWHM      = 127.62 ± 15.99 km/s
+----------------------------------------
+
+Chi-squared (χ²): 157.461
+Reduced Chi-squared (χ²/dof): 3.749
+BIC: 71.919
+AIC: 64.605
+========================================

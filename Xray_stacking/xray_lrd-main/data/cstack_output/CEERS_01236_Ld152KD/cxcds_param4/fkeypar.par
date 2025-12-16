@@ -1,0 +1,6 @@
+fitsfile,s,a,"AEGIS_XD/aegisxd_img_oct15grp/ref_obs_500_2000_oct15grp.img+0",,,"Name of FITS file and [ext#]"
+keyword,s,a,"CDELT1",,,"Keyword name"
+exist,b,hl,yes,,,"Keyword existence"
+value,s,hl,"-0.00013666666666667",,,"Keyword value"
+comm,s,hl," ",,,"Keyword comment string"
+mode,s,h,"ql",,,

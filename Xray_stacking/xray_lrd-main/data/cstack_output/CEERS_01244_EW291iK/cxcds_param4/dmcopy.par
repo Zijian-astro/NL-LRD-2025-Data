@@ -1,0 +1,7 @@
+infile,f,a,"./Users/CEERS_01244_EW291iK/Tmp_CEERS_01244_EW291iK/0_aegis1b_4.0keV_tmp2.texp[(#1,#2)=field()-circle(113.5,-55.3,37.3)-circle(125.5,-20.4,45.4)-circle(-102.8,26.8,49.3)-circle(70.5,99.1,47.5)+circle(30,30,12.96986897554)]",,,"Input dataset/block specification"
+outfile,f,a,"./Users/CEERS_01244_EW291iK/Tmp_CEERS_01244_EW291iK/0_aegis1b_4.0keV_tmp2.texp",,,"Output dataset name"
+kernel,s,h,"default",,,"Output file format type"
+option,s,h,"",,,"Option - force output type"
+verbose,i,h,0,0,5,"Debug Level"
+clobber,b,h,no,,,"Clobber existing file"
+mode,s,h,"ql",,,

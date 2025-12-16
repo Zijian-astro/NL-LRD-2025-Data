@@ -1,0 +1,326 @@
+
+Start: Sun Mar 17 13:27:51 PDT 2024
+
+CIAO configuration is complete... 
+CIAO 4.16.0 Tuesday, December 05, 2023
+  bindir      : /opt/Ciao4.16/ciao-4.16/bin
+  CALDB       : 4.11.0
+Bandset = 500_2000 2000_8000
+Parameters passed to stackanalysis:
+email=minghaoyue.work@gmail.com src_rad=-9 wgt_col=1 ra_col=RA_DEG src_file=all_lrds_cstack_good_coord.fits exc_cr=0.0 job=CDFNmaster_nx769ij wkurl=https://lambic.astrosen.unam.mx/cstack_v4.5/Users/CDFNmaster_nx769ij maxoff=8.0 dec_col=DEC_DEG exc_band=any exc_sig=1 fits_ext=1 bkg_rad=7.0 dataset=cdfn img_size=30.0 wkdir=Users/CDFNmaster_nx769ij exc_ct=0.0 bands=std2 mailnotice=Y exc_bg_cr=0.0 exc_bg_ct=0.0 exc_bg_sig=1 name_col=NAME z_col=Z rturl=https://lambic.astrosen.unam.mx/cstack_v4.5
+
+Entering: ./stackanalysis_v4.pl
+Reading Pointing Centers: CDFN/CDFN_img_dec08nrm_s/pointings_dec08nrm_s.dat
+
+Dataset Version dec08nrm_s: 2 Observations read.
+Use of uninitialized value in subroutine entry at ./stackanalysis_v4.pl line 570.
+all_lrds_cstack_good_coord.fits is a FITS file. Using Extension 1
+  ffopen status  = 0 
+Number of rows in all_lrds_cstack_good_coord.fits ext 1 is 19
+RA column name=RA_DEG number=2
+DEC column name=DEC_DEG number=3
+All weights are 1
+NAME column name=NAME number=1
+Z column name=Z number=4
+Source list ./Users/CDFNmaster_nx769ij/all_lrds_cstack_good_coord.fits 
+  19 objects read.
+Band=500_2000
+# dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000     62.21781721  WCS =    189.26606230     62.21760352
+
+...Reading X-ray Sources from:CDFN/CDFN_img_dec08nrm_s/cdfn_dec08nrm_s_xsrcs.dat
+...Read 503 X-ray sources from CDFN/CDFN_img_dec08nrm_s/cdfn_dec08nrm_s_xsrcs.dat
+Invalid entry '12:36:06.70' - try again!
+ra[ deg ] : Invalid entry '12:36:08.22' - try again!
+ra[ deg ] : Invalid entry '12:36:15.83' - try again!
+ra[ deg ] : Invalid entry '12:36:16.11' - try again!
+ra[ deg ] : Invalid entry '12:36:18.00' - try again!
+ra[ deg ] : Invalid entry '12:36:21.94' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =    189.14443544     62.24079674
+
+Invalid entry '12:36:08.22' - try again!
+ra[ deg ] : Invalid entry '12:36:18.00' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000     62.21781721  WCS =    189.26606230     62.21760352
+
+Invalid entry '12:36:40.12' - try again!
+ra[ deg ] : Invalid entry '12:36:42.22' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =    189.14443544     62.24079674
+
+Invalid entry '12:36:40.12' - try again!
+ra[ deg ] : Invalid entry '12:36:42.22' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000     62.21781721  WCS =    189.26606230     62.21760352
+
+Invalid entry '12:37:12.04' - try again!
+ra[ deg ] : Invalid entry '12:37:12.09' - try again!
+ra[ deg ] : Invalid entry '12:37:14.32' - try again!
+ra[ deg ] : Invalid entry '12:37:14.33' - try again!
+ra[ deg ] : Invalid entry '12:37:15.94' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =    189.14443544     62.24079674
+
+Invalid entry '12:37:12.04' - try again!
+ra[ deg ] : Invalid entry '12:37:12.09' - try again!
+ra[ deg ] : Invalid entry '12:37:14.32' - try again!
+ra[ deg ] : Invalid entry '12:37:14.33' - try again!
+ra[ deg ] : Invalid entry '12:37:15.94' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000     62.21781721  WCS =    189.26606230     62.21760352
+
+Invalid entry '12:36:24.78' - try again!
+ra[ deg ] : Invalid entry '12:36:25.33' - try again!
+ra[ deg ] : Invalid entry '12:36:31.85' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =    189.14443544     62.24079674
+
+Invalid entry '12:36:24.78' - try again!
+ra[ deg ] : Invalid entry '12:36:25.33' - try again!
+ra[ deg ] : Invalid entry '12:36:31.85' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000     62.21781721  WCS =    189.26606230     62.21760352
+
+Invalid entry '12:36:21.98' - try again!
+ra[ deg ] : Invalid entry '12:36:23.00' - try again!
+ra[ deg ] : Invalid entry '12:36:25.39' - try again!
+ra[ deg ] : Invalid entry '12:36:33.49' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =    189.14443544     62.24079674
+
+Invalid entry '12:36:23.00' - try again!
+ra[ deg ] : Invalid entry '12:36:25.39' - try again!
+ra[ deg ] : Invalid entry '12:36:33.49' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000     62.21781721  WCS =    189.26606230     62.21760352
+
+Invalid entry '12:37:01.62' - try again!
+ra[ deg ] : Invalid entry '12:37:01.99' - try again!
+ra[ deg ] : Invalid entry '12:37:03.94' - try again!
+ra[ deg ] : Invalid entry '12:37:05.87' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =    189.14443544     62.24079674
+
+Invalid entry '12:37:01.62' - try again!
+ra[ deg ] : Invalid entry '12:37:01.99' - try again!
+ra[ deg ] : Invalid entry '12:37:03.94' - try again!
+ra[ deg ] : Invalid entry '12:37:05.87' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000     62.21781721  WCS =    189.26606230     62.21760352
+
+Invalid entry '12:36:43.10' - try again!
+ra[ deg ] : Invalid entry '12:36:47.94' - try again!
+ra[ deg ] : Invalid entry '12:36:51.15' - try again!
+ra[ deg ] : Invalid entry '12:36:51.28' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =    189.14443544     62.24079674
+
+Invalid entry '12:36:40.79' - try again!
+ra[ deg ] : Invalid entry '12:36:43.10' - try again!
+ra[ deg ] : Invalid entry '12:36:47.94' - try again!
+ra[ deg ] : Invalid entry '12:36:51.15' - try again!
+ra[ deg ] : Invalid entry '12:36:51.28' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000     62.21781721  WCS =    189.26606230     62.21760352
+
+Invalid entry '12:37:05.87' - try again!
+ra[ deg ] : Invalid entry '12:37:12.09' - try again!
+ra[ deg ] : Invalid entry '12:37:14.32' - try again!
+ra[ deg ] : Invalid entry '12:37:14.33' - try again!
+ra[ deg ] : Invalid entry '12:37:15.94' - try again!
+ra[ deg ] : Invalid entry '12:37:15.94' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =    189.14443544     62.24079674
+
+Invalid entry '12:37:03.94' - try again!
+ra[ deg ] : Invalid entry '12:37:05.87' - try again!
+ra[ deg ] : Invalid entry '12:37:12.09' - try again!
+ra[ deg ] : Invalid entry '12:37:14.32' - try again!
+ra[ deg ] : Invalid entry '12:37:14.33' - try again!
+ra[ deg ] : Invalid entry '12:37:15.94' - try again!
+ra[ deg ] : Invalid entry '12:37:15.94' - try again!
+ra[ deg ] : Created Users/CDFNmaster_nx769ij/stat_cts_500_2000.out
+Bootstrapping for band=500_2000 Using 8 obj
+Band=2000_8000
+# dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000     62.21781721  WCS =    189.26606230     62.21760352
+
+Invalid entry '12:36:06.70' - try again!
+ra[ deg ] : Invalid entry '12:36:08.22' - try again!
+ra[ deg ] : Invalid entry '12:36:15.83' - try again!
+ra[ deg ] : Invalid entry '12:36:16.11' - try again!
+ra[ deg ] : Invalid entry '12:36:18.00' - try again!
+ra[ deg ] : Invalid entry '12:36:21.94' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =    189.14443544     62.24079674
+
+Invalid entry '12:36:08.22' - try again!
+ra[ deg ] : Invalid entry '12:36:18.00' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000     62.21781721  WCS =    189.26606230     62.21760352
+
+Invalid entry '12:36:40.12' - try again!
+ra[ deg ] : Invalid entry '12:36:42.22' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =    189.14443544     62.24079674
+
+Invalid entry '12:36:40.12' - try again!
+ra[ deg ] : Invalid entry '12:36:42.22' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000     62.21781721  WCS =    189.26606230     62.21760352
+
+Invalid entry '12:37:12.04' - try again!
+ra[ deg ] : Invalid entry '12:37:12.09' - try again!
+ra[ deg ] : Invalid entry '12:37:14.32' - try again!
+ra[ deg ] : Invalid entry '12:37:14.33' - try again!
+ra[ deg ] : Invalid entry '12:37:15.94' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =    189.14443544     62.24079674
+
+Invalid entry '12:37:12.04' - try again!
+ra[ deg ] : Invalid entry '12:37:12.09' - try again!
+ra[ deg ] : Invalid entry '12:37:14.32' - try again!
+ra[ deg ] : Invalid entry '12:37:14.33' - try again!
+ra[ deg ] : Invalid entry '12:37:15.94' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000     62.21781721  WCS =    189.26606230     62.21760352
+
+Invalid entry '12:36:24.78' - try again!
+ra[ deg ] : Invalid entry '12:36:25.33' - try again!
+ra[ deg ] : Invalid entry '12:36:31.85' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =    189.14443544     62.24079674
+
+Invalid entry '12:36:24.78' - try again!
+ra[ deg ] : Invalid entry '12:36:25.33' - try again!
+ra[ deg ] : Invalid entry '12:36:31.85' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000     62.21781721  WCS =    189.26606230     62.21760352
+
+Invalid entry '12:36:21.98' - try again!
+ra[ deg ] : Invalid entry '12:36:23.00' - try again!
+ra[ deg ] : Invalid entry '12:36:25.39' - try again!
+ra[ deg ] : Invalid entry '12:36:33.49' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =    189.14443544     62.24079674
+
+Invalid entry '12:36:23.00' - try again!
+ra[ deg ] : Invalid entry '12:36:25.39' - try again!
+ra[ deg ] : Invalid entry '12:36:33.49' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000     62.21781721  WCS =    189.26606230     62.21760352
+
+Invalid entry '12:37:01.62' - try again!
+ra[ deg ] : Invalid entry '12:37:01.99' - try again!
+ra[ deg ] : Invalid entry '12:37:03.94' - try again!
+ra[ deg ] : Invalid entry '12:37:05.87' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =    189.14443544     62.24079674
+
+Invalid entry '12:37:01.62' - try again!
+ra[ deg ] : Invalid entry '12:37:01.99' - try again!
+ra[ deg ] : Invalid entry '12:37:03.94' - try again!
+ra[ deg ] : Invalid entry '12:37:05.87' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000     62.21781721  WCS =    189.26606230     62.21760352
+
+Invalid entry '12:36:43.10' - try again!
+ra[ deg ] : Invalid entry '12:36:47.94' - try again!
+ra[ deg ] : Invalid entry '12:36:51.15' - try again!
+ra[ deg ] : Invalid entry '12:36:51.28' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =    189.14443544     62.24079674
+
+Invalid entry '12:36:40.79' - try again!
+ra[ deg ] : Invalid entry '12:36:43.10' - try again!
+ra[ deg ] : Invalid entry '12:36:47.94' - try again!
+ra[ deg ] : Invalid entry '12:36:51.15' - try again!
+ra[ deg ] : Invalid entry '12:36:51.28' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000     62.21781721  WCS =    189.26606230     62.21760352
+
+Invalid entry '12:37:05.87' - try again!
+ra[ deg ] : Invalid entry '12:37:12.09' - try again!
+ra[ deg ] : Invalid entry '12:37:14.32' - try again!
+ra[ deg ] : Invalid entry '12:37:14.33' - try again!
+ra[ deg ] : Invalid entry '12:37:15.94' - try again!
+ra[ deg ] : Invalid entry '12:37:15.94' - try again!
+ra[ deg ] : # dmcoords (CIAO 4.16.0): WARNING: RA_NOM DEC_NOM different from WCS
+
+# dmcoords (CIAO 4.16.0): RA_NOM DEC_NOM =       0.00000000      0.00000000  WCS =    189.14443544     62.24079674
+
+Invalid entry '12:37:03.94' - try again!
+ra[ deg ] : Invalid entry '12:37:05.87' - try again!
+ra[ deg ] : Invalid entry '12:37:12.09' - try again!
+ra[ deg ] : Invalid entry '12:37:14.32' - try again!
+ra[ deg ] : Invalid entry '12:37:14.33' - try again!
+ra[ deg ] : Invalid entry '12:37:15.94' - try again!
+ra[ deg ] : Invalid entry '12:37:15.94' - try again!
+ra[ deg ] : Created Users/CDFNmaster_nx769ij/stat_cts_2000_8000.out
+Bootstrapping for band=2000_8000 Using 8 obj
+# Plotting Histogram 
+!       **** Bootstrap Histogram for 500_2000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/CDFNmaster_nx769ij
+Read lines 1 to 29 from boot_histo_500_2000.out
+!       **** Bootstrap Histogram for 500_2000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/CDFNmaster_nx769ij
+Read lines 1 to 29 from boot_histo_500_2000.out
+!Sorted Bootstrap Resuls for 500_2000
+!No     rate_boot
+!Created by ./stackanalysis_v4.pl in Users/CDFNmaster_nx769ij
+Read lines 1 to 503 from boot_sorteddump_500_2000.out
+%%BoundingBox: 18 144 592 718
+%%BoundingBox: 38 170 279 330
+# Plotting Histogram 
+!       **** Bootstrap Histogram for 2000_8000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/CDFNmaster_nx769ij
+Read lines 1 to 29 from boot_histo_2000_8000.out
+!       **** Bootstrap Histogram for 2000_8000 ************
+!           From       To        Ctr        Freq     Cum.
+!Created by ./stackanalysis_v4.pl in Users/CDFNmaster_nx769ij
+Read lines 1 to 29 from boot_histo_2000_8000.out
+!Sorted Bootstrap Resuls for 2000_8000
+!No     rate_boot
+!Created by ./stackanalysis_v4.pl in Users/CDFNmaster_nx769ij
+Read lines 1 to 503 from boot_sorteddump_2000_8000.out
+%%BoundingBox: 18 144 592 718
+%%BoundingBox: 38 170 279 330
+End: Sun Mar 17 13:28:11 PDT 2024
+Datanotefil=CDFN/CDFN_img_dec08nrm_s/Datanote.txt
+CDFNmaster_nx769ij/
+CDFNmaster_nx769ij/all_lrds_cstack_good_coord.fits

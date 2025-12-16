@@ -1,0 +1,11 @@
+# parameter file for dmimgcalc
+infile,f,a,"./Users/CDFNmaster_nx769ij/Tmp_CDFNmaster_nx769ij/stack_2000_8000.exp",,,"Input file #1"
+infile2,f,a,"./Users/CDFNmaster_nx769ij/Tmp_CDFNmaster_nx769ij/tmp_obj.exp",,,"Input file #2"
+outfile,f,a,"./Users/CDFNmaster_nx769ij/Tmp_CDFNmaster_nx769ij/tmp_obj_s.exp",,,"output file "
+operation,s,a,"add",,,"arithmetic operation"
+weight,r,h,1,,,"weight for first image"
+weight2,r,h,1,,,"weight for second image"
+lookupTab,f,h,"none",,,"lookup table"
+clobber,b,h,yes,,,"delete old output"
+verbose,i,h,0,0,5,"output verbosity"
+mode,s,h,"ql",,,

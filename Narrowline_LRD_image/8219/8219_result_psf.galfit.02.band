@@ -1,0 +1,59 @@
+
+#  Input menu file: 8219_galfitm_psf.feedme
+
+#  Chi^2/nu = 1.115,  Chi^2 = 20294.279,  Ndof = 18196
+
+================================================================================
+# IMAGE and GALFIT CONTROL PARAMETERS
+A) 8219_F115W_data.fits,8219_F150W_data.fits,8219_F200W_data.fits,8219_F277W_data.fits,8219_F356W_data.fits,8219_F410M_data.fits,8219_F444W_data.fits      # Input data image (FITS file)
+A1) F115W,F150W,F200W,F277W,F356W,F410M,F444W     # Band labels
+A2) 11500.0,15000.0,20000.0,27700.0,35600.0,41000.0,44400.0     # Band wavelengths
+B) 8219_result_psf.fits      # Output data image block
+C) 8219_F115W_err_scale.fits,8219_F150W_err_scale.fits,8219_F200W_err_scale.fits,8219_F277W_err_scale.fits,8219_F356W_err_scale.fits,8219_F410M_err_scale.fits,8219_F444W_err_scale.fits 0.000   # Sigma image and min. sigma factor (made from data if blank or "none") 
+D) /Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F115W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F150W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F200W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F277W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F356W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F410M_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F444W_psf.fits          # Input PSF image and (optional) diffusion kernel
+E) 1                   # PSF fine sampling factor relative to data 
+F) 8219.mask.fits,8219.mask.fits,8219.mask.fits,8219.mask.fits,8219.mask.fits,8219.mask.fits,8219.mask.fits      # Bad pixel mask (FITS image or ASCII coord list)
+G) ../galfitm_SS_psf.CONSTRAINTS      # File with parameter constraints (ASCII file) 
+H) 25   75   25   75   # Image region to fit (xmin xmax ymin ymax)
+I) 96     96           # Size of the convolution box (x y)
+J) 28.087,28.087,28.087,28.087,28.087,28.087,28.087      # Magnitude photometric zeropoint 
+K) 0.030  0.030        # Plate scale (dx dy)   [arcsec per pixel]
+O) regular             # Display type (regular, curses, both)
+P) 0                   # Choose: 0=optimize, 1=model, 2=imgblock, 3=subcomps
+U) 0 0.750000 25 4 40 0.000000 1.000000  # Non-parametric component settings
+V) 0 0 50 0.800000 0.500000 100000   # MultiNest options
+W) input,model,residual,component      # Output options
+
+# INITIAL BAND FITTING PARAMETERS
+#
+#   For component type, the allowed functions are: 
+#       sersic, expdisk, edgedisk, devauc, king, nuker, psf, 
+#       gaussian, moffat, ferrer, corser, and sky. 
+#  
+#   Hidden parameters will only appear when they're specified:
+#       Bn (n=integer, Bending Modes).
+#       C0 (diskyness/boxyness), 
+#       Fn (n=integer, Azimuthal Fourier Modes).
+#       R0-R10 (coordinate rotation, for creating spiral structures).
+#       To, Ti, T0-T10 (truncation function).
+# 
+# ------------------------------------------------------------------------------
+#   par)    par value(s)    fit toggle(s)    # parameter description 
+# ------------------------------------------------------------------------------
+
+# Component number: 1
+ 0) psf                    #  Component type
+ 1) 50.213,50.254,50.312,50.402,50.494,50.556,50.596    1,1,0,0,0,0,0       band #      Position x
+ 2) 49.799,49.828,49.871,49.936,50.003,50.048,50.077    1,1,0,0,0,0,0       band #      Position y
+ 3) 28.262,28.202,28.051,27.569,26.447,26.088,26.250    1,1,1,1,1,1,1       band #  Integrated magnitude 
+ 4) 0,0,0,0,0,0,0     0,0,0,0,0,0,0       band #     ----- 
+ 5) 0,0,0,0,0,0,0     0,0,0,0,0,0,0       band #     ----- 
+ 6) 0,0,0,0,0,0,0     0,0,0,0,0,0,0       band #     ----- 
+ 7) 0,0,0,0,0,0,0     0,0,0,0,0,0,0       band #     ----- 
+ 8) 0,0,0,0,0,0,0     0,0,0,0,0,0,0       band #     ----- 
+ 9) 1.000,1.000,1.000,1.000,1.000,1.000,1.000    0,0,0,0,0,0,0       band #  Axis ratio (b/a)  
+10) 0,0,0,0,0,0,0     0,0,0,0,0,0,0       band #  Position angle (PA) [deg: Up=0, Left=90]
+ Z) 0                      #  Skip this model in output image?  (yes=1, no=0)
+
+================================================================================
+

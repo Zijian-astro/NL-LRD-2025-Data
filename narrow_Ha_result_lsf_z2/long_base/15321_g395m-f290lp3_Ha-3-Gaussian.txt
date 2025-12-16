@@ -1,0 +1,58 @@
+Results for Source ID: 15321_g395m-f290lp3_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 3.598e+05 ± 7.093e+04 erg/cm^2/s
+  peak           = 3.380e+02 ± 6.663e+01 erg/cm^2/s
+  Mean (Velocity) = 203.049 ± 169.961 km/s
+  Stddev (Width)  = 424.661 ± 85.115 km/s
+  Intrinsic Stddev (Width)  = 415.816 ± 118.631 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 1.375e+05 ± 9.315e+04 erg/cm^2/s
+  peak           = 1.291e+02 ± 8.751e+01 erg/cm^2/s
+  Mean (Velocity) = -482.951 ± 169.961 km/s
+  Stddev (Width)  = 424.661 ± 85.115 km/s
+  Intrinsic Stddev (Width)  = 415.816 ± 118.631 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 1.365e+05 ± 4.663e+04 erg/cm^2/s
+  peak           = 1.283e+02 ± 4.380e+01 erg/cm^2/s
+  Mean (Velocity) = 1117.049 ± 169.961 km/s
+  Stddev (Width)  = 424.661 ± 85.115 km/s
+  Intrinsic Stddev (Width)  = 415.816 ± 118.631 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 7.878e-17 ± 2.720e-17 erg/cm^2/s
+  Luminosity= 2.179e+43 ± 7.525e+42 erg/s
+  EW        = 250.87 ± 3.08 Å
+  FWHM      = 1000.00 ± 200.43 km/s
+  intrinsic FWHM      = 979.17 ± 279.35 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 3.010e-17 ± 2.211e-17 erg/cm^2/s
+  Luminosity= 8.326e+42 ± 6.116e+42 erg/s
+  EW        = 95.85 ± 1.18 Å
+  FWHM      = 1000.00 ± 200.43 km/s
+  intrinsic FWHM      = 979.17 ± 279.35 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 2.990e-17 ± 1.327e-17 erg/cm^2/s
+  Luminosity= 8.271e+42 ± 3.671e+42 erg/s
+  EW        = 95.21 ± 1.17 Å
+  FWHM      = 1000.00 ± 200.43 km/s
+  intrinsic FWHM      = 979.17 ± 279.35 km/s
+----------------------------------------
+
+Chi-squared (χ²): 14549.007
+Reduced Chi-squared (χ²/dof): 142.637
+BIC: 557.633
+AIC: 541.540
+========================================

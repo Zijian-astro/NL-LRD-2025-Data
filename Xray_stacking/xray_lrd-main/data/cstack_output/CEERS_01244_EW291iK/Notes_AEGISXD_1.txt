@@ -1,0 +1,27 @@
+
+This is based on the dataset included in the AEGIS-XD project (Nandra et al. 2015, ApJS 220, 10). 
+The OBSIDs in their Tables 1 and 2 are included. The OBSIDs are divided into seven groups. 
+The OBSIDs in the same group have almost the same optical axis (within 1 arcmin) and merged 
+for the stacking analysis. Group OBSIDs are--
+AEGIS-1A:5845 5846 6214 6215 9450 9451 9452 9453 9720 9721 9722 9723 9724 9725 9726 9793 9794 
+	 9795 9796 9797 9842 9843 9844 9863 9866 9870 9873 9875 9876
+AEGIS-1B:9450 9451 9452 9453 9720 9721 9722 9723 9724 9725 9726 9793 9794 9795 9796 9797 9842 
+	 9843 9844 9863 9866 9870 9873 9875 9876
+AEGIS-2A:5847 5848 6216 6217
+AEGIS-2B:9454 9455 9456 9457 9727 9729 9730 9731 9733 9878 9879 9880 9881 
+AEGIS-3A:10769 10847 10848 10849 10876 10877 10896 10923 9458 9459 9460 9461 9734 9735 9736 9737 
+	9738 9739 9740 
+AEGIS-3B:3305 4357 4365 (Area that has no overlap with other AEGIS-XD fields are removed)
+AEGIS-3C:5849 5850 6218 6219
+
+Normalizations of the exposure maps
+
+The exposure maps *.texp show the effective exposures in seconds, rather than the Chandra standard 
+convention of [s cm^2]. Detector sensitivity changes over time, thus the effective exposure maps 
+are calculated for the response matrix at the time of a reference observation. The reference observation 
+for this dataset is a combination of OBSIDs 9720 and 9723 (observed on 2008-06-17 and 008-06-18 
+respectively), which have almost identical optical axes and roll angles. 
+
+If you want to use PIMMS for approximate countrate to flux conversion, use ACIS-I for Chandra Cycle 9. 
+
+Many thanks to Antonis Georgakakis for providing us with reprocessed data.

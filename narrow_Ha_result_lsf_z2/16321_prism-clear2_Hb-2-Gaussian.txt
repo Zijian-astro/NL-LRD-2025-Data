@@ -1,0 +1,43 @@
+Results for Source ID: 16321_prism-clear2_Hb
+========================================
+
+Number of Gaussian Components: 2
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 2.543e+02 ± nan erg/cm^2/s
+  peak           = 2.388e-01 ± nan erg/cm^2/s
+  Mean (Velocity) = -467.912 ± 2169288972.900 km/s
+  Stddev (Width)  = 424.985 ± nan km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 7.929e+02 ± nan erg/cm^2/s
+  peak           = 8.956e-01 ± nan erg/cm^2/s
+  Mean (Velocity) = -499.939 ± 9022437310.874 km/s
+  Stddev (Width)  = 353.235 ± 24144167102.614 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 4.125e-20 ± nan erg/cm^2/s
+  Luminosity= 1.113e+40 ± nan erg/s
+  EW        = 7.57 ± 0.10 Å
+  FWHM      = 1000.76 ± nan km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 1.286e-19 ± nan erg/cm^2/s
+  Luminosity= 3.470e+40 ± nan erg/s
+  EW        = 23.59 ± 0.30 Å
+  FWHM      = 831.80 ± 56855167576.58 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+
+Chi-squared (χ²): 50.061
+Reduced Chi-squared (χ²/dof): 2.276
+BIC: 39.404
+AIC: 29.833
+========================================

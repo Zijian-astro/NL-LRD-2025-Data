@@ -1,0 +1,108 @@
+<HTML>
+<HEAD>
+<TITLE>Chandra Stacking Analysis Results</TITLE>
+</HEAD>
+
+<H1 ALIGN="CENTER">Stacking Analysis of Chandra Images</H1>
+<FONT color="#00C0C0">
+<H1 ALIGN="CENTER"> On the Web &nbsp;&nbsp;&nbsp;&nbsp V4.5</H1>
+</FONT>
+<HR>
+<BODY>
+<H3 ALIGN="CENTER">
+<b>Your stacking analysis for job= <font color="#0000FF">M23_3608_Gi806Bk</font> 
+has been completed.</b>
+</H3>  
+<H4 ALIGN="CENTER"> <a href="./input_params.txt">Input Parameters</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="./stackanalysis.log">Analysis Log</a> 
+</H4>
+<UL TYPE=DISC>
+<LI> The explanatory manual is <a href="./manual.html">here</a>.
+<LI> The detailed analysis results are included in this 
+<a href="./cstack_M23_3608_Gi806Bk.tar.gz">tarball</a>. Unpack the tarball 
+as follows.<br>
+> tar xvzf cstack_M23_3608_Gi806Bk.tar.gz  <br>
+> cd M23_3608_Gi806Bk            <br>
+<LI> You can also have directory listings including all analysis
+products <a href="./">here</a>. 
+<LI> Band Name: Emin[eV]_Emax[eV] in units of [eV]. For rest frame, "z" 
+  is attached.
+<LI> Below in this page, for each band, the followings are shown, from  left to right: 
+  (1) a post-stamped stacked image with a link to the fits version, (2) a bootstrap histogram, 
+  (3) the mean count rate (CR) of the accepted objects +/- photon counting statistics error  
+  and the mean CR values corresponding to five bootstrap percentiles for the accepted objects, and
+  (4) links to a few analysis products (see the manual).
+<LI> The files <i>stat_cts_[BAND].out</i> (one for each band) are 
+  especially important. They show detailed intermediate
+  results of the stacking process.
+<LI> The count rate to flux conversion factor can be obtained with the  
+ <a href="http://cxc.harvard.edu/toolkit/pimms.jsp">PIMMS</a> utility
+  at the Chandra X-ray Center. See the <a href="./manual.html">manual</a>.
+</UL>
+<hr>
+<FONT color="#BF0000">
+<H2 ALIGN="CENTER"> Stacked Images, Count Rates & Bootstrap Percentiles </H2>
+</FONT>
+<table border="4" cellpadding="2" align="center">
+<tr bgcolor="#ccffff">
+<th colspan=4>Stacking Analysis Summary  Band = 500_2000</th>
+</tr>
+<td rowspan="4">
+<a href="./stack_500_2000.img"><img src="stack_500_2000_resize.jpg" alt="stack_500_2000_resize.jpg"/></a>
+</td>
+<td rowspan="4">
+<a href="./boot_histo_500_2000.eps"><img src="boot_histo_500_2000.jpg" alt="boot_histo_500_2000.jpg"/></a>
+</td>
+<th>Mean CR +- ct stat err</th>
+<th>Detailed Results</th></tr>
+<tr>
+<td align="center">1.92e-06 +- 2.12e-06</td>
+<td><a href="./stat_cts_500_2000.out">stat_cts_500_2000.out</a></td>
+</tr>
+<tr>
+<th>Bootstrap 5|16|50|84|95% percentiles</th>
+<td><a href="./boot_histo_500_2000.out">boot_histo_500_2000.out</a></td>
+</tr>
+<tr>
+<td align+"center">1.92e-06|1.92e-06|1.92e-06|1.92e-06|1.92e-06</td>
+<td><a href="./boot_sorteddump_500_2000.out">boot_sorteddump_500_2000.out</a></td>
+</tr>
+<tr bgcolor="#ccffff">
+<th colspan=4>Stacking Analysis Summary  Band = 2000_8000</th>
+</tr>
+<td rowspan="4">
+<a href="./stack_2000_8000.img"><img src="stack_2000_8000_resize.jpg" alt="stack_2000_8000_resize.jpg"/></a>
+</td>
+<td rowspan="4">
+<a href="./boot_histo_2000_8000.eps"><img src="boot_histo_2000_8000.jpg" alt="boot_histo_2000_8000.jpg"/></a>
+</td>
+<th>Mean CR +- ct stat err</th>
+<th>Detailed Results</th></tr>
+<tr>
+<td align="center">1.46e-06 +- 3.59e-06</td>
+<td><a href="./stat_cts_2000_8000.out">stat_cts_2000_8000.out</a></td>
+</tr>
+<tr>
+<th>Bootstrap 5|16|50|84|95% percentiles</th>
+<td><a href="./boot_histo_2000_8000.out">boot_histo_2000_8000.out</a></td>
+</tr>
+<tr>
+<td align+"center">1.46e-06|1.46e-06|1.46e-06|1.46e-06|1.46e-06</td>
+<td><a href="./boot_sorteddump_2000_8000.out">boot_sorteddump_2000_8000.out</a></td>
+</tr>
+</table>
+<br>
+This is based on the CDFN data over 1.9 Msec. *** Normalization of the exposure map *** The exposure map *.texp is the effective exposure in seconds, rather than the Chandra standard convention of [s cm^2]. Since detector sensitivity change over time, the effective exposure map is calculated for the response matrix at the time of a reference observation. The reference observation for this dataset is OBSID=3391 (observed at '2002-02-22T01:52:24'). If you want to use PIMMS for countrate to flux conversion, use ACIS-I for Chandra Cycle 3.
+<br>
+<HR>
+See also <a href="../../manual.html#acknowledge">How to acknowledge</a>.<br>
+<FONT color="#FF0000">
+<b>User's output directory may be deleted after one month of
+the completion of the job.</b> 
+</FONT>
+<br><HR>
+<a href="../../index.html">To entry form</a>.<br>
+For questions/comments/suggestions, contact: miyaji@astro.unam.mx
+</BODY>
+</HTML>

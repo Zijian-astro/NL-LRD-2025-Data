@@ -1,0 +1,7 @@
+infile,f,a,"./Users/nalrd_kR826SV/Tmp_nalrd_kR826SV/1_aegis2b_4.0keV_tmp2.texp[(#1,#2)=field()-circle(48.6,-43.5,4.1)-circle(-18.6,34.3,4.1)-circle(-0.9,38.7,4.1)-circle(-34.3,76.3,4.1)+circle(30,30,2.77791928102058)]",,,"Input dataset/block specification"
+outfile,f,a,"./Users/nalrd_kR826SV/Tmp_nalrd_kR826SV/1_aegis2b_4.0keV_tmp2.texp",,,"Output dataset name"
+kernel,s,h,"default",,,"Output file format type"
+option,s,h,"",,,"Option - force output type"
+verbose,i,h,0,0,5,"Debug Level"
+clobber,b,h,no,,,"Clobber existing file"
+mode,s,h,"ql",,,

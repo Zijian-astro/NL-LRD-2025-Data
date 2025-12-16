@@ -1,0 +1,29 @@
+A) 12329_F090W_data.fits,12329_F115W_data.fits,12329_F150W_data.fits,12329_F200W_data.fits,12329_F277W_data.fits,12329_F356W_data.fits,12329_F410M_data.fits,12329_F444W_data.fits
+A1) F090W,F115W,F150W,F200W,F277W,F356W,F410M,F444W
+A2) 9000.0,11500.0,15000.0,20000.0,27700.0,35600.0,41000.0,44400.00000000001
+B) 12329_result_psf.fits
+C) 12329_F090W_err_scale.fits,12329_F115W_err_scale.fits,12329_F150W_err_scale.fits,12329_F200W_err_scale.fits,12329_F277W_err_scale.fits,12329_F356W_err_scale.fits,12329_F410M_err_scale.fits,12329_F444W_err_scale.fits
+D) /Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F090W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F115W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F150W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F200W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F277W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F356W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F410M_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F444W_psf.fits
+E) 1
+F) 12329.mask.fits,12329.mask.fits,12329.mask.fits,12329.mask.fits,12329.mask.fits,12329.mask.fits,12329.mask.fits,12329.mask.fits
+G) ../galfitm_SS_psf.CONSTRAINTS
+H) 25    75    25    75
+I) 96    96 
+J) 28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399
+K) 0.03  0.03 
+O) regular
+P) 0
+W) input,model,residual,component
+
+#estimated mag: 29.202739126670544,29.202739126670544,29.202739126670544,29.202739126670544,29.202739126670544,29.202739126670544,29.202739126670544,29.202739126670544
+
+# -----------------------------------------------------------------------------
+#   par)    par value(s)    fit toggle(s)    # parameter description
+# -----------------------------------------------------------------------------
+
+# Object number: 1
+ 0) psf              #  object type
+ 1) 50.0      2       # position x [pixel]
+ 2) 50.0      2       # position y [pixel]
+ 3) 29.202739126670544,29.202739126670544,29.202739126670544,29.202739126670544,29.202739126670544,29.202739126670544,29.202739126670544,29.202739126670544      8       # total magnitude
+ Z) 0                #  output option (0 = resid., 1 = Don't subtract)

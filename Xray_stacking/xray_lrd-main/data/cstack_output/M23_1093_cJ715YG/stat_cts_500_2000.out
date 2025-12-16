@@ -1,0 +1,38 @@
+! Summary of image counts for Job= M23_1093_cJ715YG
+! Source File: M23_1093_cstack.fits      X-ray Band: 500_2000
+! Source from <-9 asec  Background from >= 7.0 arcsec
+! Pixel_size= 0.492000000000012 arcsec
+! Poststamp_img_size=60x60 (pix) 30.0x30.0 (arcsec)
+! src_rate= (cts_src/exp_src-cts_bkg/exp_bkg/px_bkg*px_src)/ecf (for each field,lbl=n)
+!         = (wgt*exp_src)-weighted mean of used fields (lbl=sum) or objects (lbl=All).
+! UL90: 90 percent Bayasian upper limit in c/s
+! *** Note: cts_src,exp_src,px_src,cts_bkg,exp_bkg px_bkg and ul90b not weighted.            
+!Obj_name     lbl  rad cts_src  exp_src  px_src cts_bkg  exp_bkg  px_bkg  src_rate    wgt    ecf offax     ul90b  Field/Comm 
+!                (asec)  (cts)   (sec)    (pix)   (cts)   (sec)    (pix)    (c/s)               (amin)     (c/s)
+ M23_1093       1  1.1       0 6.67e+05       13     128 6.64e+05     3080 -9.04e-07 1.0e+00 0.900  2.02 -9.99e+00 cdfn_r040/OK
+ M23_1093       2  1.0       0 1.06e+06       13     204 1.06e+06     3080 -8.80e-07 1.0e+00 0.924  1.32 -9.99e+00 cdfn_r140/OK
+ M23_1093     sum  1.0       0 1.73e+06       26     332 1.72e+06     6160 -8.89e-07 1.0e+00 0.914 -9.90  1.45e-06 used_flds:2
+!          ================= Final Summed Result =====================
+ sum_all      All  1.0       0 1.73e+06       26     332 1.72e+06     6160 -8.89e-07 1.0e+00 0.914 -9.90  1.45e-06 used_objs:1
+!          =============================================================
+!Accepted: 1  Near_src: 0  Out: 0   Total: 1
+!Final Stacked Rate: -8.89e-07 +/-  4.88e-08 (Counting Statistics Error)
+!Total Exposure:  1.73e+06 [sec]
+!Please refer to bootstrap results for  better error analysis.
+! Notes from Dataset (if any):
+! 
+! 
+! This is based on the CDFN data over 1.9 Msec.
+! 
+! *** Normalization of the exposure map ***
+! 
+! The exposure map *.texp is the effective exposure in seconds, rather than 
+! the Chandra standard convention of [s cm^2]. Since detector sensitivity change 
+! over time, the effective exposure map is calculated for the response matrix at 
+! the time of a reference observation. The reference observation for this dataset 
+! is OBSID=3391 (observed at '2002-02-22T01:52:24'). 
+! 
+! If you want to use PIMMS for countrate to flux conversion, use ACIS-I for 
+! Chandra Cycle 3. 
+! 
+!Created by ./stackanalysis_v4.pl in https://lambic.astrosen.unam.mx/cstack_v4.5/Users/M23_1093_cJ715YG

@@ -1,0 +1,37 @@
+A) 15500_f090w_data.fits,15500_f115w_data.fits,15500_f150w_data.fits,15500_f277w_data.fits,15500_f356w_data.fits,15500_f410m_data.fits,15500_f444w_data.fits
+A1) F090W,F115W,F150W,F277W,F356W,F410M,F444W
+A2) 9000.0,11500.0,15000.0,27700.0,35600.0,41000.0,44400.00000000001
+B) 15500_result_sersic.fits
+C) 15500_f090w_err.fits,15500_f115w_err.fits,15500_f150w_err.fits,15500_f277w_err.fits,15500_f356w_err.fits,15500_f410m_err.fits,15500_f444w_err.fits
+D) /Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F090W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F115W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F150W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F277W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F356W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F410M_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F444W_psf.fits
+E) 1
+F) 15500.mask.fits,15500.mask.fits,15500.mask.fits,15500.mask.fits,15500.mask.fits,15500.mask.fits,15500.mask.fits
+G) ../galfitm_SS_sersic.CONSTRAINTS
+H) 25    75    25    75
+I) 96    96 
+J) 28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399
+K) 0.03  0.03 
+O) regular
+P) 0
+W) input,model,residual,component
+
+#estimated mag: 26.438745738567,26.438745738567,26.438745738567,26.438745738567,26.438745738567,26.438745738567,26.438745738567
+
+# -----------------------------------------------------------------------------
+#   par)    par value(s)    fit toggle(s)    # parameter description
+# -----------------------------------------------------------------------------
+
+               #  output option (0 = resid., 1 = Don't subtract)
+# Object number: 1
+ 0) sersic             #  object type
+ 1) 50.0      2       # position x [pixel]
+ 2) 50.0      2       # position y [pixel]
+ 3) 26.738745738567,26.738745738567,26.738745738567,26.738745738567,26.738745738567,26.738745738567,26.738745738567      7       # total magnitude
+ 4) 1.178450768063173      1          #  R_e (half-light radius)   [pix]
+ 5) 5.2861149349413665      2          #  Sersic index n (de Vaucouleurs n=4)
+ 6) 0.0000      0          #     -----
+ 7) 0.0000      0          #     -----
+ 8) 0.0000      0          #     -----
+ 9) 0.6287069517019004      2          #  axis ratio (b/a)
+10) -100.5244341654676    2          #  position angle (PA) [deg: Up=0, Left=90]
+ Z) 0                      #  output option (0 = resid., 1 = Don't subtract)

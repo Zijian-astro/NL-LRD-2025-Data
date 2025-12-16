@@ -1,0 +1,37 @@
+! Summary of image counts for Job= M23_10013704_2_KU420lm
+! Source File: M23_10013704_2_cstack.fits      X-ray Band: 2000_8000
+! Source from <-9 asec  Background from >= 7.0 arcsec
+! Pixel_size= 0.492000000000012 arcsec
+! Poststamp_img_size=60x60 (pix) 30.0x30.0 (arcsec)
+! src_rate= (cts_src/exp_src-cts_bkg/exp_bkg/px_bkg*px_src)/ecf (for each field,lbl=n)
+!         = (wgt*exp_src)-weighted mean of used fields (lbl=sum) or objects (lbl=All).
+! UL90: 90 percent Bayasian upper limit in c/s
+! *** Note: cts_src,exp_src,px_src,cts_bkg,exp_bkg px_bkg and ul90b not weighted.            
+!Obj_name     lbl  rad cts_src  exp_src  px_src cts_bkg  exp_bkg  px_bkg  src_rate    wgt    ecf offax     ul90b  Field/Comm 
+!                (asec)  (cts)   (sec)    (pix)   (cts)   (sec)    (pix)    (c/s)               (amin)     (c/s)
+ M23_10013704_2    1  1.4       9 2.95e+06       21    1550 3.00e+06     3080 -5.20e-07 1.0e+00 0.900  0.75 -9.99e+00 cdfs4Ms/OK
+ M23_10013704_2  sum  1.4       9 2.95e+06       21    1550 3.00e+06     3080 -5.20e-07 1.0e+00 0.900 -9.90  2.15e-06 used_flds:1
+!          ================= Final Summed Result =====================
+ sum_all      All  1.4       9 2.95e+06       21    1550 3.00e+06     3080 -5.20e-07 1.0e+00 0.900 -9.90  2.15e-06 used_objs:1
+!          =============================================================
+!Accepted: 1  Near_src: 0  Out: 0   Total: 1
+!Final Stacked Rate: -5.20e-07 +/-  1.14e-06 (Counting Statistics Error)
+!Total Exposure:  2.95e+06 [sec]
+!Please refer to bootstrap results for  better error analysis.
+! Notes from Dataset (if any):
+! 
+! 
+! This is based on the CDFS data over 3.8 Msec. (ADS/ Sa.CXO#Contrib/ChandraDeepFieldS)
+! 
+! *** Normalization of the exposure map ***
+! 
+! The exposure map *.texp is the effective exposure in seconds, rather than 
+! the Chandra standard convention of [s cm^2]. Since detector sensitivity change 
+! over time, the effective exposure map is calculated for the response matrix at 
+! the time of a reference observation. The reference observation for this dataset 
+! is OBSID=12049 (observed at '2010-05-28T18:58:11'). 
+! 
+! If you want to use PIMMS for countrate to flux conversion, use ACIS-I for 
+! Chandra Cycle 10. 
+! 
+!Created by ./stackanalysis_v4.pl in https://lambic.astrosen.unam.mx/cstack_v4.5/Users/M23_10013704_2_KU420lm

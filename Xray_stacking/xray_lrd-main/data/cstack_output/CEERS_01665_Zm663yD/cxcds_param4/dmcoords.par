@@ -1,0 +1,47 @@
+infile,f,a,"./Users/CEERS_01665_Zm663yD/Tmp_CEERS_01665_Zm663yD/0_aegis1b_2000_8000_tmp2.img",,,"Input dataset/block specification"
+asolfile,f,h,"none",,,"Input aspect solution file"
+option,s,h,"cel",,,"Conversion option"
+#
+# Position of photon in different coord systems
+#
+chip_id,i,l,2,0,9,"Chip ID number"
+chipx,r,l,566.3362728451456,,,"Chip X [pixel]"
+chipy,r,l,585.0896666010415,,,"Chip Y [pixel]"
+tdetx,r,l,3646.089666484987,,,"TDETX [pixel]"
+tdety,r,l,3519.663727034953,,,"TDETY [pixel]"
+detx,r,l,3634.243460900158,,,"FPC X [pixel]"
+dety,r,l,4589.131937400731,,,"FPC Y [pixel]"
+x,r,l,3634.24346090017,,,"Sky X [pixel]"
+y,r,l,4589.13193740072,,,"Sky Y [pixel]"
+logicalx,r,l,86.24346090017025,,,"X coordinate in binned image [pixel]"
+logicaly,r,l,95.13193740071983,,,"Y coordinate in binned image [pixel]"
+ra,s,l,"215.165601",,,"RA [deg or hh:mm:ss]"
+dec,s,l,"53.06808",,,"Dec [deg or dd:mm:ss]"
+theta,r,l,5.539502359880985,0,10800,"Off axis angle [arcmin]"
+phi,r,l,133.1780118758173,0,360,"Azimuthal angle [deg]"
+order,i,l,0,,,"Grating order"
+energy,r,l,1,,,"Energy [keV]"
+wavelength,r,l,0,,,"Wavelength [A]"
+ra_zo,s,l,"215.165601",,,"RA of zero order"
+dec_zo,s,l,"53.06808",,,"Dec of zero order"
+#
+# Override setup for observation
+# All parameters here are strings so that they can
+# be set blank, in which case the data file value is used
+#
+celfmt,s,h,"deg",,,"RA and Dec format [deg or hms] (xx.xx or xx:xx:xx.x)"
+detector,s,h,"",,,"Detector (ACIS or HRC-I or HRC-S)"
+grating,s,h,"",,,"Grating"
+fpsys,s,h,"",,,"FP convention"
+sim,s,h,"",,,"SIM position (eg 0.0 0.0 -190.6)"
+displace,s,h,"",,,"STF displacement (X,Y,Z,AX,AY,AZ)"
+ra_nom,s,h,"",,,"Nominal pointing RA [deg or hh:mm:ss]"
+dec_nom,s,h,"",,,"Nominal dec [deg or dd:mm:ss]"
+roll_nom,s,h,"",,,"Nominal roll [deg]"
+ra_asp,s,h,"",,,"Instantaneous pointing RA [deg]"
+dec_asp,s,h,"",,,"Instantaneous pointing Dec [deg]"
+roll_asp,s,h,"",,,"Instantaneous Aspect roll [deg]"
+#
+geompar,f,h,"geom",,,"Parameter file for Pixlib Geometry files"
+verbose,i,h,0,0,5,"Debug Level"
+mode,s,h,"ql",,,

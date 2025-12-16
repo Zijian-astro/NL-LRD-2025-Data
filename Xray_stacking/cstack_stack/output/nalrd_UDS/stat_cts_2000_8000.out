@@ -1,0 +1,44 @@
+! Summary of image counts for Job= nalrd_wb072Ff
+! Source File: narrowlineLRD_cat.fits      X-ray Band: 2000_8000
+! Source from <-9 asec  Background from >= 7.0 arcsec
+! Pixel_size= 0.492000000000012 arcsec
+! Poststamp_img_size=60x60 (pix) 30.0x30.0 (arcsec)
+! src_rate= (cts_src/exp_src-cts_bkg/exp_bkg/px_bkg*px_src)/ecf (for each field,lbl=n)
+!         = (wgt*exp_src)-weighted mean of used fields (lbl=sum) or objects (lbl=All).
+! UL90: 90 percent Bayasian upper limit in c/s
+! *** Note: cts_src,exp_src,px_src,cts_bkg,exp_bkg px_bkg and ul90b not weighted.            
+!Obj_name     lbl  rad cts_src  exp_src  px_src cts_bkg  exp_bkg  px_bkg  src_rate    wgt    ecf offax     ul90b  Field/Comm 
+!                (asec)  (cts)   (sec)    (pix)   (cts)   (sec)    (pix)    (c/s)               (amin)     (c/s)
+                 8219  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+                12329  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+                16321    1  6.7       9 8.34e+04      593      38 8.01e+04     2344 -1.35e-05 1.0e+00 0.900  7.04 -9.99e+00 xuds01/OK
+                16321    2  1.4       0 5.31e+04       25      39 6.82e+04     3080 -5.16e-06 1.0e+00 0.900  1.58 -9.99e+00 xuds02/OK
+                16321    3  2.8       2 7.75e+04      101      52 7.92e+04     3080  4.78e-06 1.0e+00 0.900  4.04 -9.99e+00 xuds03/OK
+                16321    4  4.8       3 4.02e+04      293      16 4.12e+04     3073  4.17e-05 1.0e+00 0.900  5.77 -9.99e+00 xuds07/OK
+                16321    5  6.1       4 4.47e+04      489      23 4.39e+04     2712 -5.58e-06 1.0e+00 0.900  6.68 -9.99e+00 xuds08/OK
+                16321  sum  4.9      18 2.99e+05     1501     168 3.13e+05    14289  1.33e-06 1.0e+00 0.900 -9.90  3.20e-05 used_flds:5
+                20547    1  2.8       0 9.12e+04      101      53 9.02e+04     3080 -2.14e-05 1.0e+00 0.900  4.02 -9.99e+00 xuds03/OK
+                20547    2  1.8       3 8.81e+04       45      53 8.69e+04     3080  2.79e-05 1.0e+00 0.900  2.65 -9.99e+00 xuds04/OK
+                20547    3  6.3       3 8.18e+04      517      50 8.23e+04     2949 -7.76e-05 1.0e+00 0.900  6.81 -9.99e+00 xuds05/OK
+                20547    4  4.7       3 4.72e+04      293      19 4.53e+04     3079  2.63e-05 1.0e+00 0.900  5.71 -9.99e+00 xuds08/OK
+                20547    5  3.5       0 4.60e+04      161      21 4.43e+04     3080 -2.75e-05 1.0e+00 0.900  4.71 -9.99e+00 xuds09/OK
+                20547    6  7.0       6 4.31e+04      641      27 4.21e+04     2946 -4.12e-07 1.0e+00 0.824  7.80 -9.99e+00 xuds10/OK
+                20547  sum  4.5      15 3.97e+05     1758     223 3.91e+05    18214 -1.49e-05 1.0e+00 0.892 -9.90  1.61e-05 used_flds:6
+                22015    1  3.6       1 6.51e+04      177      34 7.15e+04     3080 -1.33e-05 1.0e+00 0.900  4.81 -9.99e+00 xuds02/OK
+                22015    2  1.5       0 9.43e+04       25      44 9.42e+04     3080 -4.21e-06 1.0e+00 0.900  1.65 -9.99e+00 xuds03/OK
+                22015    3  7.0      15 8.07e+04      641      51 8.06e+04     2900  5.16e-05 1.0e+00 0.890  7.31 -9.99e+00 xuds04/OK
+                22015    4  6.4       5 4.53e+04      517      24 4.45e+04     3074  2.19e-05 1.0e+00 0.900  6.83 -9.99e+00 xuds08/OK
+                22015  sum  4.9      21 2.85e+05     1360     153 2.91e+05    12134  1.35e-05 1.0e+00 0.897 -9.90  4.37e-05 used_flds:4
+!          ================= Final Summed Result =====================
+ sum_all      All  4.7      54 9.82e+05     4619     544 9.94e+05    44637 -1.67e-06 1.0e+00 0.896 -9.90  1.43e-05 used_objs:3
+!          =============================================================
+!Accepted: 3  Near_src: 0  Out: 2   Total: 5
+!Final Stacked Rate: -1.67e-06 +/-  9.19e-06 (Counting Statistics Error)
+!Total Exposure:  9.82e+05 [sec]
+!Please refer to bootstrap results for  better error analysis.
+! Notes from Dataset (if any):
+! This is based on the dataset from the Chandra X-UDS project (PI: Hasinger). 
+! 
+! For more details, see <a href="./Notes_XUDS_1.txt">this page</a>.
+! 
+!Created by ./stackanalysis_v4.pl in https://lambic.astrosen.unam.mx/cstack_v4.5/Users/nalrd_wb072Ff

@@ -1,0 +1,29 @@
+A) 22015_f115w_data.fits,22015_f150w_data.fits,22015_f277w_data.fits,22015_f356w_data.fits,22015_f410m_data.fits,22015_f444w_data.fits
+A1) F115W,F150W,F277W,F356W,F410M,F444W
+A2) 11500.0,15000.0,27700.0,35600.0,41000.0,44400.00000000001
+B) 22015_result_psf.fits
+C) 22015_f115w_err_scale.fits,22015_f150w_err_scale.fits,22015_f277w_err_scale.fits,22015_f356w_err_scale.fits,22015_f410m_err_scale.fits,22015_f444w_err_scale.fits
+D) /Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F115W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F150W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F277W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F356W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F410M_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F444W_psf.fits
+E) 1
+F) 22015_f115w_mask.fits,22015_f150w_mask.fits,22015_f277w_mask.fits,22015_f356w_mask.fits,22015_f410m_mask.fits,22015_f444w_mask.fits
+G) ../galfitm_SS_psf.CONSTRAINTS
+H) 25    75    25    75
+I) 96    96 
+J) 28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399,28.08651939228399
+K) 0.03  0.03 
+O) regular
+P) 0
+W) input,model,residual,component
+
+#estimated mag: 25.23055072071613,25.23055072071613,25.23055072071613,25.23055072071613,25.23055072071613,25.23055072071613,25.23055072071613
+
+# -----------------------------------------------------------------------------
+#   par)    par value(s)    fit toggle(s)    # parameter description
+# -----------------------------------------------------------------------------
+
+# Object number: 1
+ 0) psf              #  object type
+ 1) 50.0      2       # position x [pixel]
+ 2) 50.0      2       # position y [pixel]
+ 3) 25.23055072071613,25.23055072071613,25.23055072071613,25.23055072071613,25.23055072071613,25.23055072071613      6       # total magnitude
+ Z) 0                #  output option (0 = resid., 1 = Don't subtract)

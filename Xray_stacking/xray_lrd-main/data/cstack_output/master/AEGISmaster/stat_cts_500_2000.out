@@ -1,0 +1,57 @@
+! Summary of image counts for Job= AEGISmaster_is090wC
+! Source File: all_lrds_cstack_good_coord.fits      X-ray Band: 500_2000
+! Source from <-9 asec  Background from >= 7.0 arcsec
+! Pixel_size= 0.492000000000012 arcsec
+! Poststamp_img_size=60x60 (pix) 30.0x30.0 (arcsec)
+! src_rate= (cts_src/exp_src-cts_bkg/exp_bkg/px_bkg*px_src)/ecf (for each field,lbl=n)
+!         = (wgt*exp_src)-weighted mean of used fields (lbl=sum) or objects (lbl=All).
+! UL90: 90 percent Bayasian upper limit in c/s
+! *** Note: cts_src,exp_src,px_src,cts_bkg,exp_bkg px_bkg and ul90b not weighted.            
+!Obj_name     lbl  rad cts_src  exp_src  px_src cts_bkg  exp_bkg  px_bkg  src_rate    wgt    ecf offax     ul90b  Field/Comm 
+!                (asec)  (cts)   (sec)    (pix)   (cts)   (sec)    (pix)    (c/s)               (amin)     (c/s)
+ CEERS_00397    1  1.3       1 1.86e+05       21      26 1.87e+05     3080  4.91e-06 1.0e+00 0.900  2.50 -9.99e+00 aegis2a/OK
+ CEERS_00397    2  3.1       4 5.02e+05      121     118 5.00e+05     3080 -1.44e-06 1.0e+00 0.900  4.72 -9.99e+00 aegis2b/OK
+ CEERS_00397  sum  2.7       5 6.88e+05      142     144 6.88e+05     6160  2.81e-07 1.0e+00 0.900 -9.90  8.40e-06 used_flds:2
+ CEERS_00672    1  1.0       0 1.75e+05       13      23 1.78e+05     3080 -6.03e-07 1.0e+00 0.902  1.58 -9.99e+00 aegis2a/OK
+ CEERS_00672    2  1.9       0 5.40e+05       45     103 5.43e+05     3080 -3.08e-06 1.0e+00 0.900  3.39 -9.99e+00 aegis2b/OK
+ CEERS_00672  sum  1.7       0 7.15e+05       58     126 7.22e+05     6160 -2.47e-06 1.0e+00 0.900 -9.90  3.57e-06 used_flds:2
+ CEERS_00717    1  2.3       0 1.76e+05       69      30 1.75e+05     3060 -4.30e-06 1.0e+00 0.900  3.91 -9.99e+00 aegis1a/OK
+ CEERS_00717    2  1.0       0 4.94e+05       13      84 4.97e+05     3080 -7.92e-07 1.0e+00 0.900  1.88 -9.99e+00 aegis1b/OK
+ CEERS_00717  sum  1.5       0 6.70e+05       82     114 6.72e+05     6140 -1.71e-06 1.0e+00 0.900 -9.90  3.82e-06 used_flds:2
+ CEERS_00746    1  1.1       0 1.63e+05       21      18 1.55e+05     3031 -8.95e-07 1.0e+00 0.900  2.15 -9.99e+00 aegis2a/OK
+ CEERS_00746    2  2.2       1 5.28e+05       61      94 5.39e+05     3002 -1.83e-06 1.0e+00 0.900  3.75 -9.99e+00 aegis2b/OK
+ CEERS_00746  sum  2.0       1 6.92e+05       82     112 6.94e+05     6033 -1.61e-06 1.0e+00 0.900 -9.90  4.82e-06 used_flds:2
+ CEERS_01236    1  2.5       0 1.84e+05       81      25 1.83e+05     2966 -4.15e-06 1.0e+00 0.900  4.12 -9.99e+00 aegis1a/OK
+ CEERS_01236    2  2.1       3 5.17e+05       61      95 4.92e+05     3008  2.09e-06 1.0e+00 0.900  3.67 -9.99e+00 aegis1b/OK
+ CEERS_01236  sum  2.2       3 7.02e+05      142     120 6.75e+05     5974  4.53e-07 1.0e+00 0.900 -9.90  7.13e-06 used_flds:2
+ CEERS_01244    1  2.8       0 1.88e+05      101      23 1.86e+05     3080 -4.50e-06 1.0e+00 0.900  4.48 -9.99e+00 aegis1a/OK
+ CEERS_01244    2  5.8      10 4.86e+05      429      96 4.88e+05     2971 -8.72e-06 1.0e+00 0.900  6.84 -9.99e+00 aegis1b/OK
+ CEERS_01244  sum  5.1      10 6.74e+05      530     119 6.74e+05     6051 -7.54e-06 1.0e+00 0.900 -9.90  8.08e-06 used_flds:2
+ CEERS_01665    1  1.4       2 1.95e+05       25      26 1.92e+05     3080  1.01e-05 1.0e+00 0.900  2.70 -9.99e+00 aegis1a/OK
+ CEERS_01665    2  4.0      10 5.04e+05      213      39 4.85e+05     1602  1.02e-05 1.0e+00 0.900  5.51 -9.99e+00 aegis1b/X-src
+ CEERS_01665  sum  1.4       2 1.95e+05       25      26 1.92e+05     3080  1.01e-05 1.0e+00 0.900 -9.90  2.90e-05 used_flds:1
+ CEERS_02782    1  1.0       0 1.42e+05       13      23 1.48e+05     3080 -7.14e-07 1.0e+00 0.920  1.14 -9.99e+00 aegis2a/OK
+ CEERS_02782    2  1.0       1 5.76e+05       13      99 5.68e+05     3080  1.11e-06 1.0e+00 0.903  1.57 -9.99e+00 aegis2b/OK
+ CEERS_02782  sum  1.0       1 7.18e+05       26     122 7.15e+05     6160  7.43e-07 1.0e+00 0.906 -9.90  5.38e-06 used_flds:2
+ GOODS_N_13733  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ GOODS_N_16813  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ GOODS_N_4014  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ GOODS_S_13971  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ M23_10013704_2  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ M23_20621    ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ M23_3608     ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ M23_53757_2  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ M23_73488_2  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ M23_77652    ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ M23_8083     ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+!          ================= Final Summed Result =====================
+ sum_all      All  2.6      22 5.05e+06     1087     883 5.03e+06    45758 -1.20e-06 1.0e+00 0.901 -9.90  2.04e-06 used_objs:8
+!          =============================================================
+!Accepted: 8  Near_src: 0  Out: 11   Total: 19
+!Final Stacked Rate: -1.20e-06 +/-  1.08e-06 (Counting Statistics Error)
+!Total Exposure:  5.05e+06 [sec]
+!Please refer to bootstrap results for  better error analysis.
+! Notes from Dataset (if any):
+! 
+! See <a href="./Notes_AEGISXD_1.txt"> this note </a> for details of the dataset used here for AEGIS-XD. Many thanks to Antonis Georgakakis for providing us with reprocessed data.
+!Created by ./stackanalysis_v4.pl in https://lambic.astrosen.unam.mx/cstack_v4.5/Users/AEGISmaster_is090wC

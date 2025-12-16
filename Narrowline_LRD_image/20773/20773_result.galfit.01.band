@@ -1,0 +1,73 @@
+
+#  Input menu file: 20773_galfitm.feedme
+
+#  Chi^2/nu = 4.859,  Chi^2 = 88315.895,  Ndof = 18174
+
+================================================================================
+# IMAGE and GALFIT CONTROL PARAMETERS
+A) 20773_f090w_data.fits,20773_f115w_data.fits,20773_f150w_data.fits,20773_f277w_data.fits,20773_f356w_data.fits,20773_f410m_data.fits,20773_f444w_data.fits      # Input data image (FITS file)
+A1) F090W,F115W,F150W,F277W,F356W,F410M,F444W     # Band labels
+A2) 9000.00,11500.0,15000.0,27700.0,35600.0,41000.0,44400.0     # Band wavelengths
+B) 20773_result.fits      # Output data image block
+C) 20773_f090w_err.fits,20773_f115w_err.fits,20773_f150w_err.fits,20773_f277w_err.fits,20773_f356w_err.fits,20773_f410m_err.fits,20773_f444w_err.fits 0.000   # Sigma image and min. sigma factor (made from data if blank or "none") 
+D) /Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F090W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F115W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F150W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F277W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F356W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F410M_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F444W_psf.fits          # Input PSF image and (optional) diffusion kernel
+E) 1                   # PSF fine sampling factor relative to data 
+F) 20773.mask.fits,20773.mask.fits,20773.mask.fits,20773.mask.fits,20773.mask.fits,20773.mask.fits,20773.mask.fits      # Bad pixel mask (FITS image or ASCII coord list)
+G) ../galfitm_SS.CONSTRAINTS      # File with parameter constraints (ASCII file) 
+H) 25   75   25   75   # Image region to fit (xmin xmax ymin ymax)
+I) 96     96           # Size of the convolution box (x y)
+J) 28.087,28.087,28.087,28.087,28.087,28.087,28.087      # Magnitude photometric zeropoint 
+K) 0.030  0.030        # Plate scale (dx dy)   [arcsec per pixel]
+O) regular             # Display type (regular, curses, both)
+P) 0                   # Choose: 0=optimize, 1=model, 2=imgblock, 3=subcomps
+U) 0 0.750000 25 4 40 0.000000 1.000000  # Non-parametric component settings
+V) 0 0 50 0.800000 0.500000 100000   # MultiNest options
+W) input,model,residual,component      # Output options
+
+# INITIAL BAND FITTING PARAMETERS
+#
+#   For component type, the allowed functions are: 
+#       sersic, expdisk, edgedisk, devauc, king, nuker, psf, 
+#       gaussian, moffat, ferrer, corser, and sky. 
+#  
+#   Hidden parameters will only appear when they're specified:
+#       Bn (n=integer, Bending Modes).
+#       C0 (diskyness/boxyness), 
+#       Fn (n=integer, Azimuthal Fourier Modes).
+#       R0-R10 (coordinate rotation, for creating spiral structures).
+#       To, Ti, T0-T10 (truncation function).
+# 
+# ------------------------------------------------------------------------------
+#   par)    par value(s)    fit toggle(s)    # parameter description 
+# ------------------------------------------------------------------------------
+
+# Component number: 1
+ 0) psf                    #  Component type
+ 1) 48.321,48.296,48.261,48.134,48.055,48.001,47.967    1,1,0,0,0,0,0       band #      Position x
+ 2) 50.657,50.878,51.186,52.304,53.000,53.475,53.775    1,1,0,0,0,0,0       band #      Position y
+ 3) 29.332,29.980,29.139,30.946,29.719,25.124,25.053    1,1,1,1,1,1,1       band #  Integrated magnitude 
+ 4) 0,0,0,0,0,0,0     0,0,0,0,0,0,0       band #     ----- 
+ 5) 0,0,0,0,0,0,0     0,0,0,0,0,0,0       band #     ----- 
+ 6) 0,0,0,0,0,0,0     0,0,0,0,0,0,0       band #     ----- 
+ 7) 0,0,0,0,0,0,0     0,0,0,0,0,0,0       band #     ----- 
+ 8) 0,0,0,0,0,0,0     0,0,0,0,0,0,0       band #     ----- 
+ 9) 1.000,1.000,1.000,1.000,1.000,1.000,1.000    0,0,0,0,0,0,0       band #  Axis ratio (b/a)  
+10) 0,0,0,0,0,0,0     0,0,0,0,0,0,0       band #  Position angle (PA) [deg: Up=0, Left=90]
+ Z) 0                      #  Skip this model in output image?  (yes=1, no=0)
+
+# Component number: 2
+ 0) sersic                 #  Component type
+ 1) 50.202,50.047,49.829,49.039,48.547,48.212,48.000    1,1,0,0,0,0,0       band #      Position x
+ 2) 49.777,49.934,50.153,50.951,51.447,51.786,52.000    1,1,0,0,0,0,0       band #      Position y
+ 3) 26.291,26.177,26.228,24.978,24.394,25.228,24.988    1,1,1,1,1,1,1       band #  Integrated magnitude 
+ 4) 7.800,7.195,6.375,3.666,2.193,1.279,0.743    1,1,1,0,0,0,0       band #  R_e (effective radius)   [pix]
+ 5) 0.959,0.617,0.300,0.739,2.268,3.867,5.106    1,1,1,0,0,0,0       band #  Sersic index n (de Vaucouleurs n=4) 
+ 6) 0,0,0,0,0,0,0     0,0,0,0,0,0,0       band #     ----- 
+ 7) 0,0,0,0,0,0,0     0,0,0,0,0,0,0       band #     ----- 
+ 8) 0,0,0,0,0,0,0     0,0,0,0,0,0,0       band #     ----- 
+ 9) 0.999,0.949,0.887,0.751,0.734,0.753,0.778    1,1,1,0,0,0,0       band #  Axis ratio (b/a)  
+10) 88.035,80.421,69.762,31.085,7.025,-9.420,-19.775    1,1,0,0,0,0,0       band #  Position angle (PA) [deg: Up=0, Left=90]
+ Z) 0                      #  Skip this model in output image?  (yes=1, no=0)
+
+================================================================================
+

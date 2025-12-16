@@ -1,0 +1,31 @@
+! Summary of image counts for Job= nalrd_kR826SV
+! Source File: narrowlineLRD_cat.fits      X-ray Band: 500_2000
+! Source from <-9 asec  Background from >= 7.0 arcsec
+! Pixel_size= 0.492000000000012 arcsec
+! Poststamp_img_size=60x60 (pix) 30.0x30.0 (arcsec)
+! src_rate= (cts_src/exp_src-cts_bkg/exp_bkg/px_bkg*px_src)/ecf (for each field,lbl=n)
+!         = (wgt*exp_src)-weighted mean of used fields (lbl=sum) or objects (lbl=All).
+! UL90: 90 percent Bayasian upper limit in c/s
+! *** Note: cts_src,exp_src,px_src,cts_bkg,exp_bkg px_bkg and ul90b not weighted.            
+!Obj_name     lbl  rad cts_src  exp_src  px_src cts_bkg  exp_bkg  px_bkg  src_rate    wgt    ecf offax     ul90b  Field/Comm 
+!                (asec)  (cts)   (sec)    (pix)   (cts)   (sec)    (pix)    (c/s)               (amin)     (c/s)
+                 8219    1  3.7       1 1.75e+05      177      16 1.73e+05     2483 -9.94e-07 1.0e+00 0.900  5.30 -9.99e+00 aegis1a/X-src
+                 8219    2  1.7       1 5.39e+05       37     102 5.44e+05     3028 -4.86e-07 1.0e+00 0.900  3.20 -9.99e+00 aegis1b/OK
+                 8219  sum  1.7       1 5.39e+05       37     102 5.44e+05     3028 -4.86e-07 1.0e+00 0.900 -9.90  6.59e-06 used_flds:1
+                12329    1  1.2       0 1.86e+05       21      29 1.87e+05     3062 -1.18e-06 1.0e+00 0.900  2.31 -9.99e+00 aegis2a/OK
+                12329    2  1.0       0 5.60e+05       13      89 5.37e+05     3065 -7.57e-07 1.0e+00 0.929  0.85 -9.99e+00 aegis2b/OK
+                12329  sum  1.1       0 7.45e+05       34     118 7.24e+05     6127 -8.59e-07 1.0e+00 0.922 -9.90  3.35e-06 used_flds:2
+                16321  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+                20547  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+                22015  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+!          ================= Final Summed Result =====================
+ sum_all      All  1.4       1 1.28e+06       71     220 1.27e+06     9155 -7.05e-07 1.0e+00 0.913 -9.90  2.56e-06 used_objs:2
+!          =============================================================
+!Accepted: 2  Near_src: 0  Out: 3   Total: 5
+!Final Stacked Rate: -7.05e-07 +/-  8.73e-07 (Counting Statistics Error)
+!Total Exposure:  1.28e+06 [sec]
+!Please refer to bootstrap results for  better error analysis.
+! Notes from Dataset (if any):
+! 
+! See <a href="./Notes_AEGISXD_1.txt"> this note </a> for details of the dataset used here for AEGIS-XD. Many thanks to Antonis Georgakakis for providing us with reprocessed data.
+!Created by ./stackanalysis_v4.pl in https://lambic.astrosen.unam.mx/cstack_v4.5/Users/nalrd_kR826SV

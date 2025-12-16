@@ -1,0 +1,58 @@
+Results for Source ID: 21722_g395m-f290lp1_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 9.971e+04 ± 9.851e+03 erg/cm^2/s
+  peak           = 9.367e+01 ± 9.255e+00 erg/cm^2/s
+  Mean (Velocity) = -241.457 ± 34.754 km/s
+  Stddev (Width)  = 424.661 ± 29.838 km/s
+  Intrinsic Stddev (Width)  = 418.815 ± 75.245 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 1.028e+05 ± 1.128e+04 erg/cm^2/s
+  peak           = 9.661e+01 ± 1.060e+01 erg/cm^2/s
+  Mean (Velocity) = -927.457 ± 34.754 km/s
+  Stddev (Width)  = 424.661 ± 29.838 km/s
+  Intrinsic Stddev (Width)  = 418.815 ± 75.245 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 1.670e+05 ± 1.124e+04 erg/cm^2/s
+  peak           = 1.569e+02 ± 1.056e+01 erg/cm^2/s
+  Mean (Velocity) = 672.543 ± 34.754 km/s
+  Stddev (Width)  = 424.661 ± 29.838 km/s
+  Intrinsic Stddev (Width)  = 418.815 ± 75.245 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 2.183e-17 ± 3.059e-18 erg/cm^2/s
+  Luminosity= 1.168e+43 ± 1.637e+42 erg/s
+  EW        = 59.90 ± 0.69 Å
+  FWHM      = 1000.00 ± 70.26 km/s
+  intrinsic FWHM      = 986.23 ± 177.19 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 2.252e-17 ± 3.333e-18 erg/cm^2/s
+  Luminosity= 1.205e+43 ± 1.783e+42 erg/s
+  EW        = 61.78 ± 0.71 Å
+  FWHM      = 1000.00 ± 70.26 km/s
+  intrinsic FWHM      = 986.23 ± 177.19 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 3.656e-17 ± 4.388e-18 erg/cm^2/s
+  Luminosity= 1.956e+43 ± 2.348e+42 erg/s
+  EW        = 100.31 ± 1.15 Å
+  FWHM      = 1000.00 ± 70.26 km/s
+  intrinsic FWHM      = 986.23 ± 177.19 km/s
+----------------------------------------
+
+Chi-squared (χ²): 607.317
+Reduced Chi-squared (χ²/dof): 9.640
+BIC: 175.476
+AIC: 162.071
+========================================

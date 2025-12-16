@@ -1,0 +1,57 @@
+! Summary of image counts for Job= CDFSmaster_Hg964ts
+! Source File: all_lrds_cstack_good_coord.fits      X-ray Band: 500_2000
+! Source from <-9 asec  Background from >= 7.0 arcsec
+! Pixel_size= 0.492000000000012 arcsec
+! Poststamp_img_size=60x60 (pix) 30.0x30.0 (arcsec)
+! src_rate= (cts_src/exp_src-cts_bkg/exp_bkg/px_bkg*px_src)/ecf (for each field,lbl=n)
+!         = (wgt*exp_src)-weighted mean of used fields (lbl=sum) or objects (lbl=All).
+! UL90: 90 percent Bayasian upper limit in c/s
+! *** Note: cts_src,exp_src,px_src,cts_bkg,exp_bkg px_bkg and ul90b not weighted.            
+!Obj_name     lbl  rad cts_src  exp_src  px_src cts_bkg  exp_bkg  px_bkg  src_rate    wgt    ecf offax     ul90b  Field/Comm 
+!                (asec)  (cts)   (sec)    (pix)   (cts)   (sec)    (pix)    (c/s)               (amin)     (c/s)
+ CEERS_00397  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ CEERS_00672  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ CEERS_00717  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ CEERS_00746  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ CEERS_01236  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ CEERS_01244  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ CEERS_01665  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ CEERS_02782  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ GOODS_N_13733  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ GOODS_N_16813  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ GOODS_N_4014  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ GOODS_S_13971    1  1.0       1 3.49e+06       13     524 3.46e+06     3080 -3.87e-07 1.0e+00 0.912  1.45 -9.99e+00 cdfs4Ms/OK
+ GOODS_S_13971  sum  1.0       1 3.49e+06       13     524 3.46e+06     3080 -3.87e-07 1.0e+00 0.912 -9.90  9.11e-07 used_flds:1
+ M23_10013704_2    1  1.0       0 3.14e+06       13     462 3.18e+06     3080 -6.59e-07 1.0e+00 0.932  0.75 -9.99e+00 cdfs4Ms/OK
+ M23_10013704_2  sum  1.0       0 3.14e+06       13     462 3.18e+06     3080 -6.59e-07 1.0e+00 0.932 -9.90  7.87e-07 used_flds:1
+ M23_20621    ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ M23_3608     ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ M23_53757_2  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ M23_73488_2  ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ M23_77652    ...  0.0       0 0.00e+00        0       0 0.00e+00        0  0.00e+00 1.0e+00 0.000 -9.99 -9.99e+00 No_field
+ M23_8083       1  1.0       2 2.77e+06       13     478 2.97e+06     3080  4.41e-08 1.0e+00 0.931  0.80 -9.99e+00 cdfs4Ms/OK
+ M23_8083     sum  1.0       2 2.77e+06       13     478 2.97e+06     3080  4.41e-08 1.0e+00 0.931 -9.90  1.51e-06 used_flds:1
+!          ================= Final Summed Result =====================
+ sum_all      All  1.0       3 9.40e+06       39    1464 9.60e+06     9240 -3.50e-07 1.0e+00 0.924 -9.90  3.91e-07 used_objs:3
+!          =============================================================
+!Accepted: 3  Near_src: 0  Out: 16   Total: 19
+!Final Stacked Rate: -3.50e-07 +/-  2.00e-07 (Counting Statistics Error)
+!Total Exposure:  9.40e+06 [sec]
+!Please refer to bootstrap results for  better error analysis.
+! Notes from Dataset (if any):
+! 
+! 
+! This is based on the CDFS data over 3.8 Msec. (ADS/ Sa.CXO#Contrib/ChandraDeepFieldS)
+! 
+! *** Normalization of the exposure map ***
+! 
+! The exposure map *.texp is the effective exposure in seconds, rather than 
+! the Chandra standard convention of [s cm^2]. Since detector sensitivity change 
+! over time, the effective exposure map is calculated for the response matrix at 
+! the time of a reference observation. The reference observation for this dataset 
+! is OBSID=12049 (observed at '2010-05-28T18:58:11'). 
+! 
+! If you want to use PIMMS for countrate to flux conversion, use ACIS-I for 
+! Chandra Cycle 10. 
+! 
+!Created by ./stackanalysis_v4.pl in https://lambic.astrosen.unam.mx/cstack_v4.5/Users/CDFSmaster_Hg964ts

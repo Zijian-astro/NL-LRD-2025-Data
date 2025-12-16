@@ -1,0 +1,59 @@
+
+#  Input menu file: 12329_galfitm_sersic.feedme
+
+#  Chi^2/nu = 0.479,  Chi^2 = 9958.170,  Ndof = 20785
+
+================================================================================
+# IMAGE and GALFIT CONTROL PARAMETERS
+A) 12329_F090W_data.fits,12329_F115W_data.fits,12329_F150W_data.fits,12329_F200W_data.fits,12329_F277W_data.fits,12329_F356W_data.fits,12329_F410M_data.fits,12329_F444W_data.fits      # Input data image (FITS file)
+A1) F090W,F115W,F150W,F200W,F277W,F356W,F410M,F444W     # Band labels
+A2) 9000.00,11500.0,15000.0,20000.0,27700.0,35600.0,41000.0,44400.0     # Band wavelengths
+B) 12329_result_sersic.fits      # Output data image block
+C) 12329_F090W_err.fits,12329_F115W_err.fits,12329_F150W_err.fits,12329_F200W_err.fits,12329_F277W_err.fits,12329_F356W_err.fits,12329_F410M_err.fits,12329_F444W_err.fits 0.000   # Sigma image and min. sigma factor (made from data if blank or "none") 
+D) /Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F090W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F115W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F150W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F200W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F277W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F356W_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F410M_psf.fits,/Users/zijianzhang/Astro_Data/LRD_SPEC/Narrowline_LRD_image/uds_psf/F444W_psf.fits          # Input PSF image and (optional) diffusion kernel
+E) 1                   # PSF fine sampling factor relative to data 
+F) 12329.mask.fits,12329.mask.fits,12329.mask.fits,12329.mask.fits,12329.mask.fits,12329.mask.fits,12329.mask.fits,12329.mask.fits      # Bad pixel mask (FITS image or ASCII coord list)
+G) ../galfitm_SS_sersic.CONSTRAINTS      # File with parameter constraints (ASCII file) 
+H) 25   75   25   75   # Image region to fit (xmin xmax ymin ymax)
+I) 96     96           # Size of the convolution box (x y)
+J) 28.087,28.087,28.087,28.087,28.087,28.087,28.087,28.087      # Magnitude photometric zeropoint 
+K) 0.030  0.030        # Plate scale (dx dy)   [arcsec per pixel]
+O) regular             # Display type (regular, curses, both)
+P) 0                   # Choose: 0=optimize, 1=model, 2=imgblock, 3=subcomps
+U) 0 0.750000 25 4 40 0.000000 1.000000  # Non-parametric component settings
+V) 0 0 50 0.800000 0.500000 100000   # MultiNest options
+W) input,model,residual,component      # Output options
+
+# INITIAL CHEBYSHEV FITTING PARAMETERS
+#
+#   For component type, the allowed functions are: 
+#       sersic, expdisk, edgedisk, devauc, king, nuker, psf, 
+#       gaussian, moffat, ferrer, corser, and sky. 
+#  
+#   Hidden parameters will only appear when they're specified:
+#       Bn (n=integer, Bending Modes).
+#       C0 (diskyness/boxyness), 
+#       Fn (n=integer, Azimuthal Fourier Modes).
+#       R0-R10 (coordinate rotation, for creating spiral structures).
+#       To, Ti, T0-T10 (truncation function).
+# 
+# ------------------------------------------------------------------------------
+#   par)    par value(s)    fit toggle(s)    # parameter description 
+# ------------------------------------------------------------------------------
+
+# Component number: 1
+ 0) sersic                 #  Component type
+ 1) 50.035,-0.947,0,0,0,0,0,0    1,1,0,0,0,0,0,0      cheb #      Position x
+ 2) 50.935,0.778,0,0,0,0,0,0    1,1,0,0,0,0,0,0      cheb #      Position y
+ 3) 27.656,-1.999,0.159,0.534,-0.255,-6.560e-03,0.135,-0.415    1,1,1,1,1,1,1,1      cheb #  Integrated magnitude 
+ 4) 1.509,-0.728,-0.203,0,0,0,0,0    1,1,1,0,0,0,0,0      cheb #  R_e (effective radius)   [pix]
+ 5) 1.654,0.832,-0.513,0,0,0,0,0    1,1,1,0,0,0,0,0      cheb #  Sersic index n (de Vaucouleurs n=4) 
+ 6) 0,0,0,0,0,0,0,0    0,0,0,0,0,0,0,0      cheb #     ----- 
+ 7) 0,0,0,0,0,0,0,0    0,0,0,0,0,0,0,0      cheb #     ----- 
+ 8) 0,0,0,0,0,0,0,0    0,0,0,0,0,0,0,0      cheb #     ----- 
+ 9) 0.818,0.209,-0.156,0,0,0,0,0    1,1,1,0,0,0,0,0      cheb #  Axis ratio (b/a)  
+10) -73.665,56.615,0,0,0,0,0,0    1,1,0,0,0,0,0,0      cheb #  Position angle (PA) [deg: Up=0, Left=90]
+ Z) 0                      #  Skip this model in output image?  (yes=1, no=0)
+
+================================================================================
+

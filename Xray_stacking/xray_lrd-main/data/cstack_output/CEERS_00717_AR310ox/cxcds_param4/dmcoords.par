@@ -1,0 +1,47 @@
+infile,f,a,"./Users/CEERS_00717_AR310ox/Tmp_CEERS_00717_AR310ox/0_aegis1b_2000_8000_tmp2.img",,,"Input dataset/block specification"
+asolfile,f,h,"none",,,"Input aspect solution file"
+option,s,h,"cel",,,"Conversion option"
+#
+# Position of photon in different coord systems
+#
+chip_id,i,l,0,0,9,"Chip ID number"
+chipx,r,l,954.4379299832127,,,"Chip X [pixel]"
+chipy,r,l,935.4637086223843,,,"Chip Y [pixel]"
+tdetx,r,l,3996.463708426728,,,"TDETX [pixel]"
+tdety,r,l,4177.562069825023,,,"TDETY [pixel]"
+detx,r,l,3982.695618498075,,,"FPC X [pixel]"
+dety,r,l,3932.530229751423,,,"FPC Y [pixel]"
+x,r,l,3982.695618498099,,,"Sky X [pixel]"
+y,r,l,3932.530229751412,,,"Sky Y [pixel]"
+logicalx,r,l,9.695618498099066,,,"X coordinate in binned image [pixel]"
+logicaly,r,l,76.53022975141175,,,"Y coordinate in binned image [pixel]"
+ra,s,l,"215.086292",,,"RA [deg or hh:mm:ss]"
+dec,s,l,"52.978388",,,"Dec [deg or dd:mm:ss]"
+theta,r,l,1.636665704799956,0,10800,"Off axis angle [arcmin]"
+phi,r,l,235.2371443869197,0,360,"Azimuthal angle [deg]"
+order,i,l,0,,,"Grating order"
+energy,r,l,1,,,"Energy [keV]"
+wavelength,r,l,0,,,"Wavelength [A]"
+ra_zo,s,l,"215.086292",,,"RA of zero order"
+dec_zo,s,l,"52.978388",,,"Dec of zero order"
+#
+# Override setup for observation
+# All parameters here are strings so that they can
+# be set blank, in which case the data file value is used
+#
+celfmt,s,h,"deg",,,"RA and Dec format [deg or hms] (xx.xx or xx:xx:xx.x)"
+detector,s,h,"",,,"Detector (ACIS or HRC-I or HRC-S)"
+grating,s,h,"",,,"Grating"
+fpsys,s,h,"",,,"FP convention"
+sim,s,h,"",,,"SIM position (eg 0.0 0.0 -190.6)"
+displace,s,h,"",,,"STF displacement (X,Y,Z,AX,AY,AZ)"
+ra_nom,s,h,"",,,"Nominal pointing RA [deg or hh:mm:ss]"
+dec_nom,s,h,"",,,"Nominal dec [deg or dd:mm:ss]"
+roll_nom,s,h,"",,,"Nominal roll [deg]"
+ra_asp,s,h,"",,,"Instantaneous pointing RA [deg]"
+dec_asp,s,h,"",,,"Instantaneous pointing Dec [deg]"
+roll_asp,s,h,"",,,"Instantaneous Aspect roll [deg]"
+#
+geompar,f,h,"geom",,,"Parameter file for Pixlib Geometry files"
+verbose,i,h,0,0,5,"Debug Level"
+mode,s,h,"ql",,,

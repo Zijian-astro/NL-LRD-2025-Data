@@ -1,0 +1,58 @@
+Results for Source ID: 15321_g395h-f290lp2_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 3.329e+05 ± 3.908e+04 erg/cm^2/s
+  peak           = 3.128e+02 ± 3.672e+01 erg/cm^2/s
+  Mean (Velocity) = 238.747 ± 103.572 km/s
+  Stddev (Width)  = 424.661 ± 50.064 km/s
+  Intrinsic Stddev (Width)  = 423.361 ± 59.888 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 1.281e+05 ± 5.215e+04 erg/cm^2/s
+  peak           = 1.204e+02 ± 4.899e+01 erg/cm^2/s
+  Mean (Velocity) = -447.253 ± 103.572 km/s
+  Stddev (Width)  = 424.661 ± 50.064 km/s
+  Intrinsic Stddev (Width)  = 423.361 ± 59.888 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 1.262e+05 ± 2.595e+04 erg/cm^2/s
+  peak           = 1.186e+02 ± 2.438e+01 erg/cm^2/s
+  Mean (Velocity) = 1152.747 ± 103.572 km/s
+  Stddev (Width)  = 424.661 ± 50.064 km/s
+  Intrinsic Stddev (Width)  = 423.361 ± 59.888 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 7.290e-17 ± 1.487e-17 erg/cm^2/s
+  Luminosity= 2.017e+43 ± 4.112e+42 erg/s
+  EW        = 252.97 ± 3.11 Å
+  FWHM      = 1000.00 ± 117.89 km/s
+  intrinsic FWHM      = 996.94 ± 141.03 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 2.806e-17 ± 1.234e-17 erg/cm^2/s
+  Luminosity= 7.762e+42 ± 3.414e+42 erg/s
+  EW        = 97.36 ± 1.20 Å
+  FWHM      = 1000.00 ± 117.89 km/s
+  intrinsic FWHM      = 996.94 ± 141.03 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 2.764e-17 ± 7.315e-18 erg/cm^2/s
+  Luminosity= 7.645e+42 ± 2.024e+42 erg/s
+  EW        = 95.89 ± 1.18 Å
+  FWHM      = 1000.00 ± 117.89 km/s
+  intrinsic FWHM      = 996.94 ± 141.03 km/s
+----------------------------------------
+
+Chi-squared (χ²): 10124.426
+Reduced Chi-squared (χ²/dof): 35.400
+BIC: 1069.479
+AIC: 1047.418
+========================================

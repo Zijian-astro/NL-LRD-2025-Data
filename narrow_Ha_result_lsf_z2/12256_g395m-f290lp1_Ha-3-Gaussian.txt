@@ -1,0 +1,58 @@
+Results for Source ID: 12256_g395m-f290lp1_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 2.676e+05 ± 2.159e+04 erg/cm^2/s
+  peak           = 3.731e+02 ± 3.011e+01 erg/cm^2/s
+  Mean (Velocity) = 317.514 ± 32.280 km/s
+  Stddev (Width)  = 286.077 ± 22.989 km/s
+  Intrinsic Stddev (Width)  = 273.286 ± 83.734 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 2.167e+04 ± 1.513e+04 erg/cm^2/s
+  peak           = 3.022e+01 ± 2.109e+01 erg/cm^2/s
+  Mean (Velocity) = -368.486 ± 32.280 km/s
+  Stddev (Width)  = 286.077 ± 22.989 km/s
+  Intrinsic Stddev (Width)  = 273.286 ± 83.734 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 6.538e+04 ± 1.285e+04 erg/cm^2/s
+  peak           = 9.118e+01 ± 1.792e+01 erg/cm^2/s
+  Mean (Velocity) = 1231.514 ± 32.280 km/s
+  Stddev (Width)  = 286.077 ± 22.989 km/s
+  Intrinsic Stddev (Width)  = 273.286 ± 83.734 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 5.859e-17 ± 8.166e-18 erg/cm^2/s
+  Luminosity= 1.803e+43 ± 2.513e+42 erg/s
+  EW        = 150.53 ± 1.81 Å
+  FWHM      = 673.66 ± 54.13 km/s
+  intrinsic FWHM      = 643.54 ± 197.18 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 4.745e-18 ± 3.356e-18 erg/cm^2/s
+  Luminosity= 1.460e+42 ± 1.033e+42 erg/s
+  EW        = 12.19 ± 0.15 Å
+  FWHM      = 673.66 ± 54.13 km/s
+  intrinsic FWHM      = 643.54 ± 197.18 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 1.432e-17 ± 3.250e-18 erg/cm^2/s
+  Luminosity= 4.406e+42 ± 1.000e+42 erg/s
+  EW        = 36.78 ± 0.44 Å
+  FWHM      = 673.66 ± 54.13 km/s
+  intrinsic FWHM      = 643.54 ± 197.18 km/s
+----------------------------------------
+
+Chi-squared (χ²): 2809.061
+Reduced Chi-squared (χ²/dof): 56.181
+BIC: 243.406
+AIC: 231.254
+========================================

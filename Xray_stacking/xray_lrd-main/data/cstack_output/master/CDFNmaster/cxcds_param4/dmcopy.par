@@ -1,0 +1,7 @@
+infile,f,a,"./Users/CDFNmaster_nx769ij/Tmp_CDFNmaster_nx769ij/17_cdfn_r140_hrd_tmp2.texp[(#1,#2)=field()-circle(1143.2,1345.8,11.2)-circle(1143.2,1345.8,11.2)-circle(1143.2,1345.8,11.2)-circle(1143.2,1345.8,15.0)-circle(1143.2,1345.8,11.2)-circle(1143.2,1345.8,11.2)-circle(1143.2,1345.8,20.7)+circle(30,30,7.22829344390653)]",,,"Input dataset/block specification"
+outfile,f,a,"./Users/CDFNmaster_nx769ij/Tmp_CDFNmaster_nx769ij/17_cdfn_r140_hrd_tmp2.texp",,,"Output dataset name"
+kernel,s,h,"default",,,"Output file format type"
+option,s,h,"",,,"Option - force output type"
+verbose,i,h,0,0,5,"Debug Level"
+clobber,b,h,no,,,"Clobber existing file"
+mode,s,h,"ql",,,
