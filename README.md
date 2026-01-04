@@ -1,10 +1,4 @@
 # NL-LRD-2025-Data
-<<<<<<< HEAD
-Data and code of Zhang+2025 Narrow-line LRD paper:
-https://arxiv.org/abs/2506.04350v1
-
-All selected LRDs in this work are in catalog/all_nirspechighz_LRD_z2.ecsv.
-=======
 This repository contains the data products and analysis codes used in  
 **Zhang et al. (2025), "[JWST Insights into Narrow-line Little Red Dots](https://arxiv.org/abs/2506.04350v1)"**.
 
@@ -20,18 +14,18 @@ The repository is organized as follows:
 
 ```
 NL-LRD-2025-Data/
-├── BL_simulation/           # Broad-line detectability simulations (Section 3.2, 4.2)
+├── BL_simulation/           # Broad-line detectability simulation results (Section 4.2.1 and Figure 13)
 ├── Code/                    # Core analysis scripts and Jupyter notebooks
-├── Figure/                  # Scripts and intermediate files used to generate paper figures
-├── catalog/                 # Source catalogs used in this work
-├── jades_galaxy/            # Comparison samples from JADES
-├── nakajima_line_fit/       # Line measurements for comparison galaxy samples
+├── Figure/                  # figures in the paper
+├── catalog/                 # catalogs used in this work
+├── jades_galaxy/            # Line measurements for comparison galaxy samples from Curti+2024
+├── nakajima_line_fit/       # Line measurements for comparison galaxy samples from Nakajima+2023
 ├── nircam_throughputs/      # JWST/NIRCam filter transmission curves
-├── Narrowline_LRD_image/    # Image cutouts of narrow-line LRDs (Figure 4)
-├── Xray_stacking/           # X-ray stacking analysis
-├── cigale_sed_fitting/      # CIGALE SED fitting configurations and results
+├── Narrowline_LRD_image/    # JWST image cutouts of narrow-line LRDs and GalfitM fitting result (Figure 4 and Figure 5)
+├── Xray_stacking/           # X-ray stacking analysis, which is based on the code of Yue+2024 (https://github.com/cosmicdawn-mit/xray_lrd).
+├── cigale_sed_fitting/      # CIGALE SED fitting data, configurations, and results
 ├── literature_data/         # Literature data used for comparison
-├── narrow_Ha_result_lsf_z2/ # Hα fitting results with LSF correction
+├── narrow_Ha_result_lsf_z2/ # Line measurements for all LRD candidates
 ├── paper.mplstyle           # Matplotlib style file used in all figures
 └── README.md
 ```
@@ -44,18 +38,21 @@ The `Code/` directory contains the main analysis notebooks used in this paper:
 
 ```
 Code/
+├── LRD_selection_plot.ipynb    # LRD selection plot (Figure 1 and Figure 2)
+├── LRD_selection.ipynb         # code used to select LRD candidates (Figure 2)
+├── property_compare.ipynb      # Comparison with star-forming galaxies (Figure 3, Figure 6, Figure 7, Figure 10, and Figure 12)
+├── plot_RGB.ipynb              # RGB image generation (Figure 4 upper panels)
+├── test_fit.ipynb              # Fit the emission lines of medium/high-resolution NIRSpec spectra (Figure 4 lower panels)
+├── galfit_sample.ipynb         # Multi-band GALFITM morphology fitting script and fitting (Figure 5)
+├── spectra_stacking.ipynb      # Prism spectrum stacking (Section 3.5 and Figure 8)
+├── plot_SED.ipynb              # SED visualization (Figure 9)
 ├── Figure11_sfr.ipynb          # Comparison of UV- and Hα-based SFRs (Figure 11)
-├── M_BH-Lbol_revise.ipynb      # Black hole mass – bolometric luminosity relation
-├── M_BH-M_stellar.ipynb       # Black hole mass – stellar mass relation
-├── spectra_stacking.ipynb     # Prism spectrum stacking (Section 3.5)
-├── simulate_broad_Ha_revise.ipynb  # Broad Hα detectability simulations
-├── galfit_sample.ipynb        # Multi-band GALFITM morphology fitting
-├── plot_SED.ipynb             # SED visualization
-├── plot_RGB.ipynb             # RGB image generation
-├── property_compare.ipynb     # Comparison with star-forming galaxies
-├── test_cal_NII_upperlimit.ipynb
-├── basicfunc.py               # Common utility functions
-└── mysel_kor.fits / mysel_kov.fits  # LRD selection results from literature criteria
+├── simulate_broad_Ha_revise.ipynb  # Broad Hα detectability simulations (Section 4.2.1)
+├── M_BH-Lbol_revise.ipynb      # Broad Hα detectability simulations plot; Black hole mass – bolometric luminosity relation (Figure 13)
+├── M_BH-M_stellar.ipynb        # Black hole mass – stellar mass relation (Figure 14 and Figure 16)
+├── test_cal_NII_upperlimit.ipynb # estimate the rms around NII line position (for BPT plot)
+└── basicfunc.py               # Common utility functions
+
 ```
 
 Each notebook is self-documented and can be run independently, provided the required
@@ -68,7 +65,7 @@ data files are available.
 - All **derived data products** (line measurements, catalogs, SED fitting results)
   necessary to reproduce the figures and tables in the paper are included.
 - Raw JWST imaging and spectroscopy data are **not redistributed**, but are publicly
-  available from the JWST archive and the DAWN JWST Archive (DJA).
+  available from the JWST archive and the DAWN JWST Archive (DJA) or in our future data release.
 - The source IDs used throughout this repository correspond to DJA UIDs.
 
 ---
@@ -104,4 +101,3 @@ If you use any code or data, please cite:
 > Zhang, Z., Jiang, L., Liu, W., Ho, L. C., & Inayoshi, K. 2025, *ApJ*, acceptted
 
 A Zenodo DOI will be provided upon acceptance.
->>>>>>> 9fa247f (update README)
