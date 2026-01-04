@@ -1,0 +1,58 @@
+Results for Source ID: 18786_g235m-f170lp0_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 4.725e+03 ± 9.050e+02 erg/cm^2/s
+  peak           = 2.090e+01 ± 4.004e+00 erg/cm^2/s
+  Mean (Velocity) = 42.121 ± 20.184 km/s
+  Stddev (Width)  = 90.173 ± 17.605 km/s
+  Intrinsic Stddev (Width)  = 56.391 ± 28.152 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 7.359e-12 ± 5.548e+02 erg/cm^2/s
+  peak           = 3.256e-14 ± 2.454e+00 erg/cm^2/s
+  Mean (Velocity) = -643.879 ± 20.184 km/s
+  Stddev (Width)  = 90.173 ± 17.605 km/s
+  Intrinsic Stddev (Width)  = 56.391 ± 28.152 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 5.219e+02 ± 5.681e+02 erg/cm^2/s
+  peak           = 2.309e+00 ± 2.513e+00 erg/cm^2/s
+  Mean (Velocity) = 956.121 ± 20.184 km/s
+  Stddev (Width)  = 90.173 ± 17.605 km/s
+  Intrinsic Stddev (Width)  = 56.391 ± 28.152 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 1.035e-18 ± 3.477e-19 erg/cm^2/s
+  Luminosity= 8.339e+40 ± 2.802e+40 erg/s
+  EW        = 153045567245235200.00 ± 1944917049047671.50 Å
+  FWHM      = 212.34 ± 41.46 km/s
+  intrinsic FWHM      = 132.79 ± 106.82 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 1.611e-33 ± 1.215e-19 erg/cm^2/s
+  Luminosity= 1.299e+26 ± 9.791e+39 erg/s
+  EW        = 238.36 ± 3.03 Å
+  FWHM      = 212.34 ± 41.46 km/s
+  intrinsic FWHM      = 132.79 ± 106.82 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 1.143e-19 ± 1.283e-19 erg/cm^2/s
+  Luminosity= 9.211e+39 ± 1.034e+40 erg/s
+  EW        = 16905277614762268.00 ± 214833812201500.94 Å
+  FWHM      = 212.34 ± 41.46 km/s
+  intrinsic FWHM      = 132.79 ± 106.82 km/s
+----------------------------------------
+
+Chi-squared (χ²): 118.277
+Reduced Chi-squared (χ²/dof): 2.150
+BIC: 65.057
+AIC: 52.392
+========================================

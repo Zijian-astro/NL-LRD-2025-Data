@@ -1,0 +1,58 @@
+Results for Source ID: 9424_g235m-f170lp1_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 1.544e+05 ± 1.808e+04 erg/cm^2/s
+  peak           = 1.451e+02 ± 1.699e+01 erg/cm^2/s
+  Mean (Velocity) = -52.935 ± 111.250 km/s
+  Stddev (Width)  = 424.661 ± 56.434 km/s
+  Intrinsic Stddev (Width)  = 419.327 ± 57.152 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 6.948e+04 ± 2.596e+04 erg/cm^2/s
+  peak           = 6.527e+01 ± 2.439e+01 erg/cm^2/s
+  Mean (Velocity) = -738.935 ± 111.250 km/s
+  Stddev (Width)  = 424.661 ± 56.434 km/s
+  Intrinsic Stddev (Width)  = 419.327 ± 57.152 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 8.081e+04 ± 1.593e+04 erg/cm^2/s
+  peak           = 7.592e+01 ± 1.497e+01 erg/cm^2/s
+  Mean (Velocity) = 861.065 ± 111.250 km/s
+  Stddev (Width)  = 424.661 ± 56.434 km/s
+  Intrinsic Stddev (Width)  = 419.327 ± 57.152 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 3.381e-17 ± 7.487e-18 erg/cm^2/s
+  Luminosity= 3.149e+42 ± 6.974e+41 erg/s
+  EW        = 55.34 ± 0.64 Å
+  FWHM      = 1000.00 ± 132.89 km/s
+  intrinsic FWHM      = 987.44 ± 203.86 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 1.521e-17 ± 6.363e-18 erg/cm^2/s
+  Luminosity= 1.417e+42 ± 5.927e+41 erg/s
+  EW        = 24.90 ± 0.29 Å
+  FWHM      = 1000.00 ± 132.89 km/s
+  intrinsic FWHM      = 987.44 ± 203.86 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 1.770e-17 ± 4.820e-18 erg/cm^2/s
+  Luminosity= 1.648e+42 ± 4.489e+41 erg/s
+  EW        = 28.96 ± 0.33 Å
+  FWHM      = 1000.00 ± 132.89 km/s
+  intrinsic FWHM      = 987.44 ± 203.86 km/s
+----------------------------------------
+
+Chi-squared (χ²): 1925.915
+Reduced Chi-squared (χ²/dof): 33.205
+BIC: 242.827
+AIC: 229.873
+========================================

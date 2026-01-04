@@ -1,0 +1,58 @@
+Results for Source ID: 19969_g395m-f290lp1_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 6.125e+03 ± 7.532e+02 erg/cm^2/s
+  peak           = 1.732e+01 ± 2.130e+00 erg/cm^2/s
+  Mean (Velocity) = -179.337 ± 19.649 km/s
+  Stddev (Width)  = 141.074 ± 18.634 km/s
+  Intrinsic Stddev (Width)  = 118.516 ± 22.181 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 1.070e-28 ± 4.992e+02 erg/cm^2/s
+  peak           = 3.026e-31 ± 1.412e+00 erg/cm^2/s
+  Mean (Velocity) = -865.337 ± 19.649 km/s
+  Stddev (Width)  = 141.074 ± 18.634 km/s
+  Intrinsic Stddev (Width)  = 118.516 ± 22.181 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 5.674e-26 ± 4.556e+02 erg/cm^2/s
+  peak           = 1.605e-28 ± 1.288e+00 erg/cm^2/s
+  Mean (Velocity) = 734.663 ± 19.649 km/s
+  Stddev (Width)  = 141.074 ± 18.634 km/s
+  Intrinsic Stddev (Width)  = 118.516 ± 22.181 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 1.341e-18 ± 2.999e-19 erg/cm^2/s
+  Luminosity= 3.964e+41 ± 8.865e+40 erg/s
+  EW        = 282334655678632755200.00 ± 3538785133413168128.00 Å
+  FWHM      = 332.20 ± 43.88 km/s
+  intrinsic FWHM      = 279.08 ± 155.81 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 2.343e-50 ± 1.093e-19 erg/cm^2/s
+  Luminosity= 6.925e+09 ± 3.231e+40 erg/s
+  EW        = 0.00 ± 0.00 Å
+  FWHM      = 332.20 ± 43.88 km/s
+  intrinsic FWHM      = 279.08 ± 155.81 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 1.242e-47 ± 9.976e-20 erg/cm^2/s
+  Luminosity= 3.672e+12 ± 2.948e+40 erg/s
+  EW        = 0.00 ± 0.00 Å
+  FWHM      = 332.20 ± 43.88 km/s
+  intrinsic FWHM      = 279.08 ± 155.81 km/s
+----------------------------------------
+
+Chi-squared (χ²): 78.582
+Reduced Chi-squared (χ²/dof): 1.572
+BIC: 43.125
+AIC: 30.972
+========================================

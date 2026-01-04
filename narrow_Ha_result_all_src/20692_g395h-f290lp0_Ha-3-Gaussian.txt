@@ -1,0 +1,58 @@
+Results for Source ID: 20692_g395h-f290lp0_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 3.778e+05 ± 2.821e+04 erg/cm^2/s
+  peak           = 3.549e+02 ± 2.650e+01 erg/cm^2/s
+  Mean (Velocity) = -934.624 ± 40.608 km/s
+  Stddev (Width)  = 424.661 ± 31.999 km/s
+  Intrinsic Stddev (Width)  = 423.545 ± 32.083 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 2.464e+05 ± 3.223e+04 erg/cm^2/s
+  peak           = 2.315e+02 ± 3.027e+01 erg/cm^2/s
+  Mean (Velocity) = -1620.624 ± 40.608 km/s
+  Stddev (Width)  = 424.661 ± 31.999 km/s
+  Intrinsic Stddev (Width)  = 423.545 ± 32.083 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 4.838e+05 ± 3.437e+04 erg/cm^2/s
+  peak           = 4.545e+02 ± 3.229e+01 erg/cm^2/s
+  Mean (Velocity) = -20.624 ± 40.608 km/s
+  Stddev (Width)  = 424.661 ± 31.999 km/s
+  Intrinsic Stddev (Width)  = 423.545 ± 32.083 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 8.272e-17 ± 1.076e-17 erg/cm^2/s
+  Luminosity= 1.816e+43 ± 2.363e+42 erg/s
+  EW        = 29.02 ± 0.33 Å
+  FWHM      = 1000.00 ± 75.35 km/s
+  intrinsic FWHM      = 997.37 ± 104.25 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 5.395e-17 ± 9.102e-18 erg/cm^2/s
+  Luminosity= 1.184e+43 ± 1.998e+42 erg/s
+  EW        = 18.93 ± 0.22 Å
+  FWHM      = 1000.00 ± 75.35 km/s
+  intrinsic FWHM      = 997.37 ± 104.25 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 1.059e-16 ± 1.357e-17 erg/cm^2/s
+  Luminosity= 2.325e+43 ± 2.978e+42 erg/s
+  EW        = 37.17 ± 0.43 Å
+  FWHM      = 1000.00 ± 75.35 km/s
+  intrinsic FWHM      = 997.37 ± 104.25 km/s
+----------------------------------------
+
+Chi-squared (χ²): 1881.258
+Reduced Chi-squared (χ²/dof): 14.697
+BIC: 383.396
+AIC: 366.009
+========================================

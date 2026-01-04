@@ -1,0 +1,58 @@
+Results for Source ID: 15225_g395m-f290lp1_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 7.561e+01 ± 4.418e+09 erg/cm^2/s
+  peak           = 2.544e+00 ± 1.486e+08 erg/cm^2/s
+  Mean (Velocity) = 897.583 ± 993567812.545 km/s
+  Stddev (Width)  = 11.857 ± 662991356.715 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 6.637e+01 ± 4.163e+09 erg/cm^2/s
+  peak           = 2.233e+00 ± 1.401e+08 erg/cm^2/s
+  Mean (Velocity) = 211.583 ± 1073751518.192 km/s
+  Stddev (Width)  = 11.857 ± 677382259.854 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 2.979e+02 ± 2.055e+10 erg/cm^2/s
+  peak           = 1.002e+01 ± 6.914e+08 erg/cm^2/s
+  Mean (Velocity) = 1811.583 ± 1073751522.756 km/s
+  Stddev (Width)  = 11.857 ± 677382259.854 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 1.656e-20 ± 1.628e-12 erg/cm^2/s
+  Luminosity= 9.222e+39 ± 9.067e+47 erg/s
+  EW        = 0.96 ± 0.01 Å
+  FWHM      = 27.92 ± 1561225306.62 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 1.453e-20 ± 1.487e-12 erg/cm^2/s
+  Luminosity= 8.095e+39 ± 8.280e+47 erg/s
+  EW        = 0.85 ± 0.01 Å
+  FWHM      = 27.92 ± 1595113293.15 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 6.522e-20 ± 6.929e-12 erg/cm^2/s
+  Luminosity= 3.633e+40 ± 3.859e+48 erg/s
+  EW        = 3.80 ± 0.05 Å
+  FWHM      = 27.92 ± 1595113293.15 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+
+Chi-squared (χ²): 81.174
+Reduced Chi-squared (χ²/dof): 1.268
+BIC: 35.858
+AIC: 22.367
+========================================

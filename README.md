@@ -26,6 +26,7 @@ NL-LRD-2025-Data/
 ├── cigale_sed_fitting/      # CIGALE SED fitting data, configurations, and results
 ├── literature_data/         # Literature data used for comparison
 ├── narrow_Ha_result_lsf_z2/ # Line measurements for all LRD candidates
+├── narrow_Ha_result_all_src/ # Line measurements for all sources
 ├── paper.mplstyle           # Matplotlib style file used in all figures
 └── README.md
 ```
@@ -51,6 +52,7 @@ Code/
 ├── M_BH-Lbol_revise.ipynb      # Broad Hα detectability simulations plot; Black hole mass – bolometric luminosity relation (Figure 13)
 ├── M_BH-M_stellar.ipynb        # Black hole mass – stellar mass relation (Figure 14 and Figure 16)
 ├── test_cal_NII_upperlimit.ipynb # estimate the rms around NII line position (for BPT plot)
+├── select_narrowHa_allgal.ipynb # Narrow-line LRD selection (Figure 17)
 └── basicfunc.py               # Common utility functions
 
 ```

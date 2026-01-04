@@ -1,0 +1,58 @@
+Results for Source ID: 21925_g395m-f290lp2_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 6.637e+04 ± 4.128e+03 erg/cm^2/s
+  peak           = 1.035e+02 ± 6.440e+00 erg/cm^2/s
+  Mean (Velocity) = 120.662 ± 21.827 km/s
+  Stddev (Width)  = 255.704 ± 15.632 km/s
+  Intrinsic Stddev (Width)  = 239.954 ± 16.658 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 1.647e+04 ± 3.059e+03 erg/cm^2/s
+  peak           = 2.570e+01 ± 4.772e+00 erg/cm^2/s
+  Mean (Velocity) = -565.338 ± 21.827 km/s
+  Stddev (Width)  = 255.704 ± 15.632 km/s
+  Intrinsic Stddev (Width)  = 239.954 ± 16.658 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 1.182e+04 ± 2.225e+03 erg/cm^2/s
+  peak           = 1.844e+01 ± 3.472e+00 erg/cm^2/s
+  Mean (Velocity) = 1034.662 ± 21.827 km/s
+  Stddev (Width)  = 255.704 ± 15.632 km/s
+  Intrinsic Stddev (Width)  = 239.954 ± 16.658 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 1.453e-17 ± 1.548e-18 erg/cm^2/s
+  Luminosity= 2.648e+42 ± 2.820e+41 erg/s
+  EW        = 175.70 ± 2.13 Å
+  FWHM      = 602.14 ± 36.81 km/s
+  intrinsic FWHM      = 565.05 ± 198.28 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 3.607e-18 ± 7.388e-19 erg/cm^2/s
+  Luminosity= 6.572e+41 ± 1.346e+41 erg/s
+  EW        = 43.61 ± 0.53 Å
+  FWHM      = 602.14 ± 36.81 km/s
+  intrinsic FWHM      = 565.05 ± 198.28 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 2.588e-18 ± 5.362e-19 erg/cm^2/s
+  Luminosity= 4.716e+41 ± 9.769e+40 erg/s
+  EW        = 31.29 ± 0.38 Å
+  FWHM      = 602.14 ± 36.81 km/s
+  intrinsic FWHM      = 565.05 ± 198.28 km/s
+----------------------------------------
+
+Chi-squared (χ²): 494.881
+Reduced Chi-squared (χ²/dof): 12.070
+BIC: 133.747
+AIC: 122.646
+========================================

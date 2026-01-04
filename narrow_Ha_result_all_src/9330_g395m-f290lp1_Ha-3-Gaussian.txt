@@ -1,0 +1,58 @@
+Results for Source ID: 9330_g395m-f290lp1_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 6.256e+03 ± 6.352e+02 erg/cm^2/s
+  peak           = 1.916e+01 ± 1.946e+00 erg/cm^2/s
+  Mean (Velocity) = -48.583 ± 14.549 km/s
+  Stddev (Width)  = 130.238 ± 14.102 km/s
+  Intrinsic Stddev (Width)  = 80.992 ± 22.676 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 1.411e+02 ± 4.001e+02 erg/cm^2/s
+  peak           = 4.324e-01 ± 1.226e+00 erg/cm^2/s
+  Mean (Velocity) = -734.583 ± 14.549 km/s
+  Stddev (Width)  = 130.238 ± 14.102 km/s
+  Intrinsic Stddev (Width)  = 80.992 ± 22.676 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 8.916e-37 ± 2.848e+02 erg/cm^2/s
+  peak           = 2.731e-39 ± 8.725e-01 erg/cm^2/s
+  Mean (Velocity) = 865.417 ± 14.549 km/s
+  Stddev (Width)  = 130.238 ± 14.102 km/s
+  Intrinsic Stddev (Width)  = 80.992 ± 22.676 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 1.370e-18 ± 2.517e-19 erg/cm^2/s
+  Luminosity= 1.562e+41 ± 2.870e+40 erg/s
+  EW        = 63889129347225184.00 ± 802623210886014.62 Å
+  FWHM      = 306.69 ± 33.21 km/s
+  intrinsic FWHM      = 190.72 ± 150.78 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 3.091e-20 ± 8.775e-20 erg/cm^2/s
+  Luminosity= 3.524e+39 ± 1.000e+40 erg/s
+  EW        = 1441524140043444.00 ± 18109508545081.14 Å
+  FWHM      = 306.69 ± 33.21 km/s
+  intrinsic FWHM      = 190.72 ± 150.78 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 1.952e-58 ± 6.237e-20 erg/cm^2/s
+  Luminosity= 2.226e+01 ± 7.111e+39 erg/s
+  EW        = 0.00 ± 0.00 Å
+  FWHM      = 306.69 ± 33.21 km/s
+  intrinsic FWHM      = 190.72 ± 150.78 km/s
+----------------------------------------
+
+Chi-squared (χ²): 54.657
+Reduced Chi-squared (χ²/dof): 1.608
+BIC: 34.621
+AIC: 24.488
+========================================

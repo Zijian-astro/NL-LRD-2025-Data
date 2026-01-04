@@ -1,0 +1,58 @@
+Results for Source ID: 21773_g395h-f290lp2_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 6.211e+03 ± 7.322e+02 erg/cm^2/s
+  peak           = 3.439e+01 ± 4.054e+00 erg/cm^2/s
+  Mean (Velocity) = -7.723 ± 9.292 km/s
+  Stddev (Width)  = 72.058 ± 9.406 km/s
+  Intrinsic Stddev (Width)  = 66.382 ± 10.210 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 7.383e-08 ± 5.128e+02 erg/cm^2/s
+  peak           = 4.087e-10 ± 2.839e+00 erg/cm^2/s
+  Mean (Velocity) = -693.723 ± 9.292 km/s
+  Stddev (Width)  = 72.058 ± 9.406 km/s
+  Intrinsic Stddev (Width)  = 66.382 ± 10.210 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 1.310e+03 ± 5.236e+02 erg/cm^2/s
+  peak           = 7.250e+00 ± 2.899e+00 erg/cm^2/s
+  Mean (Velocity) = 906.277 ± 9.292 km/s
+  Stddev (Width)  = 72.058 ± 9.406 km/s
+  Intrinsic Stddev (Width)  = 66.382 ± 10.210 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 1.360e-18 ± 2.979e-19 erg/cm^2/s
+  Luminosity= 3.910e+41 ± 8.564e+40 erg/s
+  EW        = 1924174059152020.00 ± 24574457883496.61 Å
+  FWHM      = 169.68 ± 22.15 km/s
+  intrinsic FWHM      = 156.32 ± 64.14 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 1.617e-29 ± 1.123e-19 erg/cm^2/s
+  Luminosity= 4.647e+30 ± 3.228e+40 erg/s
+  EW        = 22871.64 ± 292.10 Å
+  FWHM      = 169.68 ± 22.15 km/s
+  intrinsic FWHM      = 156.32 ± 64.14 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 2.868e-19 ± 1.263e-19 erg/cm^2/s
+  Luminosity= 8.244e+40 ± 3.630e+40 erg/s
+  EW        = 405723176777296.81 ± 5181665906288.16 Å
+  FWHM      = 169.68 ± 22.15 km/s
+  intrinsic FWHM      = 156.32 ± 64.14 km/s
+----------------------------------------
+
+Chi-squared (χ²): 355.606
+Reduced Chi-squared (χ²/dof): 2.504
+BIC: 159.722
+AIC: 141.738
+========================================

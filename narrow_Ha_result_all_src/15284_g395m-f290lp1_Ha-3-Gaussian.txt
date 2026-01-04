@@ -1,0 +1,58 @@
+Results for Source ID: 15284_g395m-f290lp1_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 4.301e+03 ± 3.746e+04 erg/cm^2/s
+  peak           = 3.270e+01 ± 2.848e+02 erg/cm^2/s
+  Mean (Velocity) = -200.273 ± 205.033 km/s
+  Stddev (Width)  = 52.469 ± 470.418 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 2.427e-24 ± 4.306e+02 erg/cm^2/s
+  peak           = 1.846e-26 ± 3.274e+00 erg/cm^2/s
+  Mean (Velocity) = -886.273 ± 205.033 km/s
+  Stddev (Width)  = 52.469 ± 470.418 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 4.901e+01 ± 6.508e+02 erg/cm^2/s
+  peak           = 3.726e-01 ± 4.948e+00 erg/cm^2/s
+  Mean (Velocity) = 713.727 ± 205.033 km/s
+  Stddev (Width)  = 52.469 ± 470.418 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 9.418e-19 ± 1.449e-17 erg/cm^2/s
+  Luminosity= 1.716e+41 ± 2.639e+42 erg/s
+  EW        = 12733188977444552167405316680226266248934187649599738077272832842137600.00 ± 163429670357466550036444656587907826652624318412864537968526443413504.00 Å
+  FWHM      = 123.55 ± 1107.75 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 5.315e-46 ± 9.428e-20 erg/cm^2/s
+  Luminosity= 9.683e+13 ± 1.717e+40 erg/s
+  EW        = 7186261931972177549955086841205219047505920.00 ± 92235214660288983774144739463074246819840.00 Å
+  FWHM      = 123.55 ± 1107.75 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 1.073e-20 ± 1.970e-19 erg/cm^2/s
+  Luminosity= 1.955e+39 ± 3.589e+40 erg/s
+  EW        = 145080379289993901741184283645565729700138471780929210690969184239616.00 ± 1862097437232759528465073413660114836322472837499267634282178281472.00 Å
+  FWHM      = 123.55 ± 1107.75 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+
+Chi-squared (χ²): 81.432
+Reduced Chi-squared (χ²/dof): 1.986
+BIC: 48.933
+AIC: 37.832
+========================================

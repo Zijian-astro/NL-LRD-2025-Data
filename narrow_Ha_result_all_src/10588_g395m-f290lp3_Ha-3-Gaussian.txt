@@ -1,0 +1,58 @@
+Results for Source ID: 10588_g395m-f290lp3_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 5.079e+03 ± 9.808e+02 erg/cm^2/s
+  peak           = 1.673e+01 ± 3.230e+00 erg/cm^2/s
+  Mean (Velocity) = -268.436 ± 26.381 km/s
+  Stddev (Width)  = 121.119 ± 22.568 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 9.344e+02 ± 9.224e+02 erg/cm^2/s
+  peak           = 3.078e+00 ± 3.038e+00 erg/cm^2/s
+  Mean (Velocity) = -954.436 ± 26.381 km/s
+  Stddev (Width)  = 121.119 ± 22.568 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 6.759e+02 ± 6.135e+02 erg/cm^2/s
+  peak           = 2.226e+00 ± 2.021e+00 erg/cm^2/s
+  Mean (Velocity) = 645.564 ± 26.381 km/s
+  Stddev (Width)  = 121.119 ± 22.568 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 1.112e-18 ± 3.633e-19 erg/cm^2/s
+  Luminosity= 1.213e+41 ± 3.964e+40 erg/s
+  EW        = 58544942973634137487770276625121280.00 ± 726740899772572590166191034597376.00 Å
+  FWHM      = 285.21 ± 53.14 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 2.046e-19 ± 2.090e-19 erg/cm^2/s
+  Luminosity= 2.232e+40 ± 2.280e+40 erg/s
+  EW        = 10748641672877057571750468256792576.00 ± 133736782343996998410689247707136.00 Å
+  FWHM      = 285.21 ± 53.14 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 1.480e-19 ± 1.399e-19 erg/cm^2/s
+  Luminosity= 1.615e+40 ± 1.526e+40 erg/s
+  EW        = 7790869815271673252016670854086656.00 ± 96711064217986912936508895789056.00 Å
+  FWHM      = 285.21 ± 53.14 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+
+Chi-squared (χ²): 46.811
+Reduced Chi-squared (χ²/dof): 2.128
+BIC: 34.383
+AIC: 26.390
+========================================

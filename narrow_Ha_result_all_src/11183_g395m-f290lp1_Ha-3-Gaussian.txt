@@ -1,0 +1,58 @@
+Results for Source ID: 11183_g395m-f290lp1_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 1.368e+04 ± 6.616e+02 erg/cm^2/s
+  peak           = 4.177e+01 ± 2.020e+00 erg/cm^2/s
+  Mean (Velocity) = -407.051 ± 7.019 km/s
+  Stddev (Width)  = 130.679 ± 6.996 km/s
+  Intrinsic Stddev (Width)  = 92.866 ± 9.844 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 1.634e+00 ± 3.342e+02 erg/cm^2/s
+  peak           = 4.987e-03 ± 1.020e+00 erg/cm^2/s
+  Mean (Velocity) = -1093.051 ± 7.019 km/s
+  Stddev (Width)  = 130.679 ± 6.996 km/s
+  Intrinsic Stddev (Width)  = 92.866 ± 9.844 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 3.655e+02 ± 4.667e+02 erg/cm^2/s
+  peak           = 1.116e+00 ± 1.425e+00 erg/cm^2/s
+  Mean (Velocity) = 506.949 ± 7.019 km/s
+  Stddev (Width)  = 130.679 ± 6.996 km/s
+  Intrinsic Stddev (Width)  = 92.866 ± 9.844 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 2.996e-18 ± 2.691e-19 erg/cm^2/s
+  Luminosity= 4.779e+41 ± 4.293e+40 erg/s
+  EW        = 131165990455171647733551056551936.00 ± 1648190285974365014484179746816.00 Å
+  FWHM      = 307.73 ± 16.47 km/s
+  intrinsic FWHM      = 218.68 ± 154.30 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 3.577e-22 ± 7.317e-20 erg/cm^2/s
+  Luminosity= 5.706e+37 ± 1.167e+40 erg/s
+  EW        = 15662475667940400986010419200.00 ± 196809707765153289631432704.00 Å
+  FWHM      = 307.73 ± 16.47 km/s
+  intrinsic FWHM      = 218.68 ± 154.30 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 8.003e-20 ± 1.024e-19 erg/cm^2/s
+  Luminosity= 1.277e+40 ± 1.633e+40 erg/s
+  EW        = 3503935348222614211283981959168.00 ± 44029341627214567531073241088.00 Å
+  FWHM      = 307.73 ± 16.47 km/s
+  intrinsic FWHM      = 218.68 ± 154.30 km/s
+----------------------------------------
+
+Chi-squared (χ²): 35.270
+Reduced Chi-squared (χ²/dof): 0.904
+BIC: 11.877
+AIC: 1.037
+========================================

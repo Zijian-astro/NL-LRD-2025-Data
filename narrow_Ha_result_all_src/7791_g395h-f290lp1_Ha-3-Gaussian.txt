@@ -1,0 +1,58 @@
+Results for Source ID: 7791_g395h-f290lp1_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 3.490e+03 ± 1.737e+03 erg/cm^2/s
+  peak           = 9.905e+00 ± 4.931e+00 erg/cm^2/s
+  Mean (Velocity) = 263.039 ± 54.032 km/s
+  Stddev (Width)  = 140.558 ± 54.152 km/s
+  Intrinsic Stddev (Width)  = 138.529 ± 54.945 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 8.052e+02 ± 1.522e+03 erg/cm^2/s
+  peak           = 2.286e+00 ± 4.319e+00 erg/cm^2/s
+  Mean (Velocity) = -422.961 ± 54.032 km/s
+  Stddev (Width)  = 140.558 ± 54.152 km/s
+  Intrinsic Stddev (Width)  = 138.529 ± 54.945 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 4.768e+03 ± 2.054e+03 erg/cm^2/s
+  peak           = 1.353e+01 ± 5.831e+00 erg/cm^2/s
+  Mean (Velocity) = 1177.039 ± 54.032 km/s
+  Stddev (Width)  = 140.558 ± 54.152 km/s
+  Intrinsic Stddev (Width)  = 138.529 ± 54.945 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 7.642e-19 ± 5.640e-19 erg/cm^2/s
+  Luminosity= 3.894e+41 ± 2.874e+41 erg/s
+  EW        = 114.32 ± 1.43 Å
+  FWHM      = 330.99 ± 127.52 km/s
+  intrinsic FWHM      = 326.21 ± 137.28 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 1.763e-19 ± 3.468e-19 erg/cm^2/s
+  Luminosity= 8.986e+40 ± 1.767e+41 erg/s
+  EW        = 26.38 ± 0.33 Å
+  FWHM      = 330.99 ± 127.52 km/s
+  intrinsic FWHM      = 326.21 ± 137.28 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 1.044e-18 ± 7.253e-19 erg/cm^2/s
+  Luminosity= 5.321e+41 ± 3.696e+41 erg/s
+  EW        = 156.21 ± 1.96 Å
+  FWHM      = 330.99 ± 127.52 km/s
+  intrinsic FWHM      = 326.21 ± 137.28 km/s
+----------------------------------------
+
+Chi-squared (χ²): 316.448
+Reduced Chi-squared (χ²/dof): 1.798
+BIC: 131.898
+AIC: 112.674
+========================================

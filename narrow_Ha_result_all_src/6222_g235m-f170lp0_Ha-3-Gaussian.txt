@@ -1,0 +1,58 @@
+Results for Source ID: 6222_g235m-f170lp0_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 1.498e+04 ± 8.972e+02 erg/cm^2/s
+  peak           = 7.963e+01 ± 4.768e+00 erg/cm^2/s
+  Mean (Velocity) = -209.932 ± 4.908 km/s
+  Stddev (Width)  = 75.071 ± 5.010 km/s
+  Intrinsic Stddev (Width)  = 23.234 ± 16.189 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 4.545e+02 ± 3.243e+02 erg/cm^2/s
+  peak           = 2.415e+00 ± 1.724e+00 erg/cm^2/s
+  Mean (Velocity) = -895.932 ± 4.908 km/s
+  Stddev (Width)  = 75.071 ± 5.010 km/s
+  Intrinsic Stddev (Width)  = 23.234 ± 16.189 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 6.586e+02 ± 4.342e+02 erg/cm^2/s
+  peak           = 3.500e+00 ± 2.308e+00 erg/cm^2/s
+  Mean (Velocity) = 704.068 ± 4.908 km/s
+  Stddev (Width)  = 75.071 ± 5.010 km/s
+  Intrinsic Stddev (Width)  = 23.234 ± 16.189 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 3.281e-18 ± 3.667e-19 erg/cm^2/s
+  Luminosity= 2.537e+41 ± 2.835e+40 erg/s
+  EW        = 1760.16 ± 22.46 Å
+  FWHM      = 176.78 ± 11.80 km/s
+  intrinsic FWHM      = 54.71 ± 52.15 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 9.951e-20 ± 7.164e-20 erg/cm^2/s
+  Luminosity= 7.694e+39 ± 5.539e+39 erg/s
+  EW        = 53.39 ± 0.68 Å
+  FWHM      = 176.78 ± 11.80 km/s
+  intrinsic FWHM      = 54.71 ± 52.15 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 1.442e-19 ± 9.605e-20 erg/cm^2/s
+  Luminosity= 1.115e+40 ± 7.426e+39 erg/s
+  EW        = 77.37 ± 0.99 Å
+  FWHM      = 176.78 ± 11.80 km/s
+  intrinsic FWHM      = 54.71 ± 52.15 km/s
+----------------------------------------
+
+Chi-squared (χ²): 101.710
+Reduced Chi-squared (χ²/dof): 1.884
+BIC: 56.233
+AIC: 43.667
+========================================

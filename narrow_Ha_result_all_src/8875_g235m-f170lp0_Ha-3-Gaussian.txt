@@ -1,0 +1,58 @@
+Results for Source ID: 8875_g235m-f170lp0_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 4.593e+02 ± 4.185e+09 erg/cm^2/s
+  peak           = 1.101e+01 ± 1.003e+08 erg/cm^2/s
+  Mean (Velocity) = -235.416 ± 188726583.178 km/s
+  Stddev (Width)  = 16.640 ± 63286410.938 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 2.873e+02 ± 1.461e+10 erg/cm^2/s
+  peak           = 6.888e+00 ± 3.503e+08 erg/cm^2/s
+  Mean (Velocity) = -921.416 ± 188727158.941 km/s
+  Stddev (Width)  = 16.640 ± 63286547.533 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 1.105e-02 ± 9.888e+05 erg/cm^2/s
+  peak           = 2.650e-04 ± 2.371e+04 erg/cm^2/s
+  Mean (Velocity) = 678.584 ± 188727158.941 km/s
+  Stddev (Width)  = 16.640 ± 63286547.533 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 1.006e-19 ± 1.064e-12 erg/cm^2/s
+  Luminosity= 3.917e+39 ± 4.145e+46 erg/s
+  EW        = 20.76 ± 0.27 Å
+  FWHM      = 39.18 ± 149028106.20 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 6.291e-20 ± 3.217e-12 erg/cm^2/s
+  Luminosity= 2.450e+39 ± 1.253e+47 erg/s
+  EW        = 12.99 ± 0.17 Å
+  FWHM      = 39.18 ± 149028427.86 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 2.420e-24 ± 2.169e-16 erg/cm^2/s
+  Luminosity= 9.427e+34 ± 8.449e+42 erg/s
+  EW        = 0.00 ± 0.00 Å
+  FWHM      = 39.18 ± 149028427.86 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+
+Chi-squared (χ²): 94.193
+Reduced Chi-squared (χ²/dof): 2.191
+BIC: 55.374
+AIC: 44.023
+========================================

@@ -1,0 +1,58 @@
+Results for Source ID: 15542_g395m-f290lp1_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 1.053e+04 ± 6.886e+02 erg/cm^2/s
+  peak           = 4.076e+01 ± 2.666e+00 erg/cm^2/s
+  Mean (Velocity) = 63.878 ± 7.162 km/s
+  Stddev (Width)  = 103.047 ± 8.111 km/s
+  Intrinsic Stddev (Width)  = 46.634 ± 17.924 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 3.594e+02 ± 4.114e+02 erg/cm^2/s
+  peak           = 1.391e+00 ± 1.593e+00 erg/cm^2/s
+  Mean (Velocity) = -622.122 ± 7.162 km/s
+  Stddev (Width)  = 103.047 ± 8.111 km/s
+  Intrinsic Stddev (Width)  = 46.634 ± 17.924 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 8.693e-16 ± 3.987e+02 erg/cm^2/s
+  peak           = 3.365e-18 ± 1.544e+00 erg/cm^2/s
+  Mean (Velocity) = 977.878 ± 7.162 km/s
+  Stddev (Width)  = 103.047 ± 8.111 km/s
+  Intrinsic Stddev (Width)  = 46.634 ± 17.924 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 2.306e-18 ± 2.977e-19 erg/cm^2/s
+  Luminosity= 3.687e+41 ± 4.760e+40 erg/s
+  EW        = 771020353043.99 ± 9762040552.63 Å
+  FWHM      = 242.66 ± 19.10 km/s
+  intrinsic FWHM      = 109.81 ± 98.31 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 7.869e-20 ± 9.050e-20 erg/cm^2/s
+  Luminosity= 1.258e+40 ± 1.447e+40 erg/s
+  EW        = 26313590869.44 ± 333161556.81 Å
+  FWHM      = 242.66 ± 19.10 km/s
+  intrinsic FWHM      = 109.81 ± 98.31 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 1.903e-37 ± 8.730e-20 erg/cm^2/s
+  Luminosity= 3.044e+22 ± 1.396e+40 erg/s
+  EW        = 0.00 ± 0.00 Å
+  FWHM      = 242.66 ± 19.10 km/s
+  intrinsic FWHM      = 109.81 ± 98.31 km/s
+----------------------------------------
+
+Chi-squared (χ²): 43.710
+Reduced Chi-squared (χ²/dof): 1.121
+BIC: 21.531
+AIC: 10.691
+========================================

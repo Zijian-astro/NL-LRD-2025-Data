@@ -1,0 +1,58 @@
+Results for Source ID: 15258_g395m-f290lp2_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 5.088e+03 ± 5.236e+02 erg/cm^2/s
+  peak           = 1.703e+01 ± 1.752e+00 erg/cm^2/s
+  Mean (Velocity) = -38.795 ± 13.662 km/s
+  Stddev (Width)  = 119.193 ± 12.867 km/s
+  Intrinsic Stddev (Width)  = 78.420 ± 19.557 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 7.344e-29 ± 4.151e+02 erg/cm^2/s
+  peak           = 2.458e-31 ± 1.389e+00 erg/cm^2/s
+  Mean (Velocity) = -724.795 ± 13.662 km/s
+  Stddev (Width)  = 119.193 ± 12.867 km/s
+  Intrinsic Stddev (Width)  = 78.420 ± 19.557 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 3.988e+02 ± 4.088e+02 erg/cm^2/s
+  peak           = 1.335e+00 ± 1.368e+00 erg/cm^2/s
+  Mean (Velocity) = 875.205 ± 13.662 km/s
+  Stddev (Width)  = 119.193 ± 12.867 km/s
+  Intrinsic Stddev (Width)  = 78.420 ± 19.557 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 1.114e-18 ± 2.051e-19 erg/cm^2/s
+  Luminosity= 1.935e+41 ± 3.562e+40 erg/s
+  EW        = 942642666623094025617408.00 ± 11880130663059929694208.00 Å
+  FWHM      = 280.68 ± 30.30 km/s
+  intrinsic FWHM      = 184.67 ± 140.49 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 1.608e-50 ± 9.089e-20 erg/cm^2/s
+  Luminosity= 2.793e+09 ± 1.579e+40 erg/s
+  EW        = 0.00 ± 0.00 Å
+  FWHM      = 280.68 ± 30.30 km/s
+  intrinsic FWHM      = 184.67 ± 140.49 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 8.734e-20 ± 9.051e-20 erg/cm^2/s
+  Luminosity= 1.517e+40 ± 1.572e+40 erg/s
+  EW        = 73898215966907907964928.00 ± 931339618435620143104.00 Å
+  FWHM      = 280.68 ± 30.30 km/s
+  intrinsic FWHM      = 184.67 ± 140.49 km/s
+----------------------------------------
+
+Chi-squared (χ²): 49.714
+Reduced Chi-squared (χ²/dof): 1.243
+BIC: 26.544
+AIC: 15.572
+========================================

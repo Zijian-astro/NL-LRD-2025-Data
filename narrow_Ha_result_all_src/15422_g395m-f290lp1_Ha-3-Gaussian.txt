@@ -1,0 +1,58 @@
+Results for Source ID: 15422_g395m-f290lp1_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 1.069e+03 ± 7.795e+09 erg/cm^2/s
+  peak           = 2.000e+01 ± 1.458e+08 erg/cm^2/s
+  Mean (Velocity) = -645.026 ± 147322781.435 km/s
+  Stddev (Width)  = 21.332 ± 40335098.254 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 3.700e+01 ± 3.574e+07 erg/cm^2/s
+  peak           = 6.920e-01 ± 6.684e+05 erg/cm^2/s
+  Mean (Velocity) = -1331.026 ± 147323409.293 km/s
+  Stddev (Width)  = 21.332 ± 40335139.835 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 3.735e+02 ± 7.234e+09 erg/cm^2/s
+  peak           = 6.985e+00 ± 1.353e+08 erg/cm^2/s
+  Mean (Velocity) = 268.974 ± 147323407.550 km/s
+  Stddev (Width)  = 21.332 ± 40335139.835 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 2.341e-19 ± 1.818e-12 erg/cm^2/s
+  Luminosity= 3.244e+40 ± 2.519e+47 erg/s
+  EW        = 50.90 ± 0.66 Å
+  FWHM      = 50.23 ± 94981896.07 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 8.103e-21 ± 2.304e-14 erg/cm^2/s
+  Luminosity= 1.123e+39 ± 3.191e+45 erg/s
+  EW        = 1.76 ± 0.02 Å
+  FWHM      = 50.23 ± 94981993.99 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 8.179e-20 ± 1.599e-12 erg/cm^2/s
+  Luminosity= 1.133e+40 ± 2.215e+47 erg/s
+  EW        = 17.78 ± 0.23 Å
+  FWHM      = 50.23 ± 94981993.99 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+
+Chi-squared (χ²): 32.751
+Reduced Chi-squared (χ²/dof): 0.910
+BIC: 11.979
+AIC: 1.553
+========================================

@@ -1,0 +1,58 @@
+Results for Source ID: 20446_g395m-f290lp1_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 1.078e+04 ± 8.158e+02 erg/cm^2/s
+  peak           = 3.584e+01 ± 2.712e+00 erg/cm^2/s
+  Mean (Velocity) = 91.438 ± 10.120 km/s
+  Stddev (Width)  = 120.025 ± 10.097 km/s
+  Intrinsic Stddev (Width)  = 88.986 ± 13.619 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 6.951e+02 ± 6.256e+02 erg/cm^2/s
+  peak           = 2.311e+00 ± 2.079e+00 erg/cm^2/s
+  Mean (Velocity) = -594.562 ± 10.120 km/s
+  Stddev (Width)  = 120.025 ± 10.097 km/s
+  Intrinsic Stddev (Width)  = 88.986 ± 13.619 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 4.367e-21 ± 4.961e+02 erg/cm^2/s
+  peak           = 1.451e-23 ± 1.649e+00 erg/cm^2/s
+  Mean (Velocity) = 1005.438 ± 10.120 km/s
+  Stddev (Width)  = 120.025 ± 10.097 km/s
+  Intrinsic Stddev (Width)  = 88.986 ± 13.619 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 2.361e-18 ± 3.329e-19 erg/cm^2/s
+  Luminosity= 5.815e+41 ± 8.198e+40 erg/s
+  EW        = 9213662790381662.00 ± 116110948123008.98 Å
+  FWHM      = 282.64 ± 23.78 km/s
+  intrinsic FWHM      = 209.55 ± 141.72 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 1.522e-19 ± 1.382e-19 erg/cm^2/s
+  Luminosity= 3.749e+40 ± 3.403e+40 erg/s
+  EW        = 594008393332515.88 ± 7485717603520.71 Å
+  FWHM      = 282.64 ± 23.78 km/s
+  intrinsic FWHM      = 209.55 ± 141.72 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 9.562e-43 ± 1.086e-19 erg/cm^2/s
+  Luminosity= 2.355e+17 ± 2.675e+40 erg/s
+  EW        = 0.00 ± 0.00 Å
+  FWHM      = 282.64 ± 23.78 km/s
+  intrinsic FWHM      = 209.55 ± 141.72 km/s
+----------------------------------------
+
+Chi-squared (χ²): 45.401
+Reduced Chi-squared (χ²/dof): 0.987
+BIC: 16.650
+AIC: 4.943
+========================================

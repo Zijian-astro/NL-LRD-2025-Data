@@ -1,0 +1,73 @@
+Results for Source ID: 6267_g235m-f170lp1_Ha
+========================================
+
+Number of Gaussian Components: 4
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 9.627e+03 ± 6.904e+03 erg/cm^2/s
+  peak           = 3.602e+01 ± 2.583e+01 erg/cm^2/s
+  Mean (Velocity) = 619.391 ± 39.160 km/s
+  Stddev (Width)  = 106.613 ± 43.994 km/s
+  Intrinsic Stddev (Width)  = 51.574 ± 90.943 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 1.079e+04 ± 8.872e+03 erg/cm^2/s
+  peak           = 1.014e+01 ± 8.335e+00 erg/cm^2/s
+  Mean (Velocity) = 619.391 ± 39.160 km/s
+  Stddev (Width)  = 424.661 ± 532.712 km/s
+  Intrinsic Stddev (Width)  = 414.283 ± 546.056 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 1.164e-16 ± 2.995e+03 erg/cm^2/s
+  peak           = 4.355e-19 ± 1.121e+01 erg/cm^2/s
+  Mean (Velocity) = -66.609 ± 39.160 km/s
+  Stddev (Width)  = 106.613 ± 43.994 km/s
+  Intrinsic Stddev (Width)  = 51.574 ± 90.943 km/s
+----------------------------------------
+
+Gaussian 4 Parameters and Errors:
+  Amplitude       = 1.906e+03 ± 2.734e+03 erg/cm^2/s
+  peak           = 7.131e+00 ± 1.023e+01 erg/cm^2/s
+  Mean (Velocity) = 1533.391 ± 39.160 km/s
+  Stddev (Width)  = 106.613 ± 43.994 km/s
+  Intrinsic Stddev (Width)  = 51.574 ± 90.943 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 2.108e-18 ± 1.949e-18 erg/cm^2/s
+  Luminosity= 6.510e+40 ± 6.019e+40 erg/s
+  EW        = 18.64 ± 0.24 Å
+  FWHM      = 251.06 ± 103.60 km/s
+  intrinsic FWHM      = 121.45 ± 117.51 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 2.363e-18 ± 4.620e-18 erg/cm^2/s
+  Luminosity= 7.296e+40 ± 1.427e+41 erg/s
+  EW        = 20.89 ± 0.24 Å
+  FWHM      = 1000.00 ± 1254.44 km/s
+  intrinsic FWHM      = 975.56 ± 1242.42 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 2.548e-38 ± 6.557e-19 erg/cm^2/s
+  Luminosity= 7.869e+20 ± 2.025e+40 erg/s
+  EW        = 0.00 ± 0.00 Å
+  FWHM      = 251.06 ± 103.60 km/s
+  intrinsic FWHM      = 121.45 ± 117.51 km/s
+----------------------------------------
+Gaussian 4:
+  Flux      = 4.173e-19 ± 6.463e-19 erg/cm^2/s
+  Luminosity= 1.289e+40 ± 1.996e+40 erg/s
+  EW        = 3.69 ± 0.05 Å
+  FWHM      = 251.06 ± 103.60 km/s
+  intrinsic FWHM      = 121.45 ± 117.51 km/s
+----------------------------------------
+
+Chi-squared (χ²): 71.953
+Reduced Chi-squared (χ²/dof): 1.945
+BIC: 51.574
+AIC: 37.121
+========================================

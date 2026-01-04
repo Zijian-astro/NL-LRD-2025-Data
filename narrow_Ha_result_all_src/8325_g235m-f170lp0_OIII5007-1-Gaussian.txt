@@ -1,0 +1,28 @@
+Results for Source ID: 8325_g235m-f170lp0_OIII5007
+========================================
+
+Number of Gaussian Components: 1
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 4.616e+04 ± 1.599e+03 erg/cm^2/s
+  peak           = 1.905e+02 ± 6.599e+00 erg/cm^2/s
+  Mean (Velocity) = 137.822 ± 3.702 km/s
+  Stddev (Width)  = 96.654 ± 3.481 km/s
+  Intrinsic Stddev (Width)  = 56.817 ± 5.922 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 7.710e-18 ± 4.749e-19 erg/cm^2/s
+  Luminosity= 1.102e+42 ± 6.786e+40 erg/s
+  EW        = 286.75 ± 3.56 Å
+  FWHM      = 227.60 ± 8.20 km/s
+  intrinsic FWHM      = 133.79 ± 108.34 km/s
+----------------------------------------
+
+Chi-squared (χ²): 76.374
+Reduced Chi-squared (χ²/dof): 2.728
+BIC: 41.700
+AIC: 35.837
+========================================

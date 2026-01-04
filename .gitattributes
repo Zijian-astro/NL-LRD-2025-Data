@@ -1,0 +1,2 @@
+catalog/ASTRODEEP_full_combine.fits filter=lfs diff=lfs merge=lfs -text
+catalog/all_field_final_cat.fits filter=lfs diff=lfs merge=lfs -text

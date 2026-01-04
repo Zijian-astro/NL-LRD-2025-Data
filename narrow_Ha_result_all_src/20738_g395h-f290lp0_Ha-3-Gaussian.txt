@@ -1,0 +1,58 @@
+Results for Source ID: 20738_g395h-f290lp0_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 8.994e+03 ± 4.471e+03 erg/cm^2/s
+  peak           = 8.450e+00 ± 4.200e+00 erg/cm^2/s
+  Mean (Velocity) = -677.145 ± 93.388 km/s
+  Stddev (Width)  = 424.661 ± 90.311 km/s
+  Intrinsic Stddev (Width)  = 423.305 ± 90.600 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 1.072e+04 ± 4.454e+03 erg/cm^2/s
+  peak           = 1.007e+01 ± 4.184e+00 erg/cm^2/s
+  Mean (Velocity) = -1363.145 ± 93.388 km/s
+  Stddev (Width)  = 424.661 ± 90.311 km/s
+  Intrinsic Stddev (Width)  = 423.305 ± 90.600 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 2.479e+04 ± 5.036e+03 erg/cm^2/s
+  peak           = 2.329e+01 ± 4.731e+00 erg/cm^2/s
+  Mean (Velocity) = 236.855 ± 93.388 km/s
+  Stddev (Width)  = 424.661 ± 90.311 km/s
+  Intrinsic Stddev (Width)  = 423.305 ± 90.600 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 1.970e-18 ± 1.144e-18 erg/cm^2/s
+  Luminosity= 3.061e+41 ± 1.779e+41 erg/s
+  EW        = 14.23 ± 0.16 Å
+  FWHM      = 1000.00 ± 212.67 km/s
+  intrinsic FWHM      = 996.81 ± 226.43 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 2.347e-18 ± 1.204e-18 erg/cm^2/s
+  Luminosity= 3.648e+41 ± 1.871e+41 erg/s
+  EW        = 16.96 ± 0.20 Å
+  FWHM      = 1000.00 ± 212.67 km/s
+  intrinsic FWHM      = 996.81 ± 226.43 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 5.428e-18 ± 1.970e-18 erg/cm^2/s
+  Luminosity= 8.438e+41 ± 3.062e+41 erg/s
+  EW        = 39.22 ± 0.45 Å
+  FWHM      = 1000.00 ± 212.67 km/s
+  intrinsic FWHM      = 996.81 ± 226.43 km/s
+----------------------------------------
+
+Chi-squared (χ²): 131.080
+Reduced Chi-squared (χ²/dof): 1.150
+BIC: 39.323
+AIC: 22.598
+========================================

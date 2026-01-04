@@ -1,0 +1,58 @@
+Results for Source ID: 15477_g395m-f290lp1_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 1.193e+04 ± 5.448e+02 erg/cm^2/s
+  peak           = 3.846e+01 ± 1.757e+00 erg/cm^2/s
+  Mean (Velocity) = -261.166 ± 6.365 km/s
+  Stddev (Width)  = 123.688 ± 5.537 km/s
+  Intrinsic Stddev (Width)  = 94.101 ± 7.277 km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 2.437e-07 ± 3.138e+02 erg/cm^2/s
+  peak           = 7.860e-10 ± 1.012e+00 erg/cm^2/s
+  Mean (Velocity) = -947.166 ± 6.365 km/s
+  Stddev (Width)  = 123.688 ± 5.537 km/s
+  Intrinsic Stddev (Width)  = 94.101 ± 7.277 km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 7.241e+02 ± 3.357e+02 erg/cm^2/s
+  peak           = 2.336e+00 ± 1.083e+00 erg/cm^2/s
+  Mean (Velocity) = 652.834 ± 6.365 km/s
+  Stddev (Width)  = 123.688 ± 5.537 km/s
+  Intrinsic Stddev (Width)  = 94.101 ± 7.277 km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 2.611e-18 ± 2.038e-19 erg/cm^2/s
+  Luminosity= 6.512e+41 ± 5.084e+40 erg/s
+  EW        = 10495182593547354.00 ± 132107007593494.66 Å
+  FWHM      = 291.26 ± 13.04 km/s
+  intrinsic FWHM      = 221.59 ± 144.15 km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 5.336e-29 ± 6.870e-20 erg/cm^2/s
+  Luminosity= 1.331e+31 ± 1.713e+40 erg/s
+  EW        = 214456.81 ± 2699.45 Å
+  FWHM      = 291.26 ± 13.04 km/s
+  intrinsic FWHM      = 221.59 ± 144.15 km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 1.586e-19 ± 7.419e-20 erg/cm^2/s
+  Luminosity= 3.954e+40 ± 1.850e+40 erg/s
+  EW        = 637264776710010.75 ± 8021503384577.22 Å
+  FWHM      = 291.26 ± 13.04 km/s
+  intrinsic FWHM      = 221.59 ± 144.15 km/s
+----------------------------------------
+
+Chi-squared (χ²): 63.723
+Reduced Chi-squared (χ²/dof): 1.385
+BIC: 34.279
+AIC: 22.572
+========================================

@@ -1,0 +1,58 @@
+Results for Source ID: 11252_g395m-f290lp4_Ha
+========================================
+
+Number of Gaussian Components: 3
+----------------------------------------
+
+Gaussian 1 Parameters and Errors:
+  Amplitude       = 7.265e-18 ± 1.771e+02 erg/cm^2/s
+  peak           = 1.086e-19 ± 2.647e+00 erg/cm^2/s
+  Mean (Velocity) = 377.872 ± 1661354769.137 km/s
+  Stddev (Width)  = 26.699 ± 259292267.326 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Gaussian 2 Parameters and Errors:
+  Amplitude       = 4.465e+02 ± 3.080e+09 erg/cm^2/s
+  peak           = 6.671e+00 ± 4.602e+07 erg/cm^2/s
+  Mean (Velocity) = -308.128 ± 1661366158.574 km/s
+  Stddev (Width)  = 26.699 ± 259303817.376 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Gaussian 3 Parameters and Errors:
+  Amplitude       = 5.679e-19 ± 1.309e+03 erg/cm^2/s
+  peak           = 8.486e-21 ± 1.955e+01 erg/cm^2/s
+  Mean (Velocity) = 1291.872 ± 1661366166.960 km/s
+  Stddev (Width)  = 26.699 ± 259303817.376 km/s
+  Intrinsic Stddev (Width)  = nan ± nan km/s
+----------------------------------------
+
+Component Results:
+Gaussian 1:
+  Flux      = 1.591e-39 ± 3.879e-20 erg/cm^2/s
+  Luminosity= 1.886e+20 ± 4.599e+39 erg/s
+  EW        = 0.00 ± 0.00 Å
+  FWHM      = 62.87 ± 610586616.95 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+Gaussian 2:
+  Flux      = 9.777e-20 ± 1.503e-12 erg/cm^2/s
+  Luminosity= 1.159e+40 ± 1.782e+47 erg/s
+  EW        = 43.14 ± 0.56 Å
+  FWHM      = 62.87 ± 610613815.23 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+Gaussian 3:
+  Flux      = 1.244e-40 ± 2.866e-19 erg/cm^2/s
+  Luminosity= 1.475e+19 ± 3.398e+40 erg/s
+  EW        = 0.00 ± 0.00 Å
+  FWHM      = 62.87 ± 610613815.23 km/s
+  intrinsic FWHM      = nan ± nan km/s
+----------------------------------------
+
+Chi-squared (χ²): 91.103
+Reduced Chi-squared (χ²/dof): 2.603
+BIC: 55.016
+AIC: 44.735
+========================================
