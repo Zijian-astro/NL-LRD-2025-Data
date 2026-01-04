@@ -17,7 +17,7 @@ NL-LRD-2025-Data/
 ├── BL_simulation/           # Broad-line detectability simulation results (Section 4.2.1 and Figure 13)
 ├── Code/                    # Core analysis scripts and Jupyter notebooks
 ├── Figure/                  # figures in the paper
-├── catalog/                 # catalogs used in this work
+├── catalog/                 # catalogs used in this work (ASTRODEEP_full_combine.fits and all_field_final_cat.fits are large and can be download at https://disk.pku.edu.cn/link/AAC1D514B635784784B122F258A89D7242)
 ├── jades_galaxy/            # Line measurements for comparison galaxy samples from Curti+2024
 ├── nakajima_line_fit/       # Line measurements for comparison galaxy samples from Nakajima+2023
 ├── nircam_throughputs/      # JWST/NIRCam filter transmission curves
