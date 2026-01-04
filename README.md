@@ -102,4 +102,5 @@ If you use any code or data, please cite:
 
 > Zhang, Z., Jiang, L., Liu, W., Ho, L. C., & Inayoshi, K. 2025, *ApJ*, acceptted
 
-A Zenodo DOI will be provided upon acceptance.
+Zenodo DOI: [10.5281/zenodo.18147053](https://doi.org/10.5281/zenodo.18147053)
+
