@@ -1,4 +1,5 @@
 # NL-LRD-2025-Data
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18147053.svg)](https://doi.org/10.5281/zenodo.18147053)
 This repository contains the data products and analysis codes used in  
 **Zhang et al. (2025), "[JWST Insights into Narrow-line Little Red Dots](https://arxiv.org/abs/2506.04350v1)"**.
 
