@@ -85,8 +85,8 @@ Key dependencies include:
 - astropy
 - matplotlib
 - lmfit
-- cigale
-- bagpipes
+- msafit
+- msaexp
 
 ---
 
